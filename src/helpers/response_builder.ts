@@ -56,8 +56,9 @@ export function cleanResponseData (responseData: any): any {
 export function responseBuilder(
   serviceResponse: IServiceResponse,
   res: Response,
-  req?: Request,
-  next?: NextFunction
+  next?: NextFunction,
+  req?: Request
+  
 ): void {
   log.info('helper.response_builder.responseBuilder()');
   try {

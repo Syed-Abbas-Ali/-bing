@@ -6,28 +6,29 @@ dotenv.config()
 
 export const API_CALL_LOG_FORMAT = process.env.API_CALL_LOG_FORMAT ??
     ':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length]'
+    export const AES_ENC_KEY = process.env.ASE_ENC_KEY ?? 'bf3c199c2470we477d907b1e0917c17c'
 
     
 export const LOG_LEVEL = process.env?.LOG_LEVEL ?? 'debug'
 export const PORT = process.env.PORT ?? 3307
-export const MYSQL_DATABASE={
-    address:process.env.SQL_DATABASE_ADDRESS,
-    username:process.env.SQL_DATABASE_USERNAME,
-    password:process.env.SQL_DATABASE_PASSWORD,
-    db_name:process.env.DATABASE_NAME,
-    db_port:process.env.DATABASE_PORT,
-    db_pool_size:process.env.DB_POOL_SIZE
-}
-
+/*MySQL DB config*/
+export const MYSQL_DATABASE = {
+    address: process.env.SQL_DATABASE_ADDRESS || 'localhost',
+    port: process.env.DATABASE_PORT || 3306,
+    username: process.env.SQL_DATABASE_USERNAME || "root",
+    password: process.env.SQL_DATABASE_PASSWORD || "Abbas@994544",
+    db_name: process.env.DATABASE_NAME || 'bing',
+    pool_size: process.env.DATABASE_POOL_SIZE || '30',
+  };
 
 export const sqlConfig={
     user:MYSQL_DATABASE.username,
     password:MYSQL_DATABASE.password,
     database:MYSQL_DATABASE.db_name,
     server:MYSQL_DATABASE.address,
-    port:MYSQL_DATABASE.db_port,
+    port:MYSQL_DATABASE.port,
     pool:{
-        max:toNumber(MYSQL_DATABASE.db_pool_size),
+        max:toNumber(MYSQL_DATABASE.pool_size),
         min:0,
         idleTimeoutMillis:30000
     },

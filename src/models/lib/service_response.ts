@@ -2,6 +2,9 @@ import { ErrorCodes } from '../../constants/error_constants'
 import { HttpStatusCodes } from '../../constants/status_codes'
 import { APIError } from './api_error'
 import { isNull } from 'src/utils/utils'
+
+
+
 export interface IServiceResponse {
   statusCode: number
   errors?: APIError[]
@@ -29,6 +32,7 @@ export class ServiceResponse implements IServiceResponse {
     this.errors = errors
   }
 
+  
   public addError (apiError: APIError): any {
     if (isNull(this.errors)) {
       this.errors = []
@@ -40,6 +44,6 @@ export class ServiceResponse implements IServiceResponse {
     this.statusCode = HttpStatusCodes.INTERNAL_SERVER_ERROR
     this.message = responseMessage ?? errorMessage
     this.addError(new APIError(errorMessage ?? 'Failed to process the request due to technical difficulties'
-      , ErrorCodes.SYSTEM_ERROR))
+      , ErrorCodes.SYSTEM_ERROR,""))
   }
 }
