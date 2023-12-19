@@ -1,5 +1,5 @@
 import logger from "src/logger"
-import { Admin, IAdmin } from "src/models/interfaces/admin"
+import { Admin, IAdmin, IAdminLogin,AdminLogin} from "src/models/interfaces/admin"
 
 //Admin datamapping
 export function AdminDataMapping (payload: any): IAdmin{
@@ -7,18 +7,30 @@ export function AdminDataMapping (payload: any): IAdmin{
     try {
       if (payload != null && payload !== undefined) {
         return new Admin(
-            payload.id,
-            payload.uid ,
             payload.firstName ,
             payload.lastName ,
             payload.email ,
             payload.password,
-            payload.role ,
         )
       }
       return payload
     } catch (error) {
       logger.error('ERROR occurred in helpers.data_mapping.admin.adminDataMapping()')
+      throw error
+    }
+  }
+export function AdminLoginDataMapping (payload: any): IAdminLogin{
+    logger.info('helpers.data_mapping.admin.AdminLoginDataMapping()')
+    try {
+      if (payload != null && payload !== undefined) {
+        return new AdminLogin(
+            payload.email ,
+            payload.password,
+        )
+      }
+      return payload
+    } catch (error) {
+      logger.error('ERROR occurred in helpers.data_mapping.admin.AdminLoginDataMapping()')
       throw error
     }
   }

@@ -4,21 +4,25 @@ import { hashPassword } from "src/helpers/encryption";
 import logger from "src/logger";
 import { IAdmin } from "src/models/interfaces/admin";
 
-
 const TAG = 'data_stores_mysql_lib_user'
 export async function adminSignUp(user: IAdmin) {
     logger.info(`${TAG}.adminSignUp()`);
     try {
+      console.log("kkkkkkkkkkkkkkkkkkkkkkkk")
+      console.log(user)
       const hashedPassword = await hashPassword(user.password);
       const data = {
         uid: crypto.randomUUID(),
+        firstName: user.firstName,
+        lastName: user.lastName,
         email: user.email,
         password: hashedPassword
       };
-      let AadminInsertQuery = `insert into ADMIN(UID, EMAIL, PASSWORD)
-      values(:uid, :email, :password)`;
-  
-      await executeQuery(AadminInsertQuery, QueryTypes.INSERT, {
+      let userInsertQuery = `
+        INSERT INTO ADMIN_AUTH (UUID, FIRST_NAME, LAST_NAME, EMAIL, PASSWORD)
+        VALUES (:uid, :firstName, :lastName, :email, :password)
+      `;
+      await executeQuery(userInsertQuery, QueryTypes.INSERT, {
         ...data,
       });
       return data;
@@ -29,11 +33,12 @@ export async function adminSignUp(user: IAdmin) {
     }
   }
 
+
   export async function checkEmailExist(email: string) {
     try {
       logger.info(`${TAG}.checkEmailExist()  ==>`, email);
   
-      let query = 'select * from ADMIN where EMAIL=:email ';
+      let query = 'select * from ADMIN_AUTH where EMAIL=:email ';
       const [user] = await executeQuery(query, QueryTypes.SELECT, {
         email
       });

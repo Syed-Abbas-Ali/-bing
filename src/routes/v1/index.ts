@@ -1,8 +1,10 @@
 import { Router } from "express";
-import authRoutes from "./adminRoutes"
+import adminRoutes from "./adminRoutes/index"
 
 const router = Router();
 
-router.use("/auth", authRoutes);
+router.use("/admin", adminRoutes);
 
 export default router
+
+// localhost:5000/api/v1/admin/auth/signup

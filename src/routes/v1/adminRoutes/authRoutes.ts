@@ -7,7 +7,10 @@ const router = Router()
 //  router.use(passport.initialize())
 
  router.route('/signup')
-     .post(auth.signupAdmin);
+     .post(auth.adminSignUp);
+
+ router.route('/login')
+     .post(auth.adminLogin);
 
 
 

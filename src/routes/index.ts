@@ -4,7 +4,8 @@ import log from '../logger'
 import { errorHandler } from '../middlewares/error_handler'
 // import swaggerUi from 'swagger-ui-express'
 // import YAML from 'yamljs'
-import v1Routes from './v1'
+import v1Routes from './v1/index'
+
 // import {swaggerSpecification} from '../utils/swigger'
 
 
@@ -13,7 +14,8 @@ import v1Routes from './v1'
 export default function initializeRoutes (app: Application): any {
   log.info('initializeRoutes()')
   const router = Router();
-  router.use("/api/v1", v1Routes);
+  app.use("/api/v1", v1Routes);
+  // app.post("/api/v1", adminSignUp);
   app.get('*', function (req, res) {
     res.status(404).send('what???')
   })
