@@ -19,6 +19,7 @@ export const API_CALL_LOG_FORMAT = process.env.API_CALL_LOG_FORMAT ??
     
 export const LOG_LEVEL = process.env?.LOG_LEVEL ?? 'debug'
 export const PORT = process.env.PORT ?? 3307
+export const post_url=process.env.POSTRE_URL || ""
 /*MySQL DB config*/
 export const MYSQL_DATABASE = {
     address: process.env.SQL_DATABASE_ADDRESS || 'localhost',
@@ -47,8 +48,10 @@ export const sqlConfig={
 }
 
 export const checkEnv=async()=>{
-    const mandatoryFields=["SQL_DATABASE_ADDRESS","SQL_DATABASE_USERNAME","SQL_DATABASE_PASSWORD","DATABASE_NAME"]
+    const mandatoryFields=["POSTRE_URL"]
     mandatoryFields.forEach((field)=>{
+        console.log("lllllllllllllll")
+        console.log(process.env[field])
         if (isNull(process.env[field])) {
             throw new AppError(`Required configuration '${field}' is missing`)
           }

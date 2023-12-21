@@ -8,18 +8,16 @@ const TAG = 'data_stores_mysql_lib_user'
 export async function adminSignUp(user: IAdmin) {
     logger.info(`${TAG}.adminSignUp()`);
     try {
-      console.log("kkkkkkkkkkkkkkkkkkkkkkkk")
-      console.log(user)
       const hashedPassword = await hashPassword(user.password);
       const data = {
         uid: crypto.randomUUID(),
         firstName: user.firstName,
         lastName: user.lastName,
         email: user.email,
-        password: hashedPassword
+        password:hashedPassword
       };
       let userInsertQuery = `
-        INSERT INTO ADMIN_AUTH (UUID, FIRST_NAME, LAST_NAME, EMAIL, PASSWORD)
+        INSERT INTO public."ADMIN_AUTH" (UUID, FIRST_NAME, LAST_NAME, EMAIL, PASSWORD)
         VALUES (:uid, :firstName, :lastName, :email, :password)
       `;
       await executeQuery(userInsertQuery, QueryTypes.INSERT, {
@@ -38,7 +36,7 @@ export async function adminSignUp(user: IAdmin) {
     try {
       logger.info(`${TAG}.checkEmailExist()  ==>`, email);
   
-      let query = 'select * from ADMIN_AUTH where EMAIL=:email ';
+      let query = 'select * from public."ADMIN_AUTH" where EMAIL=:email ';
       const [user] = await executeQuery(query, QueryTypes.SELECT, {
         email
       });

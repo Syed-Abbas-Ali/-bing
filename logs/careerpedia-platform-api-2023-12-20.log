@@ -1,0 +1,1734 @@
+2023-12-20 00:55:32 index.ts[info]: initializeRoutes() 
+2023-12-20 00:55:32 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 00:55:44 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 00:55:44 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 00:55:44 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 00:55:44 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 00:55:44 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 00:55:44 index.ts[error]: ERROR in executeQuery() => SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES) 
+2023-12-20 00:55:45 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 00:55:45 index.ts[error]: ERROR occurred in services.auth.adminLogin Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 00:55:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 00:59:32 index.ts[info]: initializeRoutes() 
+2023-12-20 00:59:32 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 00:59:40 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 00:59:40 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 00:59:40 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 00:59:40 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 00:59:40 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 00:59:40 index.ts[error]: ERROR in executeQuery() => SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES) 
+2023-12-20 00:59:40 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 00:59:40 index.ts[error]: ERROR occurred in services.auth.adminLogin Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 00:59:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:01:38 index.ts[info]: initializeRoutes() 
+2023-12-20 01:01:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:01:52 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 01:01:52 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:01:52 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 01:01:52 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 01:01:52 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:01:53 index.ts[error]: ERROR in executeQuery() => SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES) 
+2023-12-20 01:01:53 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 01:01:53 index.ts[error]: ERROR occurred in services.auth.adminLogin Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 01:01:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:02:10 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:02:10 index.ts[debug]: controller.admin.adminSignUp() Object = {} 
+2023-12-20 01:02:10 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:02:10 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:02:10 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:02:10 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":email" has no entry in the replacement map. 
+2023-12-20 01:02:10 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Named replacement ":email" has no entry in the replacement map. Error: Named replacement ":email" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:02:10 index.ts[error]: ERROR occurred in services.auth.adminSignUp Named replacement ":email" has no entry in the replacement map. Error: Named replacement ":email" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:02:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:02:58 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:02:58 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:02:58 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:02:58 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:02:58 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:02:58 index.ts[error]: ERROR in executeQuery() => SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES) 
+2023-12-20 01:02:58 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+2023-12-20 01:02:58 index.ts[error]: ERROR occurred in services.auth.adminSignUp Access denied for user 'postgres'@'localhost' (using password: YES) SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+2023-12-20 01:02:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:20:28 index.ts[info]: initializeRoutes() 
+2023-12-20 01:20:28 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:20:45 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:20:45 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:20:45 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:20:45 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:20:45 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:20:45 index.ts[error]: ERROR in executeQuery() => Error: Please install pg package manually 
+2023-12-20 01:20:45 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Please install pg package manually Error: Please install pg package manually
+    at ConnectionManager._loadDialectModule (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:81:15)
+    at new ConnectionManager (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:18:24)
+    at new PostgresDialect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\index.js:15:30)
+    at new Sequelize (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:368:20)
+    at D:\projets\projects\Backend\src\database\database.ts:11:18
+    at Generator.next (<anonymous>)
+    at D:\projets\projects\Backend\src\database\database.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\projets\projects\Backend\src\database\database.ts:4:12)
+    at sqlConnection (D:\projets\projects\Backend\src\database\database.ts:5:41)
+2023-12-20 01:20:45 index.ts[error]: ERROR occurred in services.auth.adminSignUp Please install pg package manually Error: Please install pg package manually
+    at ConnectionManager._loadDialectModule (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:81:15)
+    at new ConnectionManager (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:18:24)
+    at new PostgresDialect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\index.js:15:30)
+    at new Sequelize (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:368:20)
+    at D:\projets\projects\Backend\src\database\database.ts:11:18
+    at Generator.next (<anonymous>)
+    at D:\projets\projects\Backend\src\database\database.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\projets\projects\Backend\src\database\database.ts:4:12)
+    at sqlConnection (D:\projets\projects\Backend\src\database\database.ts:5:41)
+2023-12-20 01:20:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:21:57 index.ts[info]: initializeRoutes() 
+2023-12-20 01:21:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:22:08 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:22:08 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:22:08 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:22:08 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:22:08 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:22:08 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: password authentication failed for user "your_database_user" 
+2023-12-20 01:22:08 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() password authentication failed for user "your_database_user" SequelizeConnectionError: password authentication failed for user "your_database_user"
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorMessage (D:\projets\projects\Backend\node_modules\pg\lib\client.js:347:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at D:\projets\projects\Backend\node_modules\pg\lib\connection.js:117:12
+    at Parser.parse (D:\projets\projects\Backend\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\projets\projects\Backend\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+2023-12-20 01:22:08 index.ts[error]: ERROR occurred in services.auth.adminSignUp password authentication failed for user "your_database_user" SequelizeConnectionError: password authentication failed for user "your_database_user"
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorMessage (D:\projets\projects\Backend\node_modules\pg\lib\client.js:347:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at D:\projets\projects\Backend\node_modules\pg\lib\connection.js:117:12
+    at Parser.parse (D:\projets\projects\Backend\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\projets\projects\Backend\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+2023-12-20 01:22:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:23:17 index.ts[info]: initializeRoutes() 
+2023-12-20 01:23:17 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:23:43 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:23:43 index.ts[debug]: controller.admin.adminSignUp() Object = {} 
+2023-12-20 01:23:43 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:23:43 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:23:43 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:23:43 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":email" has no entry in the replacement map. 
+2023-12-20 01:23:43 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() Named replacement ":email" has no entry in the replacement map. Error: Named replacement ":email" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:23:43 index.ts[error]: ERROR occurred in services.auth.adminSignUp Named replacement ":email" has no entry in the replacement map. Error: Named replacement ":email" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:23:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:23:58 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 01:23:58 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:23:58 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 01:23:58 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 01:23:58 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:23:59 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "admin_auth" does not exist 
+2023-12-20 01:23:59 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:23:59 index.ts[error]: ERROR occurred in services.auth.adminLogin relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:23:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:25:51 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:25:51 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:25:51 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:25:51 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:25:51 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:25:51 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "admin_auth" does not exist 
+2023-12-20 01:25:51 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:25:51 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:25:51 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:27:06 index.ts[info]: initializeRoutes() 
+2023-12-20 01:27:06 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:27:17 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:27:17 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:27:17 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:27:17 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:27:17 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:27:18 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "admin_auth" does not exist 
+2023-12-20 01:27:18 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:27:18 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:27:18 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:42:23 index.ts[info]: initializeRoutes() 
+2023-12-20 01:42:23 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:43:12 index.ts[info]: initializeRoutes() 
+2023-12-20 01:43:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:43:15 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:43:15 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:43:15 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:43:15 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:43:15 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:43:26 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: connect ETIMEDOUT 
+2023-12-20 01:43:26 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() connect ETIMEDOUT SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 01:43:26 index.ts[error]: ERROR occurred in services.auth.adminSignUp connect ETIMEDOUT SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-20 01:43:26 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:44:04 index.ts[info]: initializeRoutes() 
+2023-12-20 01:44:05 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:46:52 index.ts[info]: initializeRoutes() 
+2023-12-20 01:46:52 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:47:05 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:47:05 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:47:05 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:47:05 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:47:05 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:47:05 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "admin_auth" does not exist 
+2023-12-20 01:47:05 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:47:05 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:47:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:48:27 index.ts[info]: initializeRoutes() 
+2023-12-20 01:48:27 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:49:35 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:49:35 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:49:35 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:49:35 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:49:35 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:49:35 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "admin_auth" does not exist 
+2023-12-20 01:49:35 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:49:35 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "admin_auth" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 01:49:35 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:56:38 index.ts[info]: initializeRoutes() 
+2023-12-20 01:56:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:56:43 index.ts[info]: initializeRoutes() 
+2023-12-20 01:56:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:56:51 index.ts[info]: initializeRoutes() 
+2023-12-20 01:56:51 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 01:56:53 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 01:56:53 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:56:53 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 01:56:53 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 01:56:53 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:56:54 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 01:56:54 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(20) 
+2023-12-20 01:56:54 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.adminSignUp() value too long for type character varying(20) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 01:56:54 index.ts[error]: ERROR occurred in services.auth.adminSignUp value too long for type character varying(20) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 01:56:54 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 01:57:28 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 01:57:28 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 01:57:28 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 01:57:28 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 01:57:28 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 01:57:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 02:00:55 index.ts[info]: initializeRoutes() 
+2023-12-20 02:00:55 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 02:00:57 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 02:00:57 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 02:00:57 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 02:00:57 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 02:00:57 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 02:00:57 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 02:00:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:07:31 index.ts[info]: initializeRoutes() 
+2023-12-20 18:07:31 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:14:23 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 18:14:23 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail.com","password":"9999"} 
+2023-12-20 18:14:23 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 18:14:23 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 18:14:23 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 18:14:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:14:30 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 18:14:30 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail2.com","password":"9999"} 
+2023-12-20 18:14:30 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 18:14:30 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 18:14:30 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 18:14:30 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 18:14:30 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(50) 
+2023-12-20 18:14:30 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.adminSignUp() value too long for type character varying(50) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 18:14:30 index.ts[error]: ERROR occurred in services.auth.adminSignUp value too long for type character varying(50) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 18:14:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:15:20 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 18:15:20 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail2.com","password":"9999"} 
+2023-12-20 18:15:20 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 18:15:20 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 18:15:20 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 18:15:20 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 18:15:20 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:15:44 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 18:15:44 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 18:15:44 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 18:15:44 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 18:15:44 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 18:15:44 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 18:15:44 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:23:21 index.ts[info]: initializeRoutes() 
+2023-12-20 18:23:21 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:23:47 index.ts[info]: initializeRoutes() 
+2023-12-20 18:23:47 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:24:03 index.ts[info]: initializeRoutes() 
+2023-12-20 18:24:03 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:24:15 index.ts[info]: initializeRoutes() 
+2023-12-20 18:24:15 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:24:49 index.ts[info]: initializeRoutes() 
+2023-12-20 18:24:49 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:24:57 index.ts[info]: initializeRoutes() 
+2023-12-20 18:24:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:27:08 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 18:27:08 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 18:27:08 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 18:27:08 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 18:27:08 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 18:27:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:28:37 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:28:37 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:28:37 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:28:37 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:28:37 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:28:37 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.THEATERS" does not exist 
+2023-12-20 18:28:37 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:28:37 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:28:37 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:33:58 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:33:58 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:33:58 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:33:58 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:33:58 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:33:59 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.THEATERS" does not exist 
+2023-12-20 18:33:59 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:33:59 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:33:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:34:00 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:34:00 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:34:00 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:34:00 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:34:00 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:34:00 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.THEATERS" does not exist 
+2023-12-20 18:34:00 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:34:00 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:34:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:35:47 index.ts[info]: initializeRoutes() 
+2023-12-20 18:35:47 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:36:11 index.ts[info]: initializeRoutes() 
+2023-12-20 18:36:11 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:36:21 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:36:21 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:36:21 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:36:21 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:36:21 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:36:21 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.THEATERS" does not exist 
+2023-12-20 18:36:21 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:36:21 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:36:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:39:21 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:39:21 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:39:21 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:39:21 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:39:21 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:39:21 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.THEATERS" does not exist 
+2023-12-20 18:39:21 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:39:21 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater relation "public.THEATERS" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:39:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:40:14 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:40:14 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:40:14 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:40:14 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:40:14 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:40:14 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(300) 
+2023-12-20 18:40:14 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() value too long for type character varying(300) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:40:14 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater value too long for type character varying(300) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:40:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:40:16 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:40:16 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:40:16 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:40:16 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:40:16 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:40:16 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(300) 
+2023-12-20 18:40:16 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() value too long for type character varying(300) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:40:16 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater value too long for type character varying(300) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:40:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:40:43 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:40:43 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:40:43 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:40:43 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:40:43 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:40:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:41:21 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 18:41:21 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 18:41:21 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 18:41:21 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 18:41:21 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 18:41:22 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:42:12 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 18:42:12 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 18:42:12 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 18:42:12 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 18:42:12 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:44:49 index.ts[info]: initializeRoutes() 
+2023-12-20 18:44:49 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:45:11 index.ts[info]: initializeRoutes() 
+2023-12-20 18:45:11 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:45:29 index.ts[info]: initializeRoutes() 
+2023-12-20 18:45:29 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:45:43 index.ts[info]: initializeRoutes() 
+2023-12-20 18:45:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:46:14 index.ts[info]: initializeRoutes() 
+2023-12-20 18:46:14 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:46:34 index.ts[info]: initializeRoutes() 
+2023-12-20 18:46:34 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:47:34 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:47:34 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:47:34 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:47:34 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:47:35 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:48:52 index.ts[info]: initializeRoutes() 
+2023-12-20 18:48:52 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:49:13 index.ts[info]: initializeRoutes() 
+2023-12-20 18:49:13 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:49:22 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:49:22 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:49:22 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:49:22 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:49:22 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:49:58 index.ts[info]: initializeRoutes() 
+2023-12-20 18:49:58 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:50:04 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:50:04 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:50:04 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:50:04 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:50:04 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:50:07 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:50:07 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:50:07 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:50:07 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:50:07 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:50:09 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:50:09 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:50:09 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:50:09 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:50:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:50:44 index.ts[info]: initializeRoutes() 
+2023-12-20 18:50:44 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:50:45 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:50:45 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:50:45 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:50:45 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:50:46 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:50:48 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:50:48 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:50:48 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:50:48 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:50:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:51:00 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:51:00 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:51:00 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:51:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:51:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:51:02 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:51:02 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:51:02 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:51:02 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:51:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:51:16 index.ts[info]: initializeRoutes() 
+2023-12-20 18:51:16 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:51:16 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:51:16 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:51:16 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:51:16 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:51:17 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:51:19 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:51:19 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:51:19 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:51:19 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:51:19 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:51:24 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:51:24 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:51:24 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:51:24 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:51:24 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:52:05 index.ts[info]: initializeRoutes() 
+2023-12-20 18:52:05 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:52:09 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:52:09 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:52:09 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:52:09 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:52:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:52:11 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:52:11 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:52:11 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:52:11 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:52:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:52:42 index.ts[info]: initializeRoutes() 
+2023-12-20 18:52:42 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:52:52 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:52:52 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:52:52 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:52:52 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:52:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:52:59 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:52:59 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:52:59 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:52:59 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:52:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:53:35 index.ts[info]: initializeRoutes() 
+2023-12-20 18:53:35 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:53:48 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:53:48 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:53:48 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:53:48 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:53:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:53:53 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:53:53 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:53:53 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:53:53 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:53:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:55:08 index.ts[info]: initializeRoutes() 
+2023-12-20 18:55:08 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:55:12 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:55:12 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:55:12 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:55:12 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:55:12 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:56:10 index.ts[info]: initializeRoutes() 
+2023-12-20 18:56:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:56:13 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:56:13 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:56:13 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:56:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:56:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:57:28 index.ts[info]: initializeRoutes() 
+2023-12-20 18:57:28 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:57:32 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:57:32 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:57:32 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:57:32 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:57:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:58:12 index.ts[info]: initializeRoutes() 
+2023-12-20 18:58:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:58:13 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:58:13 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:58:13 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:58:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:58:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:58:19 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:58:19 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:58:19 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:58:19 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:58:19 index.ts[error]: ERROR occurred in services.admin.theater.getSingleTheater Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.<anonymous> (D:\projets\projects\Backend\src\services\admin\adminTheater.ts:80:16)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\services\admin\adminTheater.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:58:19 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:58:22 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:58:22 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:58:22 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:58:22 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:58:22 index.ts[error]: ERROR occurred in services.admin.theater.getSingleTheater Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.<anonymous> (D:\projets\projects\Backend\src\services\admin\adminTheater.ts:80:16)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\services\admin\adminTheater.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 18:58:22 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:59:00 index.ts[info]: initializeRoutes() 
+2023-12-20 18:59:00 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 18:59:00 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:59:00 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:59:00 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:59:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:59:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:59:02 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:59:02 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:59:02 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:59:02 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:59:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:59:14 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 18:59:14 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 18:59:14 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 18:59:14 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 18:59:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 18:59:52 index.ts[info]: initializeRoutes() 
+2023-12-20 18:59:52 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:00:46 index.ts[info]: initializeRoutes() 
+2023-12-20 19:00:46 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:01:03 index.ts[info]: initializeRoutes() 
+2023-12-20 19:01:03 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:01:26 index.ts[info]: initializeRoutes() 
+2023-12-20 19:01:26 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:02:14 index.ts[info]: initializeRoutes() 
+2023-12-20 19:02:14 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:03:53 index.ts[info]: initializeRoutes() 
+2023-12-20 19:03:53 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:03:57 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:03:57 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:03:57 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:03:57 index.ts[info]: data_stores_mysql_lib_user.deleteSingleTheater() 
+2023-12-20 19:03:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:05:24 index.ts[info]: initializeRoutes() 
+2023-12-20 19:05:24 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:05:39 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:05:39 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:05:39 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:05:39 index.ts[info]: data_stores_mysql_lib_user.deleteSingleTheater() 
+2023-12-20 19:05:39 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:06:17 index.ts[info]: initializeRoutes() 
+2023-12-20 19:06:17 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:06:22 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:06:22 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:06:22 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:06:23 index.ts[info]: data_stores_mysql_lib_user.deleteSingleTheater() 
+2023-12-20 19:06:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:07:57 index.ts[info]: initializeRoutes() 
+2023-12-20 19:07:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:08:41 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:08:41 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:08:41 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:08:41 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:08:41 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:08:49 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:08:49 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 19:08:49 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:08:49 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:08:49 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:08:49 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:09:51 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:09:51 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:09:51 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:09:51 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:09:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:10:00 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:10:00 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:10:00 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:10:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:10:00 index.ts[info]: data_stores_mysql_lib_user.deleteSingleTheater() 
+2023-12-20 19:10:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:10:17 index.ts[info]: initializeRoutes() 
+2023-12-20 19:10:17 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:10:59 index.ts[info]: initializeRoutes() 
+2023-12-20 19:10:59 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:11:06 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:11:06 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:11:06 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:11:06 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:11:07 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:11:13 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:11:13 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 19:11:13 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:11:13 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:11:13 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:11:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:11:29 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:11:29 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:11:29 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:11:29 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:11:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:11:33 index.ts[info]: controller-admin-theaterController.deleteSingleTheater() 
+2023-12-20 19:11:33 index.ts[debug]: controller-admin-theaterController.deleteSingleTheater() Object = {} 
+2023-12-20 19:11:33 index.ts[info]: services.admin.theater.deleteSingleTheater() ==>  
+2023-12-20 19:11:33 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:11:33 index.ts[info]: data_stores_mysql_lib_user.deleteSingleTheater() 
+2023-12-20 19:11:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:13:10 index.ts[info]: initializeRoutes() 
+2023-12-20 19:13:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:15:02 index.ts[info]: initializeRoutes() 
+2023-12-20 19:15:02 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:15:12 index.ts[info]: initializeRoutes() 
+2023-12-20 19:15:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:15:49 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:15:49 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 19:15:49 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:15:49 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:15:49 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:15:50 index.ts[error]: ERROR in executeQuery() => Error: Invalid value {
+  theater_name: 'YourTheaterName',
+  details: 'ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu',
+  price: 10.99,
+  no_of_persons: 100,
+  extra_person_cost: 5.99
+} 
+2023-12-20 19:15:50 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Invalid value {
+  theater_name: 'YourTheaterName',
+  details: 'ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu',
+  price: 10.99,
+  no_of_persons: 100,
+  extra_person_cost: 5.99
+} Error: Invalid value {
+  theater_name: 'YourTheaterName',
+  details: 'ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu',
+  price: 10.99,
+  no_of_persons: 100,
+  extra_person_cost: 5.99
+}
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:15:50 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Invalid value {
+  theater_name: 'YourTheaterName',
+  details: 'ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu',
+  price: 10.99,
+  no_of_persons: 100,
+  extra_person_cost: 5.99
+} Error: Invalid value {
+  theater_name: 'YourTheaterName',
+  details: 'ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu',
+  price: 10.99,
+  no_of_persons: 100,
+  extra_person_cost: 5.99
+}
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:15:50 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:16:27 index.ts[info]: initializeRoutes() 
+2023-12-20 19:16:27 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:17:23 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-20 19:17:23 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-20 19:17:23 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-20 19:17:23 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:17:24 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:17:34 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:17:34 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:17:34 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:17:34 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:17:34 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:17:48 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:17:48 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:17:48 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:17:48 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:17:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:18:10 index.ts[info]: initializeRoutes() 
+2023-12-20 19:18:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:18:14 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:18:14 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:18:14 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:18:14 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:18:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:18:19 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:18:19 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:18:19 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:18:19 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:18:19 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:20:05 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:20:05 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:20:05 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:20:05 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:20:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:22:31 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:22:31 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theater_name":"YourTheaterName","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":10.99,"no_of_persons":100,"extra_person_cost":5.99} 
+2023-12-20 19:22:31 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:22:31 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:22:31 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:22:31 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:22:34 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:22:34 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:22:34 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:22:34 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:22:34 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:23:53 index.ts[info]: initializeRoutes() 
+2023-12-20 19:23:53 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:24:04 index.ts[info]: initializeRoutes() 
+2023-12-20 19:24:04 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:24:33 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:24:33 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:24:33 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:24:33 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:24:33 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:24:33 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2023-12-20 19:24:33 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:24:33 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:24:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:25:31 index.ts[info]: initializeRoutes() 
+2023-12-20 19:25:32 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:25:40 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:25:40 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:25:40 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:25:40 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:25:40 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:25:40 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2023-12-20 19:25:40 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:25:40 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:25:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:26:45 index.ts[info]: initializeRoutes() 
+2023-12-20 19:26:45 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:26:57 index.ts[info]: initializeRoutes() 
+2023-12-20 19:26:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:27:19 index.ts[info]: initializeRoutes() 
+2023-12-20 19:27:19 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:28:11 index.ts[info]: initializeRoutes() 
+2023-12-20 19:28:11 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:28:14 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:28:14 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:28:14 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:28:14 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:28:14 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:28:15 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:28:15 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":theaterName" has no entry in the replacement map. 
+2023-12-20 19:28:15 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":theaterName" has no entry in the replacement map. Error: Named replacement ":theaterName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:28:15 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":theaterName" has no entry in the replacement map. Error: Named replacement ":theaterName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:28:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:28:44 index.ts[info]: initializeRoutes() 
+2023-12-20 19:28:44 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:28:45 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:28:45 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:28:45 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:28:45 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:28:45 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:28:45 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:28:45 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":theaterName" has no entry in the replacement map. 
+2023-12-20 19:28:45 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":theaterName" has no entry in the replacement map. Error: Named replacement ":theaterName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:28:45 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":theaterName" has no entry in the replacement map. Error: Named replacement ":theaterName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:28:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:28:47 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:28:47 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:28:47 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:28:47 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:28:47 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:28:47 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:28:47 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":theaterName" has no entry in the replacement map. 
+2023-12-20 19:28:47 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":theaterName" has no entry in the replacement map. Error: Named replacement ":theaterName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:28:47 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":theaterName" has no entry in the replacement map. Error: Named replacement ":theaterName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:28:47 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:29:13 index.ts[info]: initializeRoutes() 
+2023-12-20 19:29:13 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:29:14 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:29:14 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:29:14 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:29:14 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:29:14 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:29:14 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:29:14 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":noOfPersons" has no entry in the replacement map. 
+2023-12-20 19:29:14 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":noOfPersons" has no entry in the replacement map. Error: Named replacement ":noOfPersons" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:29:14 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":noOfPersons" has no entry in the replacement map. Error: Named replacement ":noOfPersons" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:29:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:29:16 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:29:16 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:29:16 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:29:16 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:29:16 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:29:16 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:29:16 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":noOfPersons" has no entry in the replacement map. 
+2023-12-20 19:29:16 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":noOfPersons" has no entry in the replacement map. Error: Named replacement ":noOfPersons" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:29:16 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":noOfPersons" has no entry in the replacement map. Error: Named replacement ":noOfPersons" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:29:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:29:57 index.ts[info]: initializeRoutes() 
+2023-12-20 19:29:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:29:58 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:29:58 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:29:58 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:29:58 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:29:58 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:29:59 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:29:59 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":noOfPersons" has no entry in the replacement map. 
+2023-12-20 19:29:59 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":noOfPersons" has no entry in the replacement map. Error: Named replacement ":noOfPersons" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:29:59 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":noOfPersons" has no entry in the replacement map. Error: Named replacement ":noOfPersons" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:29:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:30:36 index.ts[info]: initializeRoutes() 
+2023-12-20 19:30:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:30:36 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:30:36 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:30:36 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:30:36 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:30:36 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:30:37 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:30:37 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":extraPersonCost" has no entry in the replacement map. 
+2023-12-20 19:30:37 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateTheater() Named replacement ":extraPersonCost" has no entry in the replacement map. Error: Named replacement ":extraPersonCost" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:30:37 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":extraPersonCost" has no entry in the replacement map. Error: Named replacement ":extraPersonCost" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:30:37 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:31:02 index.ts[info]: initializeRoutes() 
+2023-12-20 19:31:02 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:31:05 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:31:05 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:31:05 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:31:05 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:31:05 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:31:05 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:31:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:31:35 index.ts[info]: initializeRoutes() 
+2023-12-20 19:31:35 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:32:18 index.ts[info]: initializeRoutes() 
+2023-12-20 19:32:18 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:47:32 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:47:32 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:47:32 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:47:32 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:47:32 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:47:32 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2023-12-20 19:47:32 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:47:32 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:47:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:49:01 index.ts[info]: initializeRoutes() 
+2023-12-20 19:49:01 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:49:02 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:49:02 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:49:02 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:49:02 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:49:02 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:49:02 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2023-12-20 19:49:02 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:49:02 index.ts[error]: ERROR occurred in services.admin.theater.updateTheater Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:49:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:49:44 index.ts[info]: initializeRoutes() 
+2023-12-20 19:49:44 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:49:57 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:49:57 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:49:57 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:49:57 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:49:57 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:49:57 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:49:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:50:04 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:50:04 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:50:04 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:50:04 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:50:04 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:50:04 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:50:45 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:50:45 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:50:45 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:50:45 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:50:45 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:50:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:50:50 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:50:50 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":5,"uid":"75290b41-f665-43ad-84b0-3090c0a3206e","theaterName":"hello casino","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:50:50 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:50:50 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:50:50 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:50:50 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:50:50 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:51:31 index.ts[info]: initializeRoutes() 
+2023-12-20 19:51:31 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:51:41 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:51:41 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:51:41 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:51:41 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:51:41 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:51:41 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:51:48 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 19:51:48 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 19:51:48 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 19:51:48 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 19:51:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:52:02 index.ts[info]: controller-admin-theaterController.updateTheater() 
+2023-12-20 19:52:02 index.ts[debug]: controller-admin-theaterController.updateTheater() Object = {"id":6,"uid":"","theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:52:02 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:52:02 index.ts[info]: services.admin.theater.updateTheater() ==>  
+2023-12-20 19:52:02 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-20 19:52:02 index.ts[info]: data_stores_mysql_lib_user.updateTheater() 
+2023-12-20 19:52:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:53:10 index.ts[info]: initializeRoutes() 
+2023-12-20 19:53:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:53:21 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:53:21 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:53:21 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:53:21 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:53:21 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:53:21 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2023-12-20 19:53:21 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewTheater() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:53:21 index.ts[error]: ERROR occurred in services.admin.theater.adminTheater Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 19:53:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 19:55:19 index.ts[info]: initializeRoutes() 
+2023-12-20 19:55:19 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 19:55:32 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 19:55:32 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 19:55:32 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 19:55:32 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 19:55:32 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 19:55:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 20:04:59 index.ts[info]: initializeRoutes() 
+2023-12-20 20:04:59 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 20:05:11 index.ts[info]: initializeRoutes() 
+2023-12-20 20:05:11 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 20:05:48 index.ts[info]: initializeRoutes() 
+2023-12-20 20:05:48 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 20:06:05 index.ts[info]: initializeRoutes() 
+2023-12-20 20:06:06 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 20:06:11 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 20:06:11 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 20:06:11 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 20:06:11 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 20:06:11 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 20:06:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 21:10:55 index.ts[info]: initializeRoutes() 
+2023-12-20 21:10:55 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:11:36 index.ts[info]: initializeRoutes() 
+2023-12-20 21:11:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:12:03 index.ts[info]: initializeRoutes() 
+2023-12-20 21:12:03 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:12:33 index.ts[info]: initializeRoutes() 
+2023-12-20 21:12:33 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:12:48 index.ts[info]: initializeRoutes() 
+2023-12-20 21:12:48 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:13:45 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 21:13:45 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 21:13:45 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 21:13:45 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 21:13:45 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 21:13:45 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: read ECONNRESET 
+2023-12-20 21:13:45 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-20 21:13:45 index.ts[error]: ERROR occurred in services.auth.adminSignUp read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-20 21:13:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 21:48:54 index.ts[info]: initializeRoutes() 
+2023-12-20 21:48:54 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:49:13 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 21:49:13 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 21:49:13 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 21:49:13 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 21:49:13 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 21:49:13 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: read ECONNRESET 
+2023-12-20 21:49:13 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-20 21:49:13 index.ts[error]: ERROR occurred in services.auth.adminSignUp read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-20 21:49:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 21:56:36 index.ts[info]: initializeRoutes() 
+2023-12-20 21:56:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 21:56:44 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 21:56:44 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 21:56:44 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 21:56:44 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 21:56:44 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 21:56:44 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:00:32 index.ts[info]: initializeRoutes() 
+2023-12-20 22:00:32 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:00:52 index.ts[info]: initializeRoutes() 
+2023-12-20 22:00:52 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:01:08 index.ts[info]: initializeRoutes() 
+2023-12-20 22:01:08 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:02:13 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:02:13 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:02:13 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:02:13 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:02:13 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:02:14 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: SSL/TLS required 
+2023-12-20 22:02:14 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() SSL/TLS required SequelizeConnectionError: SSL/TLS required
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorMessage (D:\projets\projects\Backend\node_modules\pg\lib\client.js:347:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at D:\projets\projects\Backend\node_modules\pg\lib\connection.js:117:12
+    at Parser.parse (D:\projets\projects\Backend\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\projets\projects\Backend\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+2023-12-20 22:02:14 index.ts[error]: ERROR occurred in services.auth.adminSignUp SSL/TLS required SequelizeConnectionError: SSL/TLS required
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorMessage (D:\projets\projects\Backend\node_modules\pg\lib\client.js:347:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at D:\projets\projects\Backend\node_modules\pg\lib\connection.js:117:12
+    at Parser.parse (D:\projets\projects\Backend\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\projets\projects\Backend\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+2023-12-20 22:02:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:02:48 index.ts[info]: initializeRoutes() 
+2023-12-20 22:02:48 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:03:13 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:03:13 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:03:13 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:03:13 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:03:13 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:03:14 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: read ECONNRESET 
+2023-12-20 22:03:14 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-20 22:03:14 index.ts[error]: ERROR occurred in services.auth.adminSignUp read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-20 22:03:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:05:27 index.ts[info]: initializeRoutes() 
+2023-12-20 22:05:27 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:05:34 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:05:34 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:05:34 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:05:34 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:05:34 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:05:38 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.ADMIN_AUTH" does not exist 
+2023-12-20 22:05:38 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "public.ADMIN_AUTH" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 22:05:38 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "public.ADMIN_AUTH" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 22:05:38 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:05:58 index.ts[info]: initializeRoutes() 
+2023-12-20 22:05:58 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:20:40 index.ts[info]: initializeRoutes() 
+2023-12-20 22:20:40 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:21:38 index.ts[info]: initializeRoutes() 
+2023-12-20 22:21:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:22:23 index.ts[info]: initializeRoutes() 
+2023-12-20 22:22:23 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:24:06 index.ts[info]: initializeRoutes() 
+2023-12-20 22:24:06 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:24:33 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:24:33 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:24:33 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:24:33 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:24:33 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:24:37 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.ADMIN_AUTH" does not exist 
+2023-12-20 22:24:37 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "public.ADMIN_AUTH" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 22:24:37 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "public.ADMIN_AUTH" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 22:24:37 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:30:45 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:30:45 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:30:45 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:30:45 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:30:45 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:30:47 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "public.ADMIN_AUTH" does not exist 
+2023-12-20 22:30:47 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.checkEmailExist() relation "public.ADMIN_AUTH" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 22:30:47 index.ts[error]: ERROR occurred in services.auth.adminSignUp relation "public.ADMIN_AUTH" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-20 22:30:47 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:32:25 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:32:25 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:32:25 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:32:25 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:32:25 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:32:26 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 22:32:27 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(20) 
+2023-12-20 22:32:27 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.adminSignUp() value too long for type character varying(20) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 22:32:27 index.ts[error]: ERROR occurred in services.auth.adminSignUp value too long for type character varying(20) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 22:32:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:33:49 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:33:49 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 22:33:49 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:33:49 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:33:49 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:33:50 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 22:33:50 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(50) 
+2023-12-20 22:33:50 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.adminSignUp() value too long for type character varying(50) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 22:33:50 index.ts[error]: ERROR occurred in services.auth.adminSignUp value too long for type character varying(50) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 22:33:50 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:34:12 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:34:12 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"} 
+2023-12-20 22:34:12 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:34:12 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:34:12 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:34:14 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 22:34:14 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: value too long for type character varying(50) 
+2023-12-20 22:34:14 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.adminSignUp() value too long for type character varying(50) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 22:34:14 index.ts[error]: ERROR occurred in services.auth.adminSignUp value too long for type character varying(50) Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+2023-12-20 22:34:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:35:30 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:35:30 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"} 
+2023-12-20 22:35:30 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:35:30 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:35:30 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:35:32 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-20 22:35:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:35:46 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-20 22:35:46 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"} 
+2023-12-20 22:35:46 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-20 22:35:46 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-20 22:35:46 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 22:35:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 22:37:43 index.ts[info]: initializeRoutes() 
+2023-12-20 22:37:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:38:38 index.ts[info]: initializeRoutes() 
+2023-12-20 22:38:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:42:53 index.ts[info]: initializeRoutes() 
+2023-12-20 22:42:53 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:43:23 index.ts[info]: initializeRoutes() 
+2023-12-20 22:43:23 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:51:31 index.ts[info]: initializeRoutes() 
+2023-12-20 22:51:31 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:59:46 index.ts[info]: initializeRoutes() 
+2023-12-20 22:59:46 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 22:59:54 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 22:59:54 index.ts[debug]: TOKEN is missing! 
+2023-12-20 22:59:54 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:00:07 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:00:07 index.ts[error]: ERROR occurred in isAuthenticated()  jwt malformed JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+2023-12-20 23:00:07 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:01:25 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:01:25 index.ts[error]: ERROR occurred in isAuthenticated()  jwt malformed JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+2023-12-20 23:01:25 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:04:40 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 23:04:40 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail3.com","password":"9999774637466663"} 
+2023-12-20 23:04:40 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 23:04:40 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 23:04:40 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 23:04:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:04:59 index.ts[info]: controller.admin.adminLogin() 
+2023-12-20 23:04:59 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail3.com","password":"9999774"} 
+2023-12-20 23:04:59 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-20 23:04:59 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-20 23:04:59 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-20 23:05:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:05:18 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:05:18 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-20 23:05:18 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 23:05:18 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 23:05:18 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 23:05:18 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 23:05:18 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 23:05:20 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:05:30 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:05:30 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-20 23:05:30 index.ts[info]: controller-admin-theaterController.addNewTheater() 
+2023-12-20 23:05:30 index.ts[debug]: controller-admin-theaterController.addNewTheater() Object = {"theaterName":"YourTheaterName2","details":"ghdgjsdfjshdgfjsdgbcfuygjsgfjdgfjaghdfjgajksdgfkajgsdfjhgsadfkjagdfjkhasgdfjkagsdfjgasjdgfajgfkjahsgdfkjagsdasjgfajgfkjashfdjhabsdjhbajbhsdjhcbbajbhdsajbsdhcjhbacjhbcdhjbsjchbskjabhdcahsbdjhbbasdfasvdyasdfvabuysdfbavtsfdvyafsdkjfgjdsgfhsgfjahgsfyhjagsdjfgasdfasdfgas fas df as df asd fasfauysdfguagdf as fa gsgf uayg sdfuy asgyu","price":"10.99","noOfPersons":"100","extraPersonCost":"5.99      "} 
+2023-12-20 23:05:30 index.ts[info]: helpers.data_mapping.TheaterDataMapping() 
+2023-12-20 23:05:30 index.ts[info]: services.admin.theater.adminTheater() ==>  
+2023-12-20 23:05:30 index.ts[info]: data_stores_mysql_lib_user.addNewTheater() 
+2023-12-20 23:05:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:05:53 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:05:53 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-20 23:05:53 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 23:05:53 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 23:05:53 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 23:05:53 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 23:05:54 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:06:02 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:06:02 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:06:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:08:43 index.ts[info]: initializeRoutes() 
+2023-12-20 23:08:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:08:45 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:08:45 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:08:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:09:36 index.ts[info]: initializeRoutes() 
+2023-12-20 23:09:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:10:01 index.ts[info]: initializeRoutes() 
+2023-12-20 23:10:01 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:10:02 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:10:02 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature 
+2023-12-20 23:10:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:13:35 index.ts[info]: initializeRoutes() 
+2023-12-20 23:13:35 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:14:21 index.ts[info]: initializeRoutes() 
+2023-12-20 23:14:21 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:14:25 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:14:25 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:14:25 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:14:26 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:14:26 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:14:26 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:14:28 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:14:28 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:14:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:14:53 index.ts[info]: initializeRoutes() 
+2023-12-20 23:14:53 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:15:03 index.ts[info]: initializeRoutes() 
+2023-12-20 23:15:03 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:15:03 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:15:03 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:15:04 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:15:57 index.ts[info]: initializeRoutes() 
+2023-12-20 23:15:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:15:59 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:15:59 index.ts[error]: ERROR occurred in isAuthenticated()  invalid signature JsonWebTokenError: invalid signature
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+2023-12-20 23:15:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-20 23:16:12 index.ts[info]: initializeRoutes() 
+2023-12-20 23:16:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-20 23:16:16 index.ts[info]: authentication.isAuthenticated() 
+2023-12-20 23:16:16 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-20 23:16:16 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-20 23:16:16 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-20 23:16:16 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-20 23:16:16 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-20 23:16:21 index.ts[info]: helper.response_builder.responseBuilder() 

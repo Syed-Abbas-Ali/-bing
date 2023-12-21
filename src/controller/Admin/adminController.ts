@@ -4,7 +4,7 @@ import { IServiceResponse } from "src/models";
 import { NextFunction, Response } from "express";
 import { AdminLogin, IAdmin } from "src/models/interfaces/admin";
 import { AdminDataMapping, AdminLoginDataMapping } from "src/helpers/data_mapping/admin";
-import * as adminAuthServises from "src/services/adminServices"
+import * as adminAuthServises from "src/services/admin/adminServices"
 
 
 const TAG = 'controller.admin'
@@ -14,8 +14,6 @@ export async function adminSignUp (req: any, res: Response, next: NextFunction):
       log.info(`${TAG}.adminSignUp()`);
       log.debug(`${TAG}.adminSignUp() Object = ${JSON.stringify(req.body)}`)
     const user : IAdmin = AdminDataMapping(req.body)
-    console.log("ccccccccccccc")
-    console.log(user)
       const authResponse: IServiceResponse = await adminAuthServises.adminSignUp({...user})
       responseBuilder(authResponse, res, next, req)
     } catch (error) {

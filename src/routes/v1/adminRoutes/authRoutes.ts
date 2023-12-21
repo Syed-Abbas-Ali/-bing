@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as auth from "src/controller/adminController"
+import * as auth from "src/controller/Admin/adminController"
 
 // passportConfiguration(passport)
 
