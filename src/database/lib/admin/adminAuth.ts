@@ -23,7 +23,7 @@ export async function adminSignUp(user: IAdmin) {
       await executeQuery(userInsertQuery, QueryTypes.INSERT, {
         ...data,
       });
-      return data;
+      return {...data};
   
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.adminSignUp()`, error);

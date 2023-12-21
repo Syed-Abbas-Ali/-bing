@@ -1,0 +1,51 @@
+2023-12-21 00:00:05 index.ts[info]: initializeRoutes() 
+2023-12-21 00:00:05 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:00:38 index.ts[info]: initializeRoutes() 
+2023-12-21 00:00:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:02:47 index.ts[info]: initializeRoutes() 
+2023-12-21 00:02:47 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:03:01 index.ts[info]: initializeRoutes() 
+2023-12-21 00:03:01 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:03:33 index.ts[info]: initializeRoutes() 
+2023-12-21 00:03:33 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:07:04 index.ts[info]: initializeRoutes() 
+2023-12-21 00:07:04 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:07:29 index.ts[info]: initializeRoutes() 
+2023-12-21 00:07:29 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:09:14 index.ts[info]: initializeRoutes() 
+2023-12-21 00:09:14 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:09:38 index.ts[info]: initializeRoutes() 
+2023-12-21 00:09:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:10:12 index.ts[info]: initializeRoutes() 
+2023-12-21 00:10:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:10:36 index.ts[info]: START of common.validator.validate() 
+2023-12-21 00:10:36 index.ts[debug]: {"value":{"lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"},"error":{"_original":{"lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"},"details":[{"message":"\"firstName\" is required","path":["firstName"],"type":"any.required","context":{"label":"firstName","key":"firstName"}},{"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min","context":{"limit":8,"value":"9999774","label":"password","key":"password"}}]}} 
+2023-12-21 00:10:45 index.ts[info]: START of common.validator.validate() 
+2023-12-21 00:10:45 index.ts[debug]: {"value":{"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"},"error":{"_original":{"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774"},"details":[{"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min","context":{"limit":8,"value":"9999774","label":"password","key":"password"}}]}} 
+2023-12-21 00:10:57 index.ts[info]: START of common.validator.validate() 
+2023-12-21 00:10:57 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-21 00:10:57 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"999977477"} 
+2023-12-21 00:10:57 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-21 00:10:57 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-21 00:10:57 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-21 00:11:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-21 00:11:25 index.ts[info]: START of common.validator.validate() 
+2023-12-21 00:11:25 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-21 00:11:25 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail33.com","password":"999977477"} 
+2023-12-21 00:11:25 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-21 00:11:25 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-21 00:11:25 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-21 00:11:27 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-21 00:11:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-21 00:12:42 index.ts[info]: initializeRoutes() 
+2023-12-21 00:12:42 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:15:42 index.ts[info]: initializeRoutes() 
+2023-12-21 00:15:42 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:15:42 index.ts[info]: START of common.validator.validate() 
+2023-12-21 00:15:42 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-21 00:15:42 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail34.com","password":"999977477"} 
+2023-12-21 00:15:42 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-21 00:15:42 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-21 00:15:42 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-21 00:15:46 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-21 00:15:47 index.ts[info]: helper.response_builder.responseBuilder() 

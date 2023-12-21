@@ -1,5 +1,4 @@
 import dotenv from "dotenv"
-import {resolve} from "path"
 import AppError from "src/models/lib/appError"
 import { toNumber,isNull } from "../utils/utils"
 dotenv.config()
@@ -19,39 +18,11 @@ export const API_CALL_LOG_FORMAT = process.env.API_CALL_LOG_FORMAT ??
     
 export const LOG_LEVEL = process.env?.LOG_LEVEL ?? 'debug'
 export const PORT = process.env.PORT ?? 3307
-export const post_url=process.env.POSTRE_URL || ""
-/*MySQL DB config*/
-export const MYSQL_DATABASE = {
-    address: process.env.SQL_DATABASE_ADDRESS || 'localhost',
-    port: process.env.DATABASE_PORT || 3306,
-    username: process.env.SQL_DATABASE_USERNAME || "root",
-    password: process.env.SQL_DATABASE_PASSWORD || "Abbas@994544",
-    db_name: process.env.DATABASE_NAME || 'bing',
-    pool_size: process.env.DATABASE_POOL_SIZE || '30',
-  };
-
-export const sqlConfig={
-    user:MYSQL_DATABASE.username,
-    password:MYSQL_DATABASE.password,
-    database:MYSQL_DATABASE.db_name,
-    server:MYSQL_DATABASE.address,
-    port:MYSQL_DATABASE.port,
-    pool:{
-        max:toNumber(MYSQL_DATABASE.pool_size),
-        min:0,
-        idleTimeoutMillis:30000
-    },
-    options:{
-        encrypt:false,
-        trustServerCertificate:true
-    }
-}
+export const post_url=process.env.POSTRE_URL || "";
 
 export const checkEnv=async()=>{
     const mandatoryFields=["POSTRE_URL"]
     mandatoryFields.forEach((field)=>{
-        console.log("lllllllllllllll")
-        console.log(process.env[field])
         if (isNull(process.env[field])) {
             throw new AppError(`Required configuration '${field}' is missing`)
           }

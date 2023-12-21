@@ -31,12 +31,6 @@ export function isAuthenticated (req: any, res: Response, next: NextFunction): v
       logger.debug('LOGGED IN USER:' + nodeUtil.inspect(req.userSession));
       next();
     } catch (error) {
-      let message=""
-
-      console.log("ccccccccccccccccccccccccccc")
-      if(error){
-       
-      }
       logger.error('ERROR occurred in isAuthenticated() ', error);
       let response = new ServiceResponse(HttpStatusCodes.INTERNAL_SERVER_ERROR,
         ErrorMessages.INTERNAL_SERVER_ERROR, true,

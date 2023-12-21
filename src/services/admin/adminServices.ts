@@ -28,9 +28,15 @@ export async function adminSignUp(user: IAdmin){
         return serviceResponse;
       }
     const Admin = await AdminAuth.adminSignUp(user);
-    const data = { Admin };
+    if(Admin && Admin.uid){
+      serviceResponse.message="Admin created successfully !";
+      serviceResponse.data = {
+        uid:Admin.uid,
+        email:Admin.email
+      };
+    }
 
-    serviceResponse.data = data;
+    
 } catch (error) {
     logger.error(`ERROR occurred in ${TAG}.adminSignUp`, error);
     serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
