@@ -14,7 +14,7 @@ const router = Router()
  router.route('/:uid')
      .get(adminTheaterController.getSingleTheater);
 
- router.route('/')
+ router.route('/:uid')
      .put(adminTheaterController.updateTheater);
 
  router.route('/:uid')

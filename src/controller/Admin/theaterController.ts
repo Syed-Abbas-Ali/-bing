@@ -25,8 +25,9 @@ export async function updateTheater (req: any, res: Response, next: NextFunction
     try {
       log.info(`${TAG}.updateTheater()`);
       log.debug(`${TAG}.updateTheater() Object = ${JSON.stringify(req.body)}`)
+      const {uid}=req.params
       const user : ITheater = TheaterUpdateDataMapping(req.body)
-      const authResponse: IServiceResponse = await adminTheaterServices.updateTheater({...user})
+      const authResponse: IServiceResponse = await adminTheaterServices.updateTheater({...user,uid})
       responseBuilder(authResponse, res, next, req)
     } catch (error) {
       log.error(`ERROR occurred in ${TAG}.updateTheater() `, error)

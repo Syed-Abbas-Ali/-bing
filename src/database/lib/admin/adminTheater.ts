@@ -66,6 +66,8 @@ export async function getListOfTheater() {
   }
 
 export async function getSingleTheater(uid) {
+  console.log("hhhhhhhhhhhhhhhhhhhhhhhhhh")
+  console.log(uid)
     logger.info(`${TAG}.getSingleTheater()`);
     try {
       const data = {
@@ -73,7 +75,7 @@ export async function getSingleTheater(uid) {
       };
       let userInsertQuery = `
       SELECT * FROM public."THEATERS" WHERE uid=:uid`;
-      let res= await executeQuery(userInsertQuery, QueryTypes.SELECT, {
+      let res= await executeQuery(userInsertQuery, QueryTypes.UPDATE, {
       uid:uid
       });
       return {...res};

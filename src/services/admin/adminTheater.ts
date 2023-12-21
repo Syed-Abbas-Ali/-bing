@@ -26,22 +26,22 @@ export async function adminTheater(user: ITheater){
 }
 
 
-export async function updateTheater(uid){
-  logger.info(`${TAG}.updateTheater() ==> `, uid);
+export async function updateTheater(user){
+  logger.info(`${TAG}.updateTheater() ==> `, user);
   const serviceResponse = new ServiceResponse(
     HttpStatusCodes.CREATED,
     "",
     false
   );
   try {
-    const res1 = await adminTheaterDB.getSingleTheater(uid.uid);
+    const res1 = await adminTheaterDB.getSingleTheater(user.uid)
     if(!res1[0]) {
       serviceResponse.message = 'invalid theater';
       serviceResponse.statusCode = HttpStatusCodes.BAD_REQUEST;
       serviceResponse.addError(new APIError(serviceResponse.message,serviceResponse.statusCode, ''));
       return serviceResponse;
     }
-    const Admin = await adminTheaterDB.updateTheater(uid);
+    const Admin = await adminTheaterDB.updateTheater(user);
     const data = { ...Admin };
 
     serviceResponse.data = data;
