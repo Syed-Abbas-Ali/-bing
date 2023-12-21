@@ -66,13 +66,12 @@ export async function adminLogin(user:IAdminLogin) {
         serviceResponse.addError(new APIError(serviceResponse.message,HttpStatusCodes.BAD_REQUEST, ''));
         return serviceResponse;
       }else{
-    //   const Admin = await AdminAuth.login(user);
       const accessToken = await generateAccessToken({uid:existedUser.uuid,role:"admin"})
       const data = { 
       accessToken,
       role:"admin"
         }
-        serviceResponse.data = data
+        serviceResponse.data = {...data}
 
       }
        

@@ -53,3 +53,14 @@
 2023-12-21 00:16:12 index.ts[info]: SERVER listening on PORT:5000 
 2023-12-21 00:26:15 index.ts[info]: initializeRoutes() 
 2023-12-21 00:26:15 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:46:55 index.ts[info]: START of common.validator.validate() 
+2023-12-21 00:46:55 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-21 00:46:55 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail34.com","password":"999977477"} 
+2023-12-21 00:46:55 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-21 00:46:55 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-21 00:46:55 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-21 00:46:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-21 00:53:23 index.ts[info]: initializeRoutes() 
+2023-12-21 00:53:23 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 00:53:31 index.ts[info]: initializeRoutes() 
+2023-12-21 00:53:31 index.ts[info]: SERVER listening on PORT:5000 

@@ -62,9 +62,9 @@ export async function getListOfTheater(){
   );
   try {
     const res = await adminTheaterDB.getListOfTheater();
-    const data = { res };
+    const data = { ...res };
 
-    serviceResponse.data = data;
+    serviceResponse.data = {...data};
 } catch (error) {
     logger.error(`ERROR occurred in ${TAG}.getListOfTheater`, error);
     serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
