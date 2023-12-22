@@ -66,8 +66,6 @@ export async function getListOfTheater() {
   }
 
 export async function getSingleTheater(uid) {
-  console.log("hhhhhhhhhhhhhhhhhhhhhhhhhh")
-  console.log(uid)
     logger.info(`${TAG}.getSingleTheater()`);
     try {
       const data = {
