@@ -10,6 +10,12 @@ export const sqlConnection = async () => {
     }
     connection = new Sequelize(post_url,{
       dialect: 'postgres',
+      dialectOptions: {
+                ssl: {
+                  require: true,
+                  rejectUnauthorized: true, // Change this if your PostgreSQL server requires SSL
+                },
+              },
       pool: {
         max: 10,
         min: 0,
