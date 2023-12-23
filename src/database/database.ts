@@ -8,15 +8,8 @@ export const sqlConnection = async () => {
     if (connection) {
       return connection;
     }
-
-    connection = new Sequelize(post_url, {
+    connection = new Sequelize(post_url,{
       dialect: 'postgres',
-      dialectOptions: {
-        ssl: {
-          require: true,
-          rejectUnauthorized: false, // Change this if your PostgreSQL server requires SSL
-        },
-      },
       pool: {
         max: 10,
         min: 0,
@@ -25,12 +18,43 @@ export const sqlConnection = async () => {
       },
       logging: false,
     });
-
-    await connection.authenticate();
-    console.log("DB connected");
+    await connection.authenticate()
+    console.log("db connected")
     return connection;
   } catch (error) {
-    console.error("Error connecting to the database:", error);
     throw error;
   }
 };
+
+
+// export const sqlConnection = async () => {
+//   try {
+//     if (connection) {
+//       return connection;
+//     }
+
+//     connection = new Sequelize(post_url, {
+//       dialect: 'postgres',
+//       dialectOptions: {
+//         ssl: {
+//           require: true,
+//           rejectUnauthorized: false, // Change this if your PostgreSQL server requires SSL
+//         },
+//       },
+//       pool: {
+//         max: 10,
+//         min: 0,
+//         acquire: 30000,
+//         idle: 10000,
+//       },
+//       logging: false,
+//     });
+
+//     await connection.authenticate();
+//     console.log("DB connected");
+//     return connection;
+//   } catch (error) {
+//     console.error("Error connecting to the database:", error);
+//     throw error;
+//   }
+// };

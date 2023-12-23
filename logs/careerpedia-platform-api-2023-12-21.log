@@ -231,3 +231,9 @@
 2023-12-21 19:53:34 index.ts[debug]: {"value":{"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"99997746370000000000"},"error":{"_original":{"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"99997746370000000000"},"details":[{"message":"\"password\" length must be less than or equal to 15 characters long","path":["password"],"type":"string.max","context":{"limit":15,"value":"99997746370000000000","label":"password","key":"password"}}]}} 
 2023-12-21 19:56:41 index.ts[info]: initializeRoutes() 
 2023-12-21 19:56:41 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-21 20:42:02 index.ts[info]: START of common.validator.validate() 
+2023-12-21 20:42:02 index.ts[debug]: {"value":{"email":"syedabbas@gmail3.com","password":"9999774637466663"},"error":{"_original":{"email":"syedabbas@gmail3.com","password":"9999774637466663"},"details":[{"message":"\"password\" length must be less than or equal to 15 characters long","path":["password"],"type":"string.max","context":{"limit":15,"value":"9999774637466663","label":"password","key":"password"}}]}} 
+2023-12-21 20:42:09 index.ts[info]: START of common.validator.validate() 
+2023-12-21 20:42:09 index.ts[debug]: {"value":{"email":"syedabbas@gmail3.com","password":"9999774"},"error":{"_original":{"email":"syedabbas@gmail3.com","password":"9999774"},"details":[{"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min","context":{"limit":8,"value":"9999774","label":"password","key":"password"}}]}} 
+2023-12-21 23:42:44 index.ts[info]: initializeRoutes() 
+2023-12-21 23:42:44 index.ts[info]: SERVER listening on PORT:5000 

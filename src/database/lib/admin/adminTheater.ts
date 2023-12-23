@@ -91,9 +91,7 @@ export async function deleteSingleTheater(uid) {
       DELETE FROM public."THEATERS" WHERE uid=:uid`;
       return await executeQuery(Query, QueryTypes.DELETE, {
         uid:uid
-      });
-      // return Query;
-  
+      });  
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.deleteSingleTheater()`, error);
       throw error;
