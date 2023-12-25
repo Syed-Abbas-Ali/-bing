@@ -1,0 +1,247 @@
+2023-12-24 23:12:37 index.ts[info]: initializeRoutes() 
+2023-12-24 23:12:37 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:13:56 index.ts[info]: initializeRoutes() 
+2023-12-24 23:13:56 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:14:24 index.ts[info]: initializeRoutes() 
+2023-12-24 23:14:24 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:14:52 index.ts[info]: initializeRoutes() 
+2023-12-24 23:14:52 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:15:50 index.ts[info]: initializeRoutes() 
+2023-12-24 23:15:50 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:16:59 index.ts[info]: initializeRoutes() 
+2023-12-24 23:16:59 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:17:04 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:17:04 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-24 23:17:04 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-24 23:17:04 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-24 23:17:12 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":itemName" has no entry in the replacement map. 
+2023-12-24 23:17:12 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewAccessaries() Named replacement ":itemName" has no entry in the replacement map. Error: Named replacement ":itemName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:17:12 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewAccessaries Named replacement ":itemName" has no entry in the replacement map. Error: Named replacement ":itemName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:17:12 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:18:24 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:18:24 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-24 23:18:24 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-24 23:18:24 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-24 23:18:24 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":itemName" has no entry in the replacement map. 
+2023-12-24 23:18:24 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewAccessaries() Named replacement ":itemName" has no entry in the replacement map. Error: Named replacement ":itemName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:18:24 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewAccessaries Named replacement ":itemName" has no entry in the replacement map. Error: Named replacement ":itemName" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:18:24 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:18:48 index.ts[info]: initializeRoutes() 
+2023-12-24 23:18:48 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:18:58 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:18:58 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-24 23:18:58 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-24 23:18:58 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-24 23:19:19 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: invalid input value for enum item_types: "cake" 
+2023-12-24 23:19:19 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewAccessaries() invalid input value for enum item_types: "cake" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:19:19 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewAccessaries invalid input value for enum item_types: "cake" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:19:19 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:19:42 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:19:42 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-24 23:19:42 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-24 23:19:42 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-24 23:19:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:22:45 index.ts[info]: initializeRoutes() 
+2023-12-24 23:22:45 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:23:43 index.ts[info]: initializeRoutes() 
+2023-12-24 23:23:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:24:23 index.ts[info]: initializeRoutes() 
+2023-12-24 23:24:23 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:24:36 index.ts[info]: initializeRoutes() 
+2023-12-24 23:24:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:25:12 index.ts[info]: initializeRoutes() 
+2023-12-24 23:25:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:26:59 index.ts[info]: initializeRoutes() 
+2023-12-24 23:26:59 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:28:10 index.ts[info]: initializeRoutes() 
+2023-12-24 23:28:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:28:40 index.ts[info]: initializeRoutes() 
+2023-12-24 23:28:40 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:29:28 index.ts[info]: initializeRoutes() 
+2023-12-24 23:29:28 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:29:51 index.ts[info]: initializeRoutes() 
+2023-12-24 23:29:51 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:29:56 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:29:56 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:29:56 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:29:56 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:30:02 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "extra_accessories_items" does not exist 
+2023-12-24 23:30:02 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getListOfAccessaries() relation "extra_accessories_items" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:30:02 index.ts[error]: ERROR occurred in services.admin.extraitems.getListOfAccessaries relation "extra_accessories_items" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:30:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:30:55 index.ts[info]: initializeRoutes() 
+2023-12-24 23:30:55 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:31:12 index.ts[info]: initializeRoutes() 
+2023-12-24 23:31:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:31:17 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:31:17 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:31:17 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:31:17 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:31:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:32:14 index.ts[info]: initializeRoutes() 
+2023-12-24 23:32:14 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:32:22 index.ts[info]: initializeRoutes() 
+2023-12-24 23:32:22 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:32:57 index.ts[info]: initializeRoutes() 
+2023-12-24 23:32:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:33:02 index.ts[info]: initializeRoutes() 
+2023-12-24 23:33:02 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:33:12 index.ts[info]: initializeRoutes() 
+2023-12-24 23:33:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:33:50 index.ts[info]: initializeRoutes() 
+2023-12-24 23:33:50 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:34:21 index.ts[info]: initializeRoutes() 
+2023-12-24 23:34:21 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:34:27 index.ts[info]: initializeRoutes() 
+2023-12-24 23:34:27 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:34:43 index.ts[info]: initializeRoutes() 
+2023-12-24 23:34:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:35:33 index.ts[info]: initializeRoutes() 
+2023-12-24 23:35:33 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:36:01 index.ts[info]: initializeRoutes() 
+2023-12-24 23:36:01 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:36:24 index.ts[info]: initializeRoutes() 
+2023-12-24 23:36:24 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:36:37 index.ts[info]: initializeRoutes() 
+2023-12-24 23:36:37 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:36:59 index.ts[info]: initializeRoutes() 
+2023-12-24 23:36:59 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:37:17 index.ts[info]: initializeRoutes() 
+2023-12-24 23:37:17 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:37:55 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:37:55 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh2","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-24 23:37:55 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-24 23:37:55 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-24 23:38:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:38:14 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:38:14 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:38:14 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:38:14 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:38:17 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:38:30 index.ts[info]: controller-admin-extraItems-Controller.deleteSingleAccessaries() 
+2023-12-24 23:38:30 index.ts[debug]: controller-admin-extraItems-Controller.deleteSingleAccessaries() Object = {} 
+2023-12-24 23:38:30 index.ts[info]: services.admin.extraitems.deleteSingleAccessaries() ==>  
+2023-12-24 23:38:30 index.ts[info]: data_stores_mysql_lib_user.deleteSingleAccessaries() 
+2023-12-24 23:38:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:38:46 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:38:46 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:38:46 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:38:46 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:38:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:42:21 index.ts[info]: initializeRoutes() 
+2023-12-24 23:42:21 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:42:37 index.ts[info]: initializeRoutes() 
+2023-12-24 23:42:37 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:43:26 index.ts[info]: initializeRoutes() 
+2023-12-24 23:43:26 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:43:33 index.ts[info]: initializeRoutes() 
+2023-12-24 23:43:33 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:43:43 index.ts[info]: initializeRoutes() 
+2023-12-24 23:43:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:44:10 index.ts[info]: initializeRoutes() 
+2023-12-24 23:44:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:44:28 index.ts[info]: initializeRoutes() 
+2023-12-24 23:44:28 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:44:34 index.ts[info]: initializeRoutes() 
+2023-12-24 23:44:34 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:44:49 index.ts[info]: initializeRoutes() 
+2023-12-24 23:44:49 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:45:47 index.ts[info]: initializeRoutes() 
+2023-12-24 23:45:47 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:46:16 index.ts[info]: initializeRoutes() 
+2023-12-24 23:46:16 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:46:50 index.ts[info]: initializeRoutes() 
+2023-12-24 23:46:50 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:47:41 index.ts[info]: errorHandler() 
+2023-12-24 23:47:41 index.ts[error]: handling ERROR : Unexpected non-whitespace character after JSON at position 9 SyntaxError: Unexpected non-whitespace character after JSON at position 9
+    at JSON.parse (<anonymous>)
+    at parse (D:\projets\projects\Backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\projets\projects\Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\projets\projects\Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\projets\projects\Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\projets\projects\Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+2023-12-24 23:47:41 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:48:19 index.ts[info]: controller-admin-extraItems-Controller.updateAccessaries() 
+2023-12-24 23:48:19 index.ts[debug]: controller-admin-extraItems-Controller.updateAccessaries() Object = {"itemsId":2,"uid":"08507f3e-86bc-4e42-b2e1-4e497fa882f7","itemsName":"hhh288","details":"lllllllldfkdslkfjghsjd","price":"7374","itemType":"CAKE"} 
+2023-12-24 23:48:19 index.ts[info]: services.admin.extraitems.updateAccessaries() ==>  
+2023-12-24 23:48:19 index.ts[info]: data_stores_mysql_lib_user.updateAccessaries() 
+2023-12-24 23:48:25 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":itemUid" has no entry in the replacement map. 
+2023-12-24 23:48:25 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.updateAccessaries() Named replacement ":itemUid" has no entry in the replacement map. Error: Named replacement ":itemUid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:48:25 index.ts[error]: ERROR occurred in services.admin.extraitems.updateAccessaries Named replacement ":itemUid" has no entry in the replacement map. Error: Named replacement ":itemUid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 23:48:25 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:49:04 index.ts[info]: initializeRoutes() 
+2023-12-24 23:49:05 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:49:15 index.ts[info]: controller-admin-extraItems-Controller.updateAccessaries() 
+2023-12-24 23:49:15 index.ts[debug]: controller-admin-extraItems-Controller.updateAccessaries() Object = {"itemsId":2,"uid":"08507f3e-86bc-4e42-b2e1-4e497fa882f7","itemsName":"hhh288","details":"lllllllldfkdslkfjghsjd","price":"7374","itemType":"CAKE"} 
+2023-12-24 23:49:15 index.ts[info]: services.admin.extraitems.updateAccessaries() ==>  
+2023-12-24 23:49:15 index.ts[info]: data_stores_mysql_lib_user.updateAccessaries() 
+2023-12-24 23:49:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:49:31 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:49:31 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:49:31 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:49:31 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:49:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:51:00 index.ts[info]: controller-admin-extraItems-Controller.updateAccessaries() 
+2023-12-24 23:51:00 index.ts[debug]: controller-admin-extraItems-Controller.updateAccessaries() Object = {"itemsId":2,"uid":"08507f3e-86bc-4e42-b2e1-4e497fa882f7","itemsName":"red valvet","details":"lllllllldfkdslkfjghsjd","price":"7374","itemType":"CAKE"} 
+2023-12-24 23:51:00 index.ts[info]: services.admin.extraitems.updateAccessaries() ==>  
+2023-12-24 23:51:00 index.ts[info]: data_stores_mysql_lib_user.updateAccessaries() 
+2023-12-24 23:51:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:51:09 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:51:09 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:51:09 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:51:09 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:51:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:51:38 index.ts[info]: initializeRoutes() 
+2023-12-24 23:51:38 index.ts[info]: SERVER listening on PORT:5000 

@@ -124,3 +124,4 @@ export async function deleteSingleTheater(uid){
   }
   return serviceResponse;
 }
+
