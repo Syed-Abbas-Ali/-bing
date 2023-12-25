@@ -1,12 +1,13 @@
 import { Router } from "express";
 import * as adminTheaterController from "src/controller/Admin/theaterController"
+import { isAuthenticated } from "src/middlewares/authentication";
 
 // passportConfiguration(passport)
 
 const router = Router()
 
  router.route('/')
-     .post(adminTheaterController.addNewTheater)
+     .post(isAuthenticated,adminTheaterController.addNewTheater)
 
  router.route('/list')
      .get(adminTheaterController.getListOfTheater);
@@ -15,10 +16,10 @@ const router = Router()
      .get(adminTheaterController.getSingleTheater);
 
  router.route('/:uid')
-     .put(adminTheaterController.updateTheater);
+     .put(isAuthenticated,adminTheaterController.updateTheater);
 
  router.route('/:uid')
-     .delete(adminTheaterController.deleteSingleTheater);
+     .delete(isAuthenticated,adminTheaterController.deleteSingleTheater);
 
 
 

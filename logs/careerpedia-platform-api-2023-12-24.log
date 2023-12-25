@@ -245,3 +245,35 @@
 2023-12-24 23:51:09 index.ts[info]: helper.response_builder.responseBuilder() 
 2023-12-24 23:51:38 index.ts[info]: initializeRoutes() 
 2023-12-24 23:51:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:53:16 index.ts[info]: initializeRoutes() 
+2023-12-24 23:53:16 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:53:57 index.ts[info]: initializeRoutes() 
+2023-12-24 23:53:57 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:54:15 index.ts[info]: initializeRoutes() 
+2023-12-24 23:54:15 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:54:48 index.ts[info]: initializeRoutes() 
+2023-12-24 23:54:48 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:55:18 index.ts[info]: initializeRoutes() 
+2023-12-24 23:55:18 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-24 23:55:24 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:55:24 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:55:24 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:55:24 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:55:31 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:55:54 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-24 23:55:54 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-24 23:55:54 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-24 23:55:54 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-24 23:55:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:56:06 index.ts[info]: authentication.isAuthenticated() 
+2023-12-24 23:56:06 index.ts[debug]: TOKEN is missing! 
+2023-12-24 23:56:06 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:56:27 index.ts[info]: authentication.isAuthenticated() 
+2023-12-24 23:56:27 index.ts[debug]: TOKEN is missing! 
+2023-12-24 23:56:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:56:29 index.ts[info]: authentication.isAuthenticated() 
+2023-12-24 23:56:29 index.ts[debug]: TOKEN is missing! 
+2023-12-24 23:56:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:56:29 index.ts[info]: authentication.isAuthenticated() 
+2023-12-24 23:56:29 index.ts[debug]: TOKEN is missing! 
+2023-12-24 23:56:29 index.ts[info]: helper.response_builder.responseBuilder() 

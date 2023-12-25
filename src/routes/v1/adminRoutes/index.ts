@@ -7,7 +7,7 @@ import { isAuthenticated } from "src/middlewares/authentication";
 const router = Router();
 
 router.use("/auth", authRoutes);
-router.use("/theater",isAuthenticated,theaterRoutes);
-router.use("/extra-items",isAuthenticated,extraItemsRoutes);
+router.use("/theater",theaterRoutes);
+router.use("/extra-items",extraItemsRoutes);
 
 export default router

@@ -1,5 +1,6 @@
 import { Router } from "express";
 import * as extraItems from "src/controller/Admin/extraItems"
+import { isAuthenticated } from "src/middlewares/authentication";
 
 // passportConfiguration(passport)
 
@@ -7,12 +8,12 @@ const router = Router()
 //  router.use(passport.initialize())
 
  router.route('/:type')
-     .post(extraItems.addNewAccessaries);
+     .post(isAuthenticated,extraItems.addNewAccessaries);
  router.route('/:type')
      .get(extraItems.getListOfAccessaries);
  router.route('/:item_uid')
-     .delete(extraItems.deleteSingleAccessaries);
+     .delete(isAuthenticated,extraItems.deleteSingleAccessaries);
  router.route('/update')
-     .put(extraItems.updateAccessaries);
+     .put(isAuthenticated,extraItems.updateAccessaries);
 
 export default router
