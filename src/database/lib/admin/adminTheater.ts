@@ -56,8 +56,8 @@ export async function getListOfTheater() {
     try {
       let userInsertQuery = `
       SELECT * FROM public."THEATERS"`;
-      return await executeQuery(userInsertQuery, QueryTypes.SELECT);
-       
+       const res=await executeQuery(userInsertQuery, QueryTypes.SELECT);
+       return [...res]
   
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getListOfTheater()`, error);

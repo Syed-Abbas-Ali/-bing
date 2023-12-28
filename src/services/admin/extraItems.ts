@@ -36,10 +36,8 @@ export async function getListOfAccessaries(type){
       false
     );
     try {
-      const res = await extraItemsDB.getListOfAccessaries(type);
-      const data = { ...res };
-  
-      serviceResponse.data = {...data};
+      const res = await extraItemsDB.getListOfAccessaries(type);  
+      serviceResponse.data = [...res];
   } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getListOfAccessaries`, error);
       serviceResponse.addServerError("Failed to create Admin due to technical difficulties");

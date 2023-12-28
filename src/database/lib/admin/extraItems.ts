@@ -56,8 +56,8 @@ export async function getListOfAccessaries(type) {
       FROM public."EXTRA_ACCESSORIES_ITEMS"
       WHERE ITEM_TYPE = :type;
       `;
-      return await executeQuery(userInsertQuery, QueryTypes.SELECT,{type:type});
-       
+       const res=await executeQuery(userInsertQuery, QueryTypes.SELECT,{type:type});
+       return [...res]
   
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getListOfAccessaries()`, error);
