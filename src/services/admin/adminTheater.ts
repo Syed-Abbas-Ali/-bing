@@ -3,6 +3,7 @@ import logger from "src/logger";
 import { APIError, ServiceResponse } from "src/models";
 import { ITheater } from "src/models/interfaces/theater";
 import * as adminTheaterDB from "src/database/lib/admin/adminTheater"
+// import from "src/database/lib/admin/extraItems";
 
 const TAG = "services.admin.theater";
 
@@ -124,4 +125,5 @@ export async function deleteSingleTheater(uid){
   }
   return serviceResponse;
 }
+
 

@@ -277,3 +277,5 @@
 2023-12-24 23:56:29 index.ts[info]: authentication.isAuthenticated() 
 2023-12-24 23:56:29 index.ts[debug]: TOKEN is missing! 
 2023-12-24 23:56:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-24 23:56:43 index.ts[info]: initializeRoutes() 
+2023-12-24 23:56:43 index.ts[info]: SERVER listening on PORT:5000 

@@ -23,6 +23,7 @@ export async function addNewAccessaries(user: IExtraItems) {
       throw error;
     }
   }
+
   
 export async function updateAccessaries(user) {
     logger.info(`${TAG}.updateAccessaries()`);
@@ -80,3 +81,40 @@ export async function deleteSingleAccessaries(item_uid) {
   }
 
 
+  export async function addNewImage(user:any) {
+    logger.info(`${TAG}.addNewImage()`);
+    try {
+      const query = 'INSERT INTO public."IMAGES" (data,user_uid) VALUES (:user,:uid)';
+      await executeQuery(query, QueryTypes.INSERT, {
+      ...user
+      });
+      return {...user}
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.addNewImage()`, error);
+      throw error;
+    }
+  }
+
+
+  export async function getImage() {
+    logger.info(`${TAG}.getImage()`);
+    try {
+      const query = ' SELECT * FROM public."IMAGES"';
+      return await executeQuery(query, QueryTypes.SELECT);
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.getImage()`, error);
+      throw error;
+    }
+  }
+
+
+  export async function deleteImages(uid) {
+    logger.info(`${TAG}.deleteImages()`);
+    try {
+      const query = ' DELETE FROM public public."IMAGES" WHERE uid=:uid';
+      return await executeQuery(query, QueryTypes.DELETE,{uid:uid});
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.deleteImages()`, error);
+      throw error;
+    }
+  }
