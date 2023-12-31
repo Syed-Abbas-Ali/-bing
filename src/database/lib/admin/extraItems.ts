@@ -36,7 +36,7 @@ export async function updateAccessaries(user) {
           PRICE = :price,
           ITEM_TYPE = :itemType
       WHERE
-          UID = :uid;`;
+          UID = :item_uid;`;
       return await executeQuery(userInsertQuery, QueryTypes.INSERT, {
         ...user
       });
@@ -51,11 +51,22 @@ export async function updateAccessaries(user) {
 export async function getListOfAccessaries(type) {
     logger.info(`${TAG}.getListOfAccessaries()`);
     try {
-      let userInsertQuery = `
-      SELECT *
-      FROM public."EXTRA_ACCESSORIES_ITEMS"
-      WHERE ITEM_TYPE = :type;
-      `;
+      // let userInsertQuery = `
+      // SELECT *
+      // FROM public."EXTRA_ACCESSORIES_ITEMS"
+      // WHERE ITEM_TYPE = :type;
+      // `;
+
+      let userInsertQuery = `SELECT *,
+      (SELECT
+                  jsonb_build_object(
+                      'image', images.data,
+                      'image_uid', images.image_uid
+                  )
+       FROM public."IMAGES" AS images 
+       WHERE images.auth_id = items.id AND images.thumbnail='true'
+      ) AS images_json_array
+  FROM public."EXTRA_ACCESSORIES_ITEMS" AS items WHERE items.ITEM_TYPE = :type;;`;
        const res=await executeQuery(userInsertQuery, QueryTypes.SELECT,{type:type});
        return [...res]
   
@@ -83,14 +94,34 @@ export async function deleteSingleAccessaries(item_uid) {
 
   export async function addNewImage(user:any) {
     logger.info(`${TAG}.addNewImage()`);
+    const data = {
+      uid: crypto.randomUUID(),
+    };
     try {
-      const query = 'INSERT INTO public."IMAGES" (data,user_uid) VALUES (:user,:uid)';
+      const query = 'INSERT INTO public."IMAGES" (auth_id,data,image_uid) VALUES (:auth_id, :user,:uid)';
       await executeQuery(query, QueryTypes.INSERT, {
-      ...user
+      ...user,...data
       });
       return {...user}
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.addNewImage()`, error);
+      throw error;
+    }
+  }
+
+  export async function addNewThambnail(user:any) {
+    logger.info(`${TAG}.addNewThambnail()`);
+    const data = {
+      uid: crypto.randomUUID(),
+    };
+    try {
+      const query = 'INSERT INTO public."IMAGES" (auth_id,data,image_uid,thumbnail) VALUES (:auth_id, :user,:uid, :thumbnail)';
+      await executeQuery(query, QueryTypes.INSERT, {
+      ...user,...data
+      });
+      return {...user}
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.addNewThambnail()`, error);
       throw error;
     }
   }
@@ -111,7 +142,7 @@ export async function deleteSingleAccessaries(item_uid) {
   export async function deleteImages(uid) {
     logger.info(`${TAG}.deleteImages()`);
     try {
-      const query = ' DELETE FROM public public."IMAGES" WHERE uid=:uid';
+      const query = ' DELETE FROM public."IMAGES" WHERE image_uid=:uid;';
       return await executeQuery(query, QueryTypes.DELETE,{uid:uid});
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.deleteImages()`, error);

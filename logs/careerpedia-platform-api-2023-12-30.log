@@ -1,0 +1,751 @@
+2023-12-30 00:39:01 index.ts[info]: initializeRoutes() 
+2023-12-30 00:39:01 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:44:25 index.ts[info]: initializeRoutes() 
+2023-12-30 00:44:25 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:50:33 index.ts[info]: initializeRoutes() 
+2023-12-30 00:50:33 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:51:18 index.ts[info]: initializeRoutes() 
+2023-12-30 00:51:18 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:51:41 index.ts[info]: initializeRoutes() 
+2023-12-30 00:51:41 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:52:10 index.ts[info]: initializeRoutes() 
+2023-12-30 00:52:10 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:53:12 index.ts[info]: initializeRoutes() 
+2023-12-30 00:53:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:53:39 index.ts[info]: initializeRoutes() 
+2023-12-30 00:53:39 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:53:49 index.ts[info]: initializeRoutes() 
+2023-12-30 00:53:49 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:54:00 index.ts[info]: initializeRoutes() 
+2023-12-30 00:54:00 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:55:50 index.ts[info]: initializeRoutes() 
+2023-12-30 00:55:50 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:56:48 index.ts[info]: initializeRoutes() 
+2023-12-30 00:56:48 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:57:41 index.ts[info]: initializeRoutes() 
+2023-12-30 00:57:41 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:57:50 index.ts[info]: initializeRoutes() 
+2023-12-30 00:57:50 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 00:57:50 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 00:57:50 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 00:57:50 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 00:57:50 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 00:57:50 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 00:57:57 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2023-12-30 00:57:57 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 00:57:57 index.ts[error]: ERROR occurred in services.admin.theater.getSingleTheater Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 00:57:57 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 00:57:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:00:36 index.ts[info]: initializeRoutes() 
+2023-12-30 01:00:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:00:57 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:00:57 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:00:57 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:00:57 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 01:00:57 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:01:05 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:01:07 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:01:51 index.ts[info]: initializeRoutes() 
+2023-12-30 01:01:51 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:01:59 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:01:59 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:01:59 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:01:59 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 01:01:59 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:02:06 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:02:06 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:02:23 index.ts[info]: initializeRoutes() 
+2023-12-30 01:02:23 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:02:37 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:02:37 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:02:37 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:02:37 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 01:02:37 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:02:44 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:02:46 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:02:54 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:02:54 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:02:54 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:02:54 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 01:02:54 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:02:55 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:02:55 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:05:05 index.ts[info]: initializeRoutes() 
+2023-12-30 01:05:05 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:05:12 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:05:12 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:05:12 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:05:12 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:05:19 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:05:20 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:06:16 index.ts[info]: initializeRoutes() 
+2023-12-30 01:06:16 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:06:17 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:06:17 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:06:17 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:06:17 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:06:51 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionAcquireTimeoutError: Operation timeout 
+2023-12-30 01:06:51 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Operation timeout SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:294:48)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-30 01:06:51 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:06:51 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:07:07 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:07:07 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:07:07 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:07:07 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:07:10 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:07:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:07:36 index.ts[info]: initializeRoutes() 
+2023-12-30 01:07:36 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:07:44 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:07:44 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:07:44 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:07:44 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:07:55 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:07:56 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:08:46 index.ts[info]: initializeRoutes() 
+2023-12-30 01:08:46 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:08:49 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:08:49 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:08:49 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:08:49 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:09:26 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionAcquireTimeoutError: Operation timeout 
+2023-12-30 01:09:26 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() Operation timeout SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:294:48)
+    at async D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:972:5)
+2023-12-30 01:09:26 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:09:26 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:09:29 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:09:29 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:09:29 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:09:29 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:09:37 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:09:49 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:11:29 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:11:29 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:11:29 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:11:29 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:11:32 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:11:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:13:54 index.ts[info]: initializeRoutes() 
+2023-12-30 01:13:54 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:14:03 index.ts[info]: initializeRoutes() 
+2023-12-30 01:14:03 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:14:09 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:14:09 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:14:09 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:14:09 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:14:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:15:04 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:15:04 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:15:04 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:15:04 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:15:07 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:15:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:22:52 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:22:52 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:22:52 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:22:52 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:22:55 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:22:56 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:30:54 index.ts[info]: initializeRoutes() 
+2023-12-30 01:30:54 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:31:00 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:31:00 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:31:00 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:31:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:31:07 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:31:08 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: null value in column "auth_id" of relation "IMAGES" violates not-null constraint 
+2023-12-30 01:31:08 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() null value in column "auth_id" of relation "IMAGES" violates not-null constraint Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:31:08 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:31:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:31:56 index.ts[info]: initializeRoutes() 
+2023-12-30 01:31:56 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:32:21 index.ts[info]: initializeRoutes() 
+2023-12-30 01:32:21 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:32:45 index.ts[info]: initializeRoutes() 
+2023-12-30 01:32:45 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:33:51 index.ts[info]: initializeRoutes() 
+2023-12-30 01:33:51 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:33:59 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:33:59 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:33:59 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:33:59 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:34:30 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:34:30 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":auth_id" has no entry in the replacement map. 
+2023-12-30 01:34:30 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() Named replacement ":auth_id" has no entry in the replacement map. Error: Named replacement ":auth_id" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:34:30 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:34:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:34:35 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:34:35 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:34:35 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:34:35 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:34:35 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:34:35 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":auth_id" has no entry in the replacement map. 
+2023-12-30 01:34:35 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() Named replacement ":auth_id" has no entry in the replacement map. Error: Named replacement ":auth_id" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:34:35 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:34:35 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:34:40 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:34:40 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:34:40 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:34:40 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:34:40 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:34:40 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":auth_id" has no entry in the replacement map. 
+2023-12-30 01:34:40 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() Named replacement ":auth_id" has no entry in the replacement map. Error: Named replacement ":auth_id" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:34:40 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:34:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:35:21 index.ts[info]: initializeRoutes() 
+2023-12-30 01:35:21 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:35:25 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:35:25 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:35:25 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:35:25 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:35:50 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:35:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:36:06 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:36:06 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:36:06 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:36:06 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:36:07 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:36:09 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:36:09 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:36:09 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:36:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:36:14 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:36:14 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:36:14 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:36:14 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:36:15 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:36:16 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:36:16 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:36:16 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:36:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:37:37 index.ts[info]: initializeRoutes() 
+2023-12-30 01:37:37 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:37:41 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:37:41 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:37:41 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:37:41 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:37:53 index.ts[error]: ERROR in executeQuery() => SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-cm16am6n7f5s73e4n600-a.oregon-postgres.render.com 
+2023-12-30 01:37:53 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() getaddrinfo ENOTFOUND dpg-cm16am6n7f5s73e4n600-a.oregon-postgres.render.com SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-cm16am6n7f5s73e4n600-a.oregon-postgres.render.com
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:182:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at Socket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-30 01:37:53 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:37:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:38:13 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:38:13 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:38:13 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:38:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:38:39 index.ts[error]: ERROR in executeQuery() => SequelizeConnectionError: read ECONNRESET 
+2023-12-30 01:38:39 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() read ECONNRESET SequelizeConnectionError: read ECONNRESET
+    at Client._connectionCallback (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\projets\projects\Backend\node_modules\pg\lib\client.js:327:19)
+    at Client._handleErrorEvent (D:\projets\projects\Backend\node_modules\pg\lib\client.js:337:19)
+    at Connection.emit (node:events:514:28)
+    at Connection.emit (node:domain:488:12)
+    at TLSSocket.reportStreamError (D:\projets\projects\Backend\node_modules\pg\lib\connection.js:58:12)
+    at TLSSocket.emit (node:events:514:28)
+    at TLSSocket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-12-30 01:38:39 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:38:39 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:38:49 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:38:49 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:38:49 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:38:49 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:38:54 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:38:55 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:38:55 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:38:55 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:38:55 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:39:49 index.ts[info]: initializeRoutes() 
+2023-12-30 01:39:49 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:40:04 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:40:04 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:40:04 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:40:04 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:40:12 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:40:14 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:40:14 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:40:14 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:40:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:42:13 index.ts[info]: initializeRoutes() 
+2023-12-30 01:42:13 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:42:30 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:42:30 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:42:30 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:42:30 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:42:39 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:42:41 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:42:41 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:42:41 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:42:41 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:45:12 index.ts[info]: initializeRoutes() 
+2023-12-30 01:45:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:45:13 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:45:13 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:45:13 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:45:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:45:21 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:45:23 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:45:23 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:45:23 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:45:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:45:35 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:45:35 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:45:35 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:45:35 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:45:38 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:45:40 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:45:40 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:45:40 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:45:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:45:53 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:45:53 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:45:53 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:45:53 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:45:56 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:45:58 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:45:58 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:45:58 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:45:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:46:38 index.ts[info]: initializeRoutes() 
+2023-12-30 01:46:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:46:45 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:46:45 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:46:45 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:46:45 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:46:54 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:46:55 index.ts[error]: ERROR in executeQuery() => SequelizeUniqueConstraintError: Validation error 
+2023-12-30 01:46:55 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewImage() Validation error Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 01:46:55 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 01:46:55 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:47:27 index.ts[info]: initializeRoutes() 
+2023-12-30 01:47:27 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 01:49:28 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:49:28 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:49:28 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:49:28 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:49:37 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 01:49:39 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 01:49:56 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 01:49:56 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 01:49:56 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 01:49:56 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 01:50:00 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 01:50:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:00:22 index.ts[info]: initializeRoutes() 
+2023-12-30 02:00:22 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:00:35 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-30 02:00:35 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-30 02:00:35 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-30 02:00:35 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-30 02:00:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:07:11 index.ts[info]: initializeRoutes() 
+2023-12-30 02:07:11 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:07:17 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-30 02:07:17 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-30 02:07:17 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-30 02:07:17 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-30 02:07:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:08:15 index.ts[info]: initializeRoutes() 
+2023-12-30 02:08:15 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:08:21 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-30 02:08:21 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-30 02:08:21 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-30 02:08:21 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-30 02:08:30 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: subquery must return only one column 
+2023-12-30 02:08:30 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getListOfTheater() subquery must return only one column Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:08:30 index.ts[error]: ERROR occurred in services.admin.theater.getListOfTheater subquery must return only one column Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:08:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:11:31 index.ts[info]: initializeRoutes() 
+2023-12-30 02:11:31 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:11:37 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-30 02:11:37 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-30 02:11:37 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-30 02:11:37 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-30 02:11:45 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:13:06 index.ts[info]: initializeRoutes() 
+2023-12-30 02:13:06 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:13:24 index.ts[info]: initializeRoutes() 
+2023-12-30 02:13:24 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:13:29 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-30 02:13:29 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-30 02:13:29 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-30 02:13:29 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-30 02:13:44 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:13:56 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2023-12-30 02:13:56 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2023-12-30 02:13:56 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2023-12-30 02:13:56 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2023-12-30 02:14:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:15:33 index.ts[info]: initializeRoutes() 
+2023-12-30 02:15:33 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:16:54 index.ts[info]: initializeRoutes() 
+2023-12-30 02:16:54 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:17:20 index.ts[info]: initializeRoutes() 
+2023-12-30 02:17:20 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:17:21 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:17:21 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:17:21 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:17:21 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:17:30 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "FROM" 
+2023-12-30 02:17:30 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() syntax error at or near "FROM" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:17:30 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 02:17:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:18:00 index.ts[info]: initializeRoutes() 
+2023-12-30 02:18:00 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:18:05 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:18:05 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:18:05 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:18:05 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:18:14 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 02:18:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:18:16 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:18:16 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:18:16 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:18:16 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:18:16 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 02:18:17 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:18:22 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:18:22 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:18:22 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:18:22 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:18:23 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 02:18:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:20:38 index.ts[info]: initializeRoutes() 
+2023-12-30 02:20:38 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:20:47 index.ts[info]: initializeRoutes() 
+2023-12-30 02:20:47 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:21:08 index.ts[info]: initializeRoutes() 
+2023-12-30 02:21:08 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:31:13 index.ts[info]: initializeRoutes() 
+2023-12-30 02:31:13 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:31:42 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:31:42 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:31:42 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:31:42 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:31:51 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 02:31:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:33:51 index.ts[info]: initializeRoutes() 
+2023-12-30 02:33:51 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:34:50 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-30 02:34:50 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-30 02:34:50 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 02:34:50 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:35:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:36:15 index.ts[info]: initializeRoutes() 
+2023-12-30 02:36:15 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:36:18 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-30 02:36:18 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-30 02:36:18 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 02:36:18 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:36:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:37:58 index.ts[info]: initializeRoutes() 
+2023-12-30 02:37:58 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:38:20 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-30 02:38:20 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-30 02:38:20 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 02:38:20 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:38:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:40:37 index.ts[info]: initializeRoutes() 
+2023-12-30 02:40:37 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:40:42 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2023-12-30 02:40:42 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2023-12-30 02:40:42 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2023-12-30 02:40:42 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:40:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:43:28 index.ts[info]: initializeRoutes() 
+2023-12-30 02:43:28 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:44:19 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 02:44:19 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-30 02:44:19 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-30 02:44:19 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-30 02:44:29 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: column items.id does not exist 
+2023-12-30 02:44:29 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getListOfAccessaries() column items.id does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:44:29 index.ts[error]: ERROR occurred in services.admin.extraitems.getListOfAccessaries column items.id does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:44:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:45:12 index.ts[info]: initializeRoutes() 
+2023-12-30 02:45:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:45:15 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 02:45:15 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-30 02:45:15 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-30 02:45:15 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-30 02:45:23 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: column items.id does not exist 
+2023-12-30 02:45:23 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getListOfAccessaries() column items.id does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:45:23 index.ts[error]: ERROR occurred in services.admin.extraitems.getListOfAccessaries column items.id does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:45:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:47:29 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 02:47:29 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-30 02:47:29 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-30 02:47:29 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-30 02:47:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:48:32 index.ts[info]: authentication.isAuthenticated() 
+2023-12-30 02:48:32 index.ts[debug]: TOKEN is missing! 
+2023-12-30 02:48:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:48:52 index.ts[info]: START of common.validator.validate() 
+2023-12-30 02:48:53 index.ts[debug]: {"value":{"email":"syedabbas@gmail3.com","password":"9999774637466663"},"error":{"_original":{"email":"syedabbas@gmail3.com","password":"9999774637466663"},"details":[{"message":"\"password\" length must be less than or equal to 15 characters long","path":["password"],"type":"string.max","context":{"limit":15,"value":"9999774637466663","label":"password","key":"password"}}]}} 
+2023-12-30 02:49:02 index.ts[info]: START of common.validator.validate() 
+2023-12-30 02:49:02 index.ts[debug]: {"value":{"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"},"error":{"_original":{"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail3.com","password":"9999774637466663"},"details":[{"message":"\"password\" length must be less than or equal to 15 characters long","path":["password"],"type":"string.max","context":{"limit":15,"value":"9999774637466663","label":"password","key":"password"}}]}} 
+2023-12-30 02:49:14 index.ts[info]: START of common.validator.validate() 
+2023-12-30 02:49:14 index.ts[info]: controller.admin.adminSignUp() 
+2023-12-30 02:49:14 index.ts[debug]: controller.admin.adminSignUp() Object = {"firstName":"syed","lastName":"abbas","email":"syedabbas@gmail344.com","password":"9999774637"} 
+2023-12-30 02:49:14 index.ts[info]: helpers.data_mapping.admin.adminDataMapping() 
+2023-12-30 02:49:14 index.ts[info]: services.auth.adminSignUp() ==>  
+2023-12-30 02:49:14 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-30 02:49:17 index.ts[info]: data_stores_mysql_lib_user.adminSignUp() 
+2023-12-30 02:49:18 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:49:33 index.ts[info]: START of common.validator.validate() 
+2023-12-30 02:49:33 index.ts[info]: controller.admin.adminLogin() 
+2023-12-30 02:49:33 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail344.com","password":"9999774637"} 
+2023-12-30 02:49:33 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2023-12-30 02:49:33 index.ts[info]: services.auth.loginAdmin() ==>  
+2023-12-30 02:49:33 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2023-12-30 02:49:36 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:50:05 index.ts[info]: authentication.isAuthenticated() 
+2023-12-30 02:50:05 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-30 02:50:05 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 02:50:05 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh2","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-30 02:50:05 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-30 02:50:05 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-30 02:50:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:50:50 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:50:50 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:50:50 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:50:50 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:50:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:51:05 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:51:05 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:51:05 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:51:05 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:51:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:51:53 index.ts[info]: initializeRoutes() 
+2023-12-30 02:51:53 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:52:05 index.ts[info]: authentication.isAuthenticated() 
+2023-12-30 02:52:05 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-30 02:52:05 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 02:52:05 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {"itemsName":"hhh2","details":"lllllllldfkdslkfjghsjd","price":7374} 
+2023-12-30 02:52:05 index.ts[info]: services.admin.extraitems.addNewAccessaries() ==>  
+2023-12-30 02:52:05 index.ts[info]: data_stores_mysql_lib_user.addNewAccessaries() 
+2023-12-30 02:52:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:52:14 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:52:14 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:52:14 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:52:14 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:52:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:52:16 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:52:16 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:52:16 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:52:16 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:52:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:52:23 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:52:23 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:52:23 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:52:23 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:52:24 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:56:50 index.ts[info]: initializeRoutes() 
+2023-12-30 02:56:50 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:57:04 index.ts[info]: initializeRoutes() 
+2023-12-30 02:57:04 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:57:09 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:57:09 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:57:09 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:57:09 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:57:19 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: relation "table1" does not exist 
+2023-12-30 02:57:19 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() relation "table1" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:57:19 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 02:57:19 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:58:12 index.ts[info]: initializeRoutes() 
+2023-12-30 02:58:12 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:58:17 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:58:17 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:58:17 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:58:17 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:58:27 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: each UNION query must have the same number of columns 
+2023-12-30 02:58:27 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() each UNION query must have the same number of columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 02:58:27 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2023-12-30 02:58:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:59:09 index.ts[info]: initializeRoutes() 
+2023-12-30 02:59:09 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 02:59:11 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 02:59:11 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 02:59:11 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 02:59:11 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 02:59:20 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2023-12-30 02:59:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 02:59:40 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 02:59:40 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-30 02:59:40 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-30 02:59:40 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-30 02:59:44 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:00:28 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2023-12-30 03:00:28 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2023-12-30 03:00:28 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 03:00:28 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2023-12-30 03:00:31 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-30 03:00:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:00:38 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2023-12-30 03:00:38 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2023-12-30 03:00:38 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2023-12-30 03:00:38 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2023-12-30 03:00:39 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:01:55 index.ts[info]: authentication.isAuthenticated() 
+2023-12-30 03:01:55 index.ts[debug]: TOKEN is missing! 
+2023-12-30 03:01:55 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:02:22 index.ts[info]: authentication.isAuthenticated() 
+2023-12-30 03:02:22 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-30 03:02:22 index.ts[info]: controller-admin-extraItems-Controller.updateAccessaries() 
+2023-12-30 03:02:22 index.ts[debug]: controller-admin-extraItems-Controller.updateAccessaries() Object = {"itemsId":2,"uid":"360b415a-9de3-4243-98ea-a74169660536","itemsName":"hhh288","details":"lllllllldfkdslkfjghsjd","price":"7374","itemType":"CAKE"} 
+2023-12-30 03:02:22 index.ts[info]: services.admin.extraitems.updateAccessaries() ==>  
+2023-12-30 03:02:22 index.ts[info]: data_stores_mysql_lib_user.updateAccessaries() 
+2023-12-30 03:02:25 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:03:43 index.ts[info]: initializeRoutes() 
+2023-12-30 03:03:43 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 03:03:46 index.ts[info]: authentication.isAuthenticated() 
+2023-12-30 03:03:46 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2023-12-30 03:03:46 index.ts[info]: controller-admin-extraItems-Controller.updateAccessaries() 
+2023-12-30 03:03:46 index.ts[debug]: controller-admin-extraItems-Controller.updateAccessaries() Object = {"itemsId":2,"uid":"360b415a-9de3-4243-98ea-a74169660536","itemsName":"hhh288","details":"lllllllldfkdslkfjghsjd","price":"7374","itemType":"CAKE"} 
+2023-12-30 03:03:46 index.ts[info]: services.admin.extraitems.updateAccessaries() ==>  
+2023-12-30 03:03:46 index.ts[info]: data_stores_mysql_lib_user.updateAccessaries() 
+2023-12-30 03:03:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:07:11 index.ts[info]: initializeRoutes() 
+2023-12-30 03:07:11 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 03:08:30 index.ts[info]: controller-admin-imagesController-Controller.deleteImages() 
+2023-12-30 03:08:30 index.ts[debug]: controller-admin-imagesController-Controller.deleteImages() Object = {} 
+2023-12-30 03:08:30 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 03:08:30 index.ts[info]: data_stores_mysql_lib_user.deleteImages() 
+2023-12-30 03:08:38 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "." 
+2023-12-30 03:08:38 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.deleteImages() syntax error at or near "." Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-30 03:08:38 index.ts[error]: ERROR occurred in services.admin.extraitems.deleteImages 
+2023-12-30 03:08:38 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:09:26 index.ts[info]: initializeRoutes() 
+2023-12-30 03:09:26 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-30 03:09:32 index.ts[info]: controller-admin-imagesController-Controller.deleteImages() 
+2023-12-30 03:09:32 index.ts[debug]: controller-admin-imagesController-Controller.deleteImages() Object = {} 
+2023-12-30 03:09:32 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-30 03:09:32 index.ts[info]: data_stores_mysql_lib_user.deleteImages() 
+2023-12-30 03:09:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-30 03:10:33 index.ts[info]: initializeRoutes() 
+2023-12-30 03:10:33 index.ts[info]: SERVER listening on PORT:5000 

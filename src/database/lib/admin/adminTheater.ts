@@ -54,8 +54,16 @@ WHERE
 export async function getListOfTheater() {
     logger.info(`${TAG}.getListOfTheater()`);
     try {
-      let userInsertQuery = `
-      SELECT * FROM public."THEATERS"`;
+      let userInsertQuery = `SELECT *,
+    (SELECT
+                jsonb_build_object(
+                    'image', images.data,
+                    'image_uid', images.image_uid
+                )
+     FROM public."IMAGES" AS images 
+     WHERE images.auth_id = theaters.id AND images.thumbnail='true'
+    ) AS images_json_array
+FROM public."THEATERS" AS theaters;`;
        const res=await executeQuery(userInsertQuery, QueryTypes.SELECT);
        return [...res]
   
@@ -71,18 +79,56 @@ export async function getSingleTheater(uid) {
       const data = {
         uid: crypto.randomUUID(),
       };
-      let userInsertQuery = `
-      SELECT * FROM public."THEATERS" WHERE uid=:uid`;
-      let res= await executeQuery(userInsertQuery, QueryTypes.UPDATE, {
+      let userInsertQuery = `SELECT *,
+      (SELECT jsonb_agg(
+                  jsonb_build_object(
+                      'image', images.data,
+                      'image_uid', images.image_uid
+                  )
+              ) 
+       FROM public."IMAGES" AS images 
+       WHERE images.auth_id = theaters.id
+      ) AS images_json_array
+  FROM public."THEATERS" AS theaters;`;
+      let res= await executeQuery(userInsertQuery, QueryTypes.SELECT, {
       uid:uid
       });
-      return {...res};
+      return [...res];
   
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getSingleTheater()`, error);
       throw error;
     }
   }
+
+  export async function getSingleTheaterAuth(uid) {
+    logger.info(`${TAG}.getSingleTheater()`);
+    try {
+      const data = {
+        uid: crypto.randomUUID(),
+      };
+      let userInsertQuery = `SELECT id
+      FROM public."THEATERS"
+      WHERE uid = :uid
+      
+      UNION
+      
+      -- Check if uid exists in the second table
+      SELECT id
+      FROM public."EXTRA_ACCESSORIES_ITEMS"
+      WHERE uid = :uid;
+      `;
+      let res= await executeQuery(userInsertQuery, QueryTypes.SELECT, {
+      uid:uid
+      });
+      return res;
+  
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.getSingleTheater()`, error);
+      throw error;
+    }
+  }
+
 
 export async function deleteSingleTheater(uid) {
     logger.info(`${TAG}.deleteSingleTheater()`);

@@ -1,0 +1,54 @@
+2023-12-31 01:52:09 index.ts[info]: initializeRoutes() 
+2023-12-31 01:52:09 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-31 01:54:34 index.ts[info]: initializeRoutes() 
+2023-12-31 01:54:34 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-31 01:55:45 index.ts[info]: initializeRoutes() 
+2023-12-31 01:55:45 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-31 02:01:48 index.ts[error]: ERROR occurred in controller .paymnet.paymentPay()  Cannot read properties of undefined (reading 'razorpay_order_id') TypeError: Cannot read properties of undefined (reading 'razorpay_order_id')
+    at D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:40:36
+    at Generator.next (<anonymous>)
+    at D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:4:12)
+    at paymentVerify (D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:52:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+2023-12-31 02:01:48 index.ts[info]: errorHandler() 
+2023-12-31 02:01:48 index.ts[error]: handling ERROR : Cannot read properties of undefined (reading 'razorpay_order_id') TypeError: Cannot read properties of undefined (reading 'razorpay_order_id')
+    at D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:40:36
+    at Generator.next (<anonymous>)
+    at D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:4:12)
+    at paymentVerify (D:\projets\projects\Backend\src\controller\Admin\paymentController.ts:52:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+2023-12-31 02:01:48 index.ts[info]: helper.response_builder.responseBuilder() 

@@ -1,0 +1,20 @@
+2023-12-29 01:42:32 index.ts[info]: initializeRoutes() 
+2023-12-29 01:42:32 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-29 03:58:27 index.ts[info]: initializeRoutes() 
+2023-12-29 03:58:27 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-29 04:08:52 index.ts[info]: initializeRoutes() 
+2023-12-29 04:08:52 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-29 04:09:25 index.ts[info]: initializeRoutes() 
+2023-12-29 04:09:25 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-29 04:09:32 index.ts[info]: initializeRoutes() 
+2023-12-29 04:09:32 index.ts[info]: SERVER listening on PORT:5000 
+2023-12-29 04:10:11 index.ts[info]: controller-admin-extraItems-Controller.addNewImage() 
+2023-12-29 04:10:11 index.ts[debug]: controller-admin-extraItems-Controller.addNewImage() Object = {} 
+2023-12-29 04:10:11 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-29 04:10:11 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-29 04:10:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2023-12-29 04:13:02 index.ts[info]: controller-admin-extraItems-Controller.addNewImage() 
+2023-12-29 04:13:02 index.ts[debug]: controller-admin-extraItems-Controller.addNewImage() Object = {} 
+2023-12-29 04:13:02 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2023-12-29 04:13:02 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2023-12-29 04:13:04 index.ts[info]: helper.response_builder.responseBuilder() 

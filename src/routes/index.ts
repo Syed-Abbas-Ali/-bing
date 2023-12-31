@@ -5,8 +5,6 @@ import { errorHandler } from '../middlewares/error_handler'
 // import swaggerUi from 'swagger-ui-express'
 // import YAML from 'yamljs'
 import v1Routes from './v1/index'
-import multer from "multer"
-import { addNewImage } from 'src/controller/Admin/extraItems'
 
 // import {swaggerSpecification} from '../utils/swigger'
 
@@ -21,8 +19,4 @@ export default function initializeRoutes (app: Application): any {
     res.status(404).send('what???')
   })
   app.use(errorHandler)
-
-  const storage = multer.memoryStorage();
-const upload = multer({ storage: storage });
-app.post("/upload",upload.single('image'),addNewImage)
 }

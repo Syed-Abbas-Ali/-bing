@@ -59,6 +59,21 @@
             "date": 1703773536968,
             "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-28.log",
             "hash": "de52d7968286ceb540f7533b7a8a11af3c3b7a57b916b517072a8bfbe6778b5a"
+        },
+        {
+            "date": 1703842948686,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-29.log",
+            "hash": "ea6160b9c9244524353687f25ca42bc240a9a96e4bfec5dbeedfb59911fdca17"
+        },
+        {
+            "date": 1703925539242,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-30.log",
+            "hash": "299be0dfe359368005764291a3a83740fa402df9108d14508a838db48b587fde"
+        },
+        {
+            "date": 1704016327024,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-31.log",
+            "hash": "d7dfc5c67ecd82119653abeb8fd371c5cedbbbabbd9ffe4d381a15482c1beb2a"
         }
     ],
     "hashType": "sha256"

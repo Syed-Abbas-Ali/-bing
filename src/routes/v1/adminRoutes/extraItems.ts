@@ -13,7 +13,7 @@ const router = Router()
      .get(extraItems.getListOfAccessaries);
  router.route('/:item_uid')
      .delete(isAuthenticated,extraItems.deleteSingleAccessaries);
- router.route('/update')
-     .put(isAuthenticated,extraItems.updateAccessaries);
+ router.route('/:item_uid')
+     .patch(isAuthenticated,extraItems.updateAccessaries);
 
 export default router
