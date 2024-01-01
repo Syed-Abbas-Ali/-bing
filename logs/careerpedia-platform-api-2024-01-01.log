@@ -1,0 +1,76 @@
+2024-01-01 01:16:46 index.ts[info]: initializeRoutes() 
+2024-01-01 01:16:46 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:17:35 index.ts[info]: initializeRoutes() 
+2024-01-01 01:17:35 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:18:25 index.ts[info]: initializeRoutes() 
+2024-01-01 01:18:25 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:18:42 index.ts[info]: initializeRoutes() 
+2024-01-01 01:18:42 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:19:17 index.ts[info]: initializeRoutes() 
+2024-01-01 01:19:17 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:19:58 index.ts[info]: initializeRoutes() 
+2024-01-01 01:19:58 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:20:10 index.ts[info]: initializeRoutes() 
+2024-01-01 01:20:10 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:20:39 index.ts[info]: initializeRoutes() 
+2024-01-01 01:20:39 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:22:31 index.ts[info]: initializeRoutes() 
+2024-01-01 01:22:31 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:22:38 index.ts[info]: initializeRoutes() 
+2024-01-01 01:22:38 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:23:04 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-01 01:23:04 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-01 01:23:04 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-01 01:23:04 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-01 01:23:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-01 01:24:16 index.ts[info]: controller-admin-extraItems-Controller.getSingleItem() 
+2024-01-01 01:24:16 index.ts[debug]: controller-admin-extraItems-Controller.getSingleItem() Object = {} 
+2024-01-01 01:24:16 index.ts[info]: services.admin.extraitems.getSingleItem() ==>  
+2024-01-01 01:24:16 index.ts[info]: data_stores_mysql_lib_user.getSingleItem() 
+2024-01-01 01:24:16 index.ts[error]: ERROR in executeQuery() => Error: Invalid value { type: 'CAKE', uid: '97ebf5db-4592-4d15-a52a-77f16f39960b' } 
+2024-01-01 01:24:16 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleItem() Invalid value { type: 'CAKE', uid: '97ebf5db-4592-4d15-a52a-77f16f39960b' } Error: Invalid value { type: 'CAKE', uid: '97ebf5db-4592-4d15-a52a-77f16f39960b' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-01 01:24:16 index.ts[error]: ERROR occurred in services.admin.extraitems.getSingleItem Invalid value { type: 'CAKE', uid: '97ebf5db-4592-4d15-a52a-77f16f39960b' } Error: Invalid value { type: 'CAKE', uid: '97ebf5db-4592-4d15-a52a-77f16f39960b' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-01 01:24:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-01 01:25:32 index.ts[info]: initializeRoutes() 
+2024-01-01 01:25:32 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:25:36 index.ts[info]: controller-admin-extraItems-Controller.getSingleItem() 
+2024-01-01 01:25:36 index.ts[debug]: controller-admin-extraItems-Controller.getSingleItem() Object = {} 
+2024-01-01 01:25:36 index.ts[info]: services.admin.extraitems.getSingleItem() ==>  
+2024-01-01 01:25:36 index.ts[info]: data_stores_mysql_lib_user.getSingleItem() 
+2024-01-01 01:25:43 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":uid" has no entry in the replacement map. 
+2024-01-01 01:25:43 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleItem() Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-01 01:25:43 index.ts[error]: ERROR occurred in services.admin.extraitems.getSingleItem Named replacement ":uid" has no entry in the replacement map. Error: Named replacement ":uid" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-01 01:25:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-01 01:27:59 index.ts[info]: initializeRoutes() 
+2024-01-01 01:27:59 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-01 01:29:59 index.ts[info]: controller-admin-extraItems-Controller.getSingleItem() 
+2024-01-01 01:29:59 index.ts[debug]: controller-admin-extraItems-Controller.getSingleItem() Object = {} 
+2024-01-01 01:29:59 index.ts[info]: services.admin.extraitems.getSingleItem() ==>  
+2024-01-01 01:29:59 index.ts[info]: data_stores_mysql_lib_user.getSingleItem() 
+2024-01-01 01:30:05 index.ts[info]: helper.response_builder.responseBuilder() 

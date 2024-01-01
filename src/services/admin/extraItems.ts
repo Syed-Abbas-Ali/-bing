@@ -43,6 +43,24 @@ export async function getListOfAccessaries(type){
     return serviceResponse;
   }
 
+//   getListOfAccessaries
+export async function getSingleItem(type){
+    logger.info(`${TAG}.getSingleItem() ==> `);
+    const serviceResponse = new ServiceResponse(
+      HttpStatusCodes.CREATED,
+      "",
+      false
+    );
+    try {
+      const res = await extraItemsDB.getSingleItem({...type});  
+      serviceResponse.data = [...res];
+  } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.getSingleItem`, error);
+      serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
+    }
+    return serviceResponse;
+  }
+
 //   deleteSingleAccessaries
 export async function deleteSingleAccessaries(item_uid){
     logger.info(`${TAG}.deleteSingleAccessaries() ==> `);

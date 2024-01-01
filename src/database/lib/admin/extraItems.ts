@@ -51,12 +51,6 @@ export async function updateAccessaries(user) {
 export async function getListOfAccessaries(type) {
     logger.info(`${TAG}.getListOfAccessaries()`);
     try {
-      // let userInsertQuery = `
-      // SELECT *
-      // FROM public."EXTRA_ACCESSORIES_ITEMS"
-      // WHERE ITEM_TYPE = :type;
-      // `;
-
       let userInsertQuery = `SELECT *,
       (SELECT
                   jsonb_build_object(
@@ -72,6 +66,28 @@ export async function getListOfAccessaries(type) {
   
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getListOfAccessaries()`, error);
+      throw error;
+    }
+  }
+
+export async function getSingleItem(data) {
+    logger.info(`${TAG}.getSingleItem()`);
+    try {
+      let userInsertQuery = `SELECT *,
+      (SELECT
+                  jsonb_build_object(
+                      'image', images.data,
+                      'image_uid', images.image_uid
+                  )
+       FROM public."IMAGES" AS images 
+       WHERE images.auth_id = items.id AND images.thumbnail='true'
+      ) AS images_json_array
+  FROM public."EXTRA_ACCESSORIES_ITEMS" AS items WHERE items.ITEM_TYPE = :type AND items.uid=:uid;`;
+       const res=await executeQuery(userInsertQuery, QueryTypes.SELECT,{...data});
+       return [...res]
+  
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.getSingleItem()`, error);
       throw error;
     }
   }

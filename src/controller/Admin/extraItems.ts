@@ -32,6 +32,19 @@ export async function getListOfAccessaries (req: any, res: Response, next: NextF
     }
   }
 
+export async function getSingleItem (req: any, res: Response, next: NextFunction): Promise<void> {
+    try {
+        const {type,uid}=req.params
+      log.info(`${TAG}.getSingleItem()`);
+      log.debug(`${TAG}.getSingleItem() Object = ${JSON.stringify(req.body)}`)
+      const authResponse: IServiceResponse = await extraItemsServices.getSingleItem({type,uid})
+      responseBuilder(authResponse, res, next, req)
+    } catch (error) {
+      log.error(`ERROR occurred in ${TAG}.getSingleItem() `, error)
+      next(error)
+    }
+  }
+
 export async function deleteSingleAccessaries (req: any, res: Response, next: NextFunction): Promise<void> {
     try {
         const {item_uid}=req.params

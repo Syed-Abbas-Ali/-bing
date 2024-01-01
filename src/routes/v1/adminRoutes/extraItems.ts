@@ -9,10 +9,16 @@ const router = Router()
 
  router.route('/:type')
      .post(isAuthenticated,extraItems.addNewAccessaries);
+     
  router.route('/:type')
      .get(extraItems.getListOfAccessaries);
+
+ router.route('/:type/:uid')
+     .get(extraItems.getSingleItem);
+
  router.route('/:item_uid')
      .delete(isAuthenticated,extraItems.deleteSingleAccessaries);
+
  router.route('/:item_uid')
      .patch(isAuthenticated,extraItems.updateAccessaries);
 
