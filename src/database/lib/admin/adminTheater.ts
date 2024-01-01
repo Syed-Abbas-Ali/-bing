@@ -54,16 +54,18 @@ WHERE
 export async function getListOfTheater() {
     logger.info(`${TAG}.getListOfTheater()`);
     try {
-      let userInsertQuery = `SELECT *,
-    (SELECT
-                jsonb_build_object(
-                    'image', images.data,
-                    'image_uid', images.image_uid
-                )
-     FROM public."IMAGES" AS images 
-     WHERE images.auth_id = theaters.id AND images.thumbnail='true'
-    ) AS images_json_array
-FROM public."THEATERS" AS theaters;`;
+      let userInsertQuery = `SELECT theaters.*,
+      (
+          SELECT jsonb_agg(
+              jsonb_build_object(
+                  'image', images.data,
+                  'image_uid', images.image_uid
+              )
+          )
+          FROM public."IMAGES" AS images
+          WHERE images.auth_id = theaters.id AND images.thumbnail = 'true'
+      ) AS images_json_array
+  FROM public."THEATERS" AS theaters;`;
        const res=await executeQuery(userInsertQuery, QueryTypes.SELECT);
        return [...res]
   

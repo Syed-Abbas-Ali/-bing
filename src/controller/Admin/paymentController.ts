@@ -2,15 +2,14 @@ import { NextFunction, Response } from 'express'
 import log from '../../logger'
 import Razorpay from 'razorpay'
 import crypto from 'crypto'
-const TAG = 'controller .paymnet'
+const TAG = 'controller.paymnet'
 
 const KEY_ID = 'rzp_test_HIgqE35QoaWO4Y'
 const KEY_SECRET = 'ZDnlMUsws7C38oFTtuczCwJs'
 
 export async function paymentPay (req: any, res: Response, next: NextFunction): Promise<void> {
     try {
-        console.log("object")
-        var instance = new Razorpay({ key_id: KEY_ID, key_secret: KEY_SECRET })
+       var instance = new Razorpay({ key_id: KEY_ID, key_secret: KEY_SECRET })
 
         instance.orders.create({
           amount: req.body.amount*100,
@@ -22,12 +21,10 @@ export async function paymentPay (req: any, res: Response, next: NextFunction): 
           }
         },(err,order)=>{
             if(err){
-                // console.log(object)
                 return res.send({code:500,message:'server err',err})
             }
             return res.send({code:200,message:'order created',data:order})
         })
-    // res.send({status:500 })
     } catch (error) {
       log.error(`ERROR occurred in ${TAG}.paymentPay() `, error)
       next(error)
