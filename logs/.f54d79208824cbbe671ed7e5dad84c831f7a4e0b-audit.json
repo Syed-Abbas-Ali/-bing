@@ -69,6 +69,11 @@
             "date": 1704100604886,
             "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2024-01-01.log",
             "hash": "955eb503a70cccf8ce163e9db7abbf4c3d5e7cab77d8004f037931bcfec7cfd1"
+        },
+        {
+            "date": 1704209324781,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2024-01-02.log",
+            "hash": "786d1cfc413d537b796724ece5b8a82abc5b510abe6436546dbbb9d93565ac24"
         }
     ],
     "hashType": "sha256"
