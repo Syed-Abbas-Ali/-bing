@@ -11,6 +11,6 @@ const router = Router()
      .get(isAuthenticated,contact.getListMessage)
 
  router.route('/:uid')
-     .get(contact.getSingleMessage)
+     .get(isAuthenticated,contact.getSingleMessage)
 
      export default router

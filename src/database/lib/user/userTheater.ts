@@ -8,7 +8,7 @@ export async function bookingSlots(data) {
     try {
       let userInsertQuery = `
       INSERT INTO public."BOOKING_SLOTS" (theater_id, start_time, end_time, booked_date, is_booked)
-VALUES (:theaterId, :startTime, :endTime, :bookedDate);`;
+VALUES (:theaterId, :startTime, :endTime, :bookedDate, :is_booked);`;
       await executeQuery(userInsertQuery, QueryTypes.INSERT, {
         ...data,
       });
@@ -19,3 +19,33 @@ VALUES (:theaterId, :startTime, :endTime, :bookedDate);`;
       throw error;
     }
   }
+
+  
+export async function getListBookedSlots() {
+  logger.info(`${TAG}.getListBookedSlots()`);
+  try {
+    let Query = `
+    SELECT * FROM public."BOOKING_SLOTS"`;
+    const res=await executeQuery(Query, QueryTypes.SELECT);
+    return [...res];
+
+  } catch (error) {
+    logger.error(`ERROR occurred in ${TAG}.getListBookedSlots()`, error);
+    throw error;
+  }
+}
+
+  
+export async function getSingleBookedSlots(bookedDate) {
+  logger.info(`${TAG}.getSingleBookedSlots()`);
+  try {
+    let Query = `
+    SELECT * FROM public."BOOKING_SLOTS" WHERE booked_date=:bookedDate `;
+    const res=await executeQuery(Query, QueryTypes.SELECT,{bookedDate:bookedDate});
+    return [...res];
+
+  } catch (error) {
+    logger.error(`ERROR occurred in ${TAG}.getSingleBookedSlots()`, error);
+    throw error;
+  }
+}
