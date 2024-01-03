@@ -13,4 +13,7 @@ const router = Router()
  router.route('/:uid')
      .get(isAuthenticated,contact.getSingleMessage)
 
-     export default router
+ router.route('/:uid')
+     .delete(contact.deleteSingleMessage)
+
+export default router

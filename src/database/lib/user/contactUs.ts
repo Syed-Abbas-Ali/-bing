@@ -46,3 +46,19 @@ export async function getSingleMessage(uid) {
       throw error;
     }
   }
+
+
+
+  export async function deleteSingleMessage(uid) {
+    logger.info(`${TAG}.deleteSingleMessage()`);
+    try {
+      let Query = `
+     DELETE FROM public."CONTACT_US" WHERE contact_id=:uid`;
+      const res=await executeQuery(Query, QueryTypes.DELETE,{uid:uid});
+      return [...res];
+  
+    } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.deleteSingleMessage()`, error);
+      throw error;
+    }
+  }

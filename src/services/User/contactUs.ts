@@ -59,3 +59,21 @@ export async function getSingleMessage(uid){
   }
   return serviceResponse;
 }
+
+export async function deleteSingleMessage(uid){
+  logger.info(`${TAG}.deleteSingleMessage() ==> `);
+  const serviceResponse = new ServiceResponse(
+    HttpStatusCodes.CREATED,
+    "",
+    false
+  );
+  try {
+    const res = await contact.deleteSingleMessage(uid);
+    serviceResponse.message="message !"
+    serviceResponse.data = [...res];
+} catch (error) {
+    logger.error(`ERROR occurred in ${TAG}.deleteSingleMessage`, error);
+    serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
+  }
+  return serviceResponse;
+}

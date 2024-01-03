@@ -42,3 +42,16 @@ export async function getListBookedSlots(req: any, res: Response, next: NextFunc
       next(error)
     }
   }
+
+  export async function deleteSingleBookedSlots (req: any, res: Response, next: NextFunction): Promise<void> {
+    try {
+        const {bookedDate}=req.params
+      log.info(`${TAG}.getSingleBookedSlots()`);
+      log.debug(`${TAG}.getSingleBookedSlots() Object = ${JSON.stringify(req.body)}`)
+      const authResponse: IServiceResponse = await theater.deleteSingleBookedSlots(bookedDate)
+      responseBuilder(authResponse, res, next, req)
+    } catch (error) {
+      log.error(`ERROR occurred in ${TAG}.getSingleMessage() `, error)
+      next(error)
+    }
+  }

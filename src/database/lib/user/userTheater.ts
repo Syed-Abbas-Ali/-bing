@@ -49,3 +49,18 @@ export async function getSingleBookedSlots(bookedDate) {
     throw error;
   }
 }
+
+  
+export async function deleteSingleBookedSlots(bookedDate) {
+  logger.info(`${TAG}.deleteSingleBookedSlots()`);
+  try {
+    let Query = `
+    DELETE FROM public."BOOKING_SLOTS" WHERE booked_date=:bookedDate `;
+    const res=await executeQuery(Query, QueryTypes.DELETE,{bookedDate:bookedDate});
+    return [...res];
+
+  } catch (error) {
+    logger.error(`ERROR occurred in ${TAG}.deleteSingleBookedSlots()`, error);
+    throw error;
+  }
+}

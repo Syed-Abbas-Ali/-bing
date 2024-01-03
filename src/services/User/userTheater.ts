@@ -61,3 +61,22 @@ export async function getSingleBookedSlots(bookedDate){
     }
     return serviceResponse;
   }
+
+  
+export async function deleteSingleBookedSlots(bookedDate){
+    logger.info(`${TAG}.deleteSingleBookedSlots() ==> `);
+    const serviceResponse = new ServiceResponse(
+      HttpStatusCodes.CREATED,
+      "",
+      false
+    );
+    try {
+      const res = await theater.deleteSingleBookedSlots(bookedDate);
+      serviceResponse.message="message !"
+      serviceResponse.data = [...res];
+  } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.deleteSingleBookedSlots`, error);
+      serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
+    }
+    return serviceResponse;
+  }

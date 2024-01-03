@@ -12,4 +12,7 @@ const router = Router()
  router.route('/:bookedDate')
      .get(userTheater.getSingleBookedSlots)
 
+ router.route('/:bookedDate')
+     .delete(userTheater.deleteSingleBookedSlots)
+
      export default router

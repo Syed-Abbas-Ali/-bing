@@ -42,3 +42,16 @@ export async function getSingleMessage (req: any, res: Response, next: NextFunct
       next(error)
     }
   }
+
+export async function deleteSingleMessage (req: any, res: Response, next: NextFunction): Promise<void> {
+    try {
+        const {uid}=req.params
+      log.info(`${TAG}.deleteSingleMessage()`);
+      log.debug(`${TAG}.deleteSingleMessage() Object = ${JSON.stringify(req.body)}`)
+      const authResponse: IServiceResponse = await contact.deleteSingleMessage(uid)
+      responseBuilder(authResponse, res, next, req)
+    } catch (error) {
+      log.error(`ERROR occurred in ${TAG}.deleteSingleMessage() `, error)
+      next(error)
+    }
+  }
