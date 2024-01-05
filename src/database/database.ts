@@ -13,7 +13,7 @@ export const sqlConnection = async () => {
       dialectOptions: {
                 ssl: {
                   require: true,
-                  rejectUnauthorized: true, // Change this if your PostgreSQL server requires SSL
+                  rejectUnauthorized: false, // Change this if your PostgreSQL server requires SSL
                 },
               },
       pool: {
