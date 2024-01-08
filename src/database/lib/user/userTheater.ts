@@ -5,12 +5,17 @@ import logger from "src/logger";
 const TAG = 'data_stores_mysql_lib_user_Theater'
 export async function bookingSlots(data) {
     logger.info(`${TAG}.bookingSlots()`);
+    let items={
+      cake:data && data.cake?data.cake.id:"null",
+      decoration:data && data.decoration?data.decoration.id:"null",
+      addOns:data && data.addOns?data.addOns.id:"null"
+    }
     try {
       let userInsertQuery = `
-      INSERT INTO public."BOOKING_SLOTS" (theater_id, start_time, end_time, booked_date, is_booked)
-VALUES (:theaterId, :startTime, :endTime, :bookedDate, :is_booked);`;
+      INSERT INTO public."BOOKING_SLOTS" (theater_id, start_time, end_time, booked_date, theater_name, no_of_persons, total_price, cake, add_on, event_decoration)
+VALUES (:theaterId, :startTime, :endTime, :bookedDate, :theaterName, :noOfPersons, :price, :cake, :addOns, :decoration);`;
       await executeQuery(userInsertQuery, QueryTypes.INSERT, {
-        ...data,
+        ...data,...items
       });
       return {...data};
   

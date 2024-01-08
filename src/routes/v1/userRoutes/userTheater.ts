@@ -3,7 +3,7 @@ import * as userTheater from "src/controller/User/userTheater"
 
 const router = Router()
 
- router.route('/book-slots')
+ router.route('/book-slots/:theaterUid')
      .post(userTheater.bookingSlots)
 
  router.route('/list')

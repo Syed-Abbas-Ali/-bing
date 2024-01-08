@@ -10,7 +10,8 @@ export async function bookingSlots (req: any, res: Response, next: NextFunction)
     try {
       log.info(`${TAG}.bookingSlots()`);
       log.debug(`${TAG}.bookingSlots() Object = ${JSON.stringify(req.body)}`)
-      const authResponse: IServiceResponse = await theater.bookingSlots({...req.body})
+      const {theaterUid}=req.params
+      const authResponse: IServiceResponse = await theater.bookingSlots({...req.body,theaterUid})
       responseBuilder(authResponse, res, next, req)
     } catch (error) {
       log.error(`ERROR occurred in ${TAG}.bookingSlots() `, error)

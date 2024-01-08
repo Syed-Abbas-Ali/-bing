@@ -3,6 +3,7 @@ import logger from "src/logger";
 import { ServiceResponse } from "src/models";
 import * as theater from "src/database/lib/user/userTheater"
 import { sendMail } from "src/utils/emaiMessage";
+import { getSingleTheaterAuth } from "src/database/lib/admin/adminTheater";
 
 const TAG = "services.admin.theater";
 
@@ -13,53 +14,58 @@ export async function bookingSlots(data){
     "",
     false
   );
-  let mailOptions = {
-    from: 'syedabbas83778@gmail.com',
-    to: data.email,
-    subject: 'Sending Email using Node.js',
-    html:`<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Slot Booking</title>
-        <!-- Add Bootstrap CSS link -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <style>
-            /* Add custom styles here */
-            body {
-                font-family: Arial, sans-serif;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row mt-4">
-                <div class="col-md-6 offset-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="card-title">Slot Booking</h2>
-                            <!-- Confirmation message -->
-                            <div id="confirmationMessage" class="text-success">
-                                Booking successful!<br>
-                                Name: John Doe<br>
-                                Price: $20<br>
-                                Theater: ABC Theater
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-    </html>
-    `
-  };
+  // let mailOptions = {
+  //   from: 'syedabbas83778@gmail.com',
+  //   to: data.email,
+  //   subject: 'Sending Email using Node.js',
+  //   html:`<!DOCTYPE html>
+  //   <html lang="en">
+  //   <head>
+  //       <meta charset="UTF-8">
+  //       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  //       <title>Slot Booking</title>
+  //       <!-- Add Bootstrap CSS link -->
+  //       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  //       <style>
+  //           /* Add custom styles here */
+  //           body {
+  //               font-family: Arial, sans-serif;
+  //           }
+  //       </style>
+  //   </head>
+  //   <body>
+  //       <div class="container">
+  //           <div class="row mt-4">
+  //               <div class="col-md-6 offset-md-3">
+  //                   <div class="card">
+  //                       <div class="card-body">
+  //                           <h2 class="card-title">Slot Booking</h2>
+  //                           <!-- Confirmation message -->
+  //                           <div id="confirmationMessage" class="text-success">
+  //                               Booking successful!<br>
+  //                               Name: John Doe<br>
+  //                               Price: $20<br>
+  //                               Theater: ABC Theater
+  //                           </div>
+  //                       </div>
+  //                   </div>
+  //               </div>
+  //           </div>
+  //       </div>
+  //   </body>
+  //   </html>
+  //   `
+  // };
   try {
-    await sendMail(mailOptions)
-    const res = await theater.bookingSlots(data);
-    serviceResponse.message="slot books !"
-    serviceResponse.data = {...data};
+    // await sendMail(mailOptions)
+    let theaterData:any=await getSingleTheaterAuth(data.theaterUid)
+     
+    if(theaterData){
+      const res = await theater.bookingSlots({...data,theaterId:theaterData[0].id});
+      serviceResponse.message="slot books !"
+      serviceResponse.data = {...data};
+    }
+
 } catch (error) {
     logger.error(`ERROR occurred in ${TAG}.bookingSlots`, error);
     serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
