@@ -211,3 +211,18 @@
 2024-01-08 00:33:08 index.ts[info]: helper.response_builder.responseBuilder() 
 2024-01-08 00:34:12 index.ts[info]: initializeRoutes() 
 2024-01-08 00:34:12 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 00:36:36 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 00:36:36 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 00:36:36 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 00:36:36 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 00:36:41 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 00:39:14 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 00:39:14 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 00:39:14 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 00:39:14 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 00:39:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 00:41:11 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 00:41:11 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 00:41:11 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 00:41:11 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 00:41:13 index.ts[info]: helper.response_builder.responseBuilder() 
