@@ -477,3 +477,352 @@
 2024-01-08 21:12:21 index.ts[info]: helper.response_builder.responseBuilder() 
 2024-01-08 21:12:38 index.ts[info]: initializeRoutes() 
 2024-01-08 21:12:38 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:16:54 index.ts[info]: initializeRoutes() 
+2024-01-08 21:16:54 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:18:08 index.ts[info]: initializeRoutes() 
+2024-01-08 21:18:08 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:18:19 index.ts[info]: initializeRoutes() 
+2024-01-08 21:18:19 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:24:11 index.ts[info]: initializeRoutes() 
+2024-01-08 21:24:11 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:24:34 index.ts[info]: initializeRoutes() 
+2024-01-08 21:24:34 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:25:45 index.ts[info]: controller-admin-theaterController.getListOfTheater() 
+2024-01-08 21:25:45 index.ts[debug]: controller-admin-theaterController.getListOfTheater() Object = {} 
+2024-01-08 21:25:45 index.ts[info]: services.admin.theater.getListOfTheater() ==>  
+2024-01-08 21:25:45 index.ts[info]: data_stores_mysql_lib_user.getListOfTheater() 
+2024-01-08 21:25:45 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 21:25:45 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 21:25:45 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 21:25:45 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 21:25:51 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:25:51 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:25:58 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 21:25:58 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 21:25:58 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 21:25:58 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 21:25:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:26:07 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 21:26:07 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 21:26:07 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 21:26:07 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 21:26:07 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:26:26 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:26:26 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:26:26 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:26:26 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:26:28 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:26:29 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "IF" 
+2024-01-08 21:26:29 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "IF" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:26:29 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:26:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:27:33 index.ts[info]: initializeRoutes() 
+2024-01-08 21:27:33 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:27:43 index.ts[info]: initializeRoutes() 
+2024-01-08 21:27:43 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:28:01 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:28:01 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:28:01 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:28:01 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:28:05 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:28:05 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "IF" 
+2024-01-08 21:28:05 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "IF" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:28:05 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:28:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:33:51 index.ts[info]: initializeRoutes() 
+2024-01-08 21:33:51 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:34:02 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 21:34:02 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 21:34:02 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 21:34:02 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 21:34:07 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:34:19 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:34:19 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:34:19 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:34:19 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:34:21 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:34:22 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "IF" 
+2024-01-08 21:34:22 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "IF" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:34:22 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:34:22 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:34:56 index.ts[info]: initializeRoutes() 
+2024-01-08 21:34:56 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:35:05 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 21:35:05 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 21:35:05 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 21:35:05 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 21:35:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:35:16 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:35:16 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:35:16 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:35:16 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:35:17 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:35:17 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near ":" 
+2024-01-08 21:35:17 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near ":" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:35:17 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:35:17 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:37:14 index.ts[info]: initializeRoutes() 
+2024-01-08 21:37:14 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:37:51 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:37:51 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:37:51 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:37:51 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:37:55 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:37:55 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "IF" 
+2024-01-08 21:37:55 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "IF" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:37:55 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:37:55 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:39:14 index.ts[info]: initializeRoutes() 
+2024-01-08 21:39:14 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:39:22 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:39:22 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:39:22 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:39:22 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:39:26 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:39:27 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "DECLARE" 
+2024-01-08 21:39:27 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "DECLARE" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:39:27 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:39:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:40:55 index.ts[info]: initializeRoutes() 
+2024-01-08 21:40:55 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:46:15 index.ts[info]: initializeRoutes() 
+2024-01-08 21:46:15 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:46:28 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:46:28 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:46:28 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:46:28 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:46:32 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:46:33 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "DUPLICATE" 
+2024-01-08 21:46:33 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "DUPLICATE" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:46:33 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:46:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:47:27 index.ts[info]: initializeRoutes() 
+2024-01-08 21:47:27 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:47:41 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:47:41 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:47:41 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:47:41 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:47:46 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:47:46 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: character varying = boolean 
+2024-01-08 21:47:46 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() operator does not exist: character varying = boolean Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:47:46 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:47:46 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:48:32 index.ts[info]: initializeRoutes() 
+2024-01-08 21:48:32 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:49:44 index.ts[info]: initializeRoutes() 
+2024-01-08 21:49:44 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:51:08 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:51:08 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:51:08 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:51:08 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:51:12 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:51:13 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: character varying = boolean 
+2024-01-08 21:51:13 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() operator does not exist: character varying = boolean Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:51:13 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:51:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:55:29 index.ts[info]: initializeRoutes() 
+2024-01-08 21:55:29 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:55:43 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 21:55:43 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 21:55:43 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 21:55:43 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 21:55:47 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:55:53 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:55:53 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:55:53 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:55:53 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:55:53 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:55:53 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: character varying = boolean 
+2024-01-08 21:55:53 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() operator does not exist: character varying = boolean Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:55:53 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:55:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:57:00 index.ts[info]: initializeRoutes() 
+2024-01-08 21:57:00 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 21:57:09 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:57:09 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:57:09 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:57:09 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:57:16 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:57:16 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: there is no unique or exclusion constraint matching the ON CONFLICT specification 
+2024-01-08 21:57:16 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() there is no unique or exclusion constraint matching the ON CONFLICT specification Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:57:16 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:57:16 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 21:58:05 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 21:58:05 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 21:58:05 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 21:58:05 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 21:58:07 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 21:58:08 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: there is no unique or exclusion constraint matching the ON CONFLICT specification 
+2024-01-08 21:58:08 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() there is no unique or exclusion constraint matching the ON CONFLICT specification Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 21:58:08 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 21:58:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:02:01 index.ts[info]: initializeRoutes() 
+2024-01-08 22:02:01 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:03:11 index.ts[info]: initializeRoutes() 
+2024-01-08 22:03:11 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:03:42 index.ts[info]: initializeRoutes() 
+2024-01-08 22:03:42 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:03:59 index.ts[info]: initializeRoutes() 
+2024-01-08 22:03:59 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:04:29 index.ts[info]: initializeRoutes() 
+2024-01-08 22:04:29 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:04:43 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:04:43 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:04:43 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:04:43 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:04:48 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:04:48 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: character varying = boolean 
+2024-01-08 22:04:48 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() operator does not exist: character varying = boolean Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 22:04:48 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 22:04:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:05:30 index.ts[info]: initializeRoutes() 
+2024-01-08 22:05:30 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:08:57 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:08:57 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {"image":"undefined"} 
+2024-01-08 22:08:57 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:08:57 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:08:59 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:08:59 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:08:59 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:08:59 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:09:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:09:02 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:09:03 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "::" 
+2024-01-08 22:09:03 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "::" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 22:09:03 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 22:09:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:09:08 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:09:08 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:09:08 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:09:08 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:09:08 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:09:09 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "::" 
+2024-01-08 22:09:09 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() syntax error at or near "::" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 22:09:09 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 22:09:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:09:27 index.ts[info]: initializeRoutes() 
+2024-01-08 22:09:27 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:09:33 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:09:33 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:09:33 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:09:33 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:09:38 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:09:38 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: character varying = boolean 
+2024-01-08 22:09:38 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.addNewThambnail() operator does not exist: character varying = boolean Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 22:09:38 index.ts[error]: ERROR occurred in services.admin.extraitems.addNewImage 
+2024-01-08 22:09:38 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:10:12 index.ts[info]: initializeRoutes() 
+2024-01-08 22:10:12 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:10:15 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:10:15 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:10:15 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:10:15 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:10:21 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:10:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:11:27 index.ts[info]: initializeRoutes() 
+2024-01-08 22:11:27 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:11:33 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:11:33 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:11:33 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:11:33 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:11:37 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:11:37 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:12:52 index.ts[info]: initializeRoutes() 
+2024-01-08 22:12:52 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:13:03 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:13:03 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:13:03 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:13:03 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:13:08 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:13:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:13:52 index.ts[info]: initializeRoutes() 
+2024-01-08 22:13:52 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:16:16 index.ts[info]: initializeRoutes() 
+2024-01-08 22:16:16 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:16:38 index.ts[info]: initializeRoutes() 
+2024-01-08 22:16:38 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 22:16:47 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:16:47 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:16:47 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:16:47 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:16:51 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:16:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:18:30 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:18:30 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:18:30 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:18:30 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:18:32 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:18:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:19:10 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:19:10 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:19:10 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:19:10 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:19:12 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:19:29 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-08 22:19:29 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-08 22:19:29 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-08 22:19:29 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:19:29 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:19:29 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:19:29 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:19:29 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:19:30 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:19:30 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:19:30 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:19:30 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:19:30 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:19:30 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:19:30 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:19:30 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:19:31 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:19:31 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:19:31 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:19:33 index.ts[info]: helper.response_builder.responseBuilder() 

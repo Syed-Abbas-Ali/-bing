@@ -52,15 +52,15 @@ export async function getListOfAccessaries(type) {
     logger.info(`${TAG}.getListOfAccessaries()`);
     try {
       let userInsertQuery = `SELECT *,
-      (SELECT jsonb_agg(
+      (SELECT
                   jsonb_build_object(
                       'image', images.data,
                       'image_uid', images.image_uid
-                  ))
+                  )
        FROM public."IMAGES" AS images 
        WHERE images.auth_id = items.id AND images.thumbnail='true'
       ) AS images_json_array
-  FROM public."EXTRA_ACCESSORIES_ITEMS" AS items WHERE items.ITEM_TYPE = :type;;`;
+  FROM public."EXTRA_ACCESSORIES_ITEMS" AS items WHERE items.ITEM_TYPE = :type ;`;
        const res=await executeQuery(userInsertQuery, QueryTypes.SELECT,{type:type});
        return [...res]
   
@@ -131,8 +131,25 @@ export async function deleteSingleAccessaries(item_uid) {
       uid: crypto.randomUUID(),
     };
     try {
+      const existQuery=`SELECT 1 FROM public."IMAGES" WHERE auth_id = :auth_id`
+      const exist=await  executeQuery(existQuery, QueryTypes.SELECT, {
+        ...user,...data
+        });
+
+        if(exist.length>0){
+          let updateQuery=` UPDATE public."IMAGES"
+          SET data = :user,
+              image_uid = :uid,
+              thumbnail = :thumbnail
+          WHERE auth_id = :auth_id;`
+
+          return await  executeQuery(updateQuery, QueryTypes.UPDATE, {
+            ...user,...data
+            });
+        }
       const query = 'INSERT INTO public."IMAGES" (auth_id,data,image_uid,thumbnail) VALUES (:auth_id, :user,:uid, :thumbnail)';
-      await executeQuery(query, QueryTypes.INSERT, {
+  
+    await executeQuery(query, QueryTypes.INSERT, {
       ...user,...data
       });
       return {...user}
