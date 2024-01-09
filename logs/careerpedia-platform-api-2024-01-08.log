@@ -226,3 +226,177 @@
 2024-01-08 00:41:11 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
 2024-01-08 00:41:11 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
 2024-01-08 00:41:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:32:09 index.ts[info]: initializeRoutes() 
+2024-01-08 05:32:09 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 05:32:17 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 05:32:17 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 05:32:17 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 05:32:17 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 05:32:25 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:32:33 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 05:32:33 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 05:32:33 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 05:32:33 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 05:32:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:32:43 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:32:43 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endtTime":"2024-01-26T 3:30 pm"} 
+2024-01-08 05:32:43 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:32:43 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:32:43 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:32:43 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":endTime" has no entry in the replacement map. 
+2024-01-08 05:32:43 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:32:43 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:32:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:36:20 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:36:20 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endtTime":"2024-01-26T 3:30 pm"} 
+2024-01-08 05:36:20 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:36:20 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:36:23 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:36:23 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endtTime":"2024-01-26T 3:30 pm"} 
+2024-01-08 05:36:23 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:36:23 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:36:24 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:36:24 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":endTime" has no entry in the replacement map. 
+2024-01-08 05:36:24 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:36:24 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:36:24 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:36:25 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:36:25 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":endTime" has no entry in the replacement map. 
+2024-01-08 05:36:25 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:36:25 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:36:25 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:37:35 index.ts[info]: initializeRoutes() 
+2024-01-08 05:37:35 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 05:37:39 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:37:39 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endtTime":"2024-01-26T 3:30 pm"} 
+2024-01-08 05:37:39 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:37:39 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:37:49 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:37:49 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":endTime" has no entry in the replacement map. 
+2024-01-08 05:37:49 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:37:49 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:37:49 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:39:10 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:39:10 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","decoration":{"id":61,"price":"123","itemsName":"test123"},"cake":{"id":34,"price":"345","itemsName":"Test"},"addOns":{"id":60,"price":"123","itemsName":"New Addon"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-20","startTime":"2024-01-20T4:00 pm ","endTime":"2024-01-20T 6:30 pm"} 
+2024-01-08 05:39:10 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:39:10 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:39:13 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:39:13 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:40:03 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:40:03 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endtTime":"2024-01-26T 3:30 pm"} 
+2024-01-08 05:40:03 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:40:03 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:40:08 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:40:08 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":endTime" has no entry in the replacement map. 
+2024-01-08 05:40:08 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:40:08 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-08 05:40:08 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:40:54 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:40:54 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endTime":"2024-01-26T 3:30 pm"} 
+2024-01-08 05:40:54 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:40:54 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:40:56 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:40:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:41:01 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 05:41:01 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 05:41:01 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 05:41:01 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 05:41:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:41:06 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 05:41:06 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 05:41:06 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 05:41:06 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 05:41:06 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 05:41:20 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-08 05:41:20 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","decoration":{"id":61,"price":"123","itemsName":"test123"},"cake":{"id":34,"price":"345","itemsName":"Test"},"addOns":{"id":64,"price":"3443","itemsName":"sagd"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-18","startTime":"2024-01-18T1:00 pm ","endTime":"2024-01-18T 3:30 pm"} 
+2024-01-08 05:41:20 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-08 05:41:20 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 05:41:23 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-08 05:41:24 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 06:13:39 index.ts[info]: initializeRoutes() 
+2024-01-08 06:13:39 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-08 08:02:26 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 08:02:26 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 08:02:26 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 08:02:26 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 08:02:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 08:21:31 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 08:21:31 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 08:21:31 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 08:21:31 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 08:21:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 08:38:37 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 08:38:37 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 08:38:37 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 08:38:37 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 08:38:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 08:40:50 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 08:40:50 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 08:40:50 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 08:40:50 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 08:40:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 08:44:39 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-08 08:44:39 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-08 08:44:39 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-08 08:44:39 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-08 08:44:42 index.ts[info]: helper.response_builder.responseBuilder() 
