@@ -52,11 +52,11 @@ export async function getListOfAccessaries(type) {
     logger.info(`${TAG}.getListOfAccessaries()`);
     try {
       let userInsertQuery = `SELECT *,
-      (SELECT
+      (SELECT jsonb_agg(
                   jsonb_build_object(
                       'image', images.data,
                       'image_uid', images.image_uid
-                  )
+                  ))
        FROM public."IMAGES" AS images 
        WHERE images.auth_id = items.id AND images.thumbnail='true'
       ) AS images_json_array
