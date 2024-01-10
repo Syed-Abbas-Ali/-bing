@@ -1,4 +1,5 @@
 import nodemailer from "nodemailer"
+// asxh xpdx jvca ewuo
 
 export let transporter = nodemailer.createTransport({
     service: 'gmail',

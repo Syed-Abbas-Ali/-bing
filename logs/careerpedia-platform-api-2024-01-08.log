@@ -826,3 +826,326 @@
 2024-01-08 22:19:31 index.ts[info]: helper.response_builder.responseBuilder() 
 2024-01-08 22:19:31 index.ts[info]: helper.response_builder.responseBuilder() 
 2024-01-08 22:19:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:30:42 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:30:42 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:30:42 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:30:42 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:30:43 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:30:44 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:30:47 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:30:47 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:30:47 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:30:47 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:30:47 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:30:58 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:30:58 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:30:58 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:30:58 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:30:59 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:31:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:03 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:03 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:03 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:03 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:13 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-08 22:31:13 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {} 
+2024-01-08 22:31:13 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-08 22:31:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-08 22:31:13 index.ts[info]: data_stores_mysql_lib_user.addNewThambnail() 
+2024-01-08 22:31:13 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:13 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:14 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:14 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:14 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:14 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:27 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:27 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:27 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:27 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:46 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:46 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:46 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:46 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:46 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:46 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:46 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:49 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:52 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:52 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:52 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:52 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:52 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:52 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:52 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:52 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:52 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:52 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:52 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:52 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:52 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:52 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:52 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:52 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:53 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:31:53 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:31:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:31:53 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:31:53 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:31:53 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:31:53 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:31:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:32:03 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:32:03 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:32:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:32:03 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:32:03 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:32:03 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:32:03 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:32:04 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:32:10 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:32:10 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:32:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:32:10 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:32:10 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:32:10 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:32:10 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:32:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:32:10 index.ts[info]: authentication.isAuthenticated() 
+2024-01-08 22:32:10 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+2024-01-08 22:32:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-08 22:32:10 index.ts[info]: controller-admin-extraItems-Controller.addNewAccessaries() 
+2024-01-08 22:32:10 index.ts[debug]: controller-admin-extraItems-Controller.addNewAccessaries() Object = {} 
+2024-01-08 22:32:10 index.ts[info]: services.admin.extraitems.getListOfAccessaries() ==>  
+2024-01-08 22:32:10 index.ts[info]: data_stores_mysql_lib_user.getListOfAccessaries() 
+2024-01-08 22:32:11 index.ts[info]: helper.response_builder.responseBuilder() 

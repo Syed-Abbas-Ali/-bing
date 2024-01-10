@@ -89,9 +89,9 @@ export async function getSingleTheater(uid) {
                   )
               ) 
        FROM public."IMAGES" AS images 
-       WHERE images.auth_id = theaters.id
+       WHERE images.auth_id = theaters.id AND images.thumbnail = 'false'
       ) AS images_json_array
-  FROM public."THEATERS" AS theaters WHERE theaters.uid=:uid;`;
+  FROM public."THEATERS" AS theaters WHERE theaters.uid=:uid`;
       let res= await executeQuery(userInsertQuery, QueryTypes.SELECT, {
       uid:uid
       });

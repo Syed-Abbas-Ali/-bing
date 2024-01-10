@@ -31,7 +31,7 @@ export async function addNewImage(user){
         const data = { ...res };
         serviceResponse.data = data;
       }else{
-        const res = await extraItemsDB.addNewImage({...user,auth_id:exist[0].id});
+        const res = await extraItemsDB.addNewImage({...user,auth_id:exist[0].id,thumbnail:false});
         serviceResponse.message = 'image uploaded';
         const data = { ...res };
         serviceResponse.data = data;

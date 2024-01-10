@@ -1,0 +1,71 @@
+2024-01-09 20:21:44 index.ts[info]: initializeRoutes() 
+2024-01-09 20:21:44 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 20:30:21 index.ts[info]: initializeRoutes() 
+2024-01-09 20:30:21 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 20:30:35 index.ts[info]: initializeRoutes() 
+2024-01-09 20:30:35 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:01:34 index.ts[info]: initializeRoutes() 
+2024-01-09 21:01:34 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:05:05 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-09 21:05:05 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-09 21:05:05 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-09 21:05:05 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:05:10 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: missing FROM-clause entry for table "images" 
+2024-01-09 21:05:10 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user.getSingleTheater() missing FROM-clause entry for table "images" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-09 21:05:10 index.ts[error]: ERROR occurred in services.admin.theater.getSingleTheater missing FROM-clause entry for table "images" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-09 21:05:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:06:08 index.ts[info]: initializeRoutes() 
+2024-01-09 21:06:08 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:06:11 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-09 21:06:11 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-09 21:06:11 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-09 21:06:11 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:06:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:08:30 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-09 21:08:30 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {"image":""} 
+2024-01-09 21:08:30 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-09 21:08:30 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:08:32 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2024-01-09 21:08:32 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:09:14 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-09 21:09:14 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-09 21:09:14 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-09 21:09:14 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:09:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:09:41 index.ts[info]: initializeRoutes() 
+2024-01-09 21:09:41 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:09:44 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-09 21:09:44 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-09 21:09:44 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-09 21:09:44 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:09:50 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:10:57 index.ts[info]: initializeRoutes() 
+2024-01-09 21:10:57 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:11:00 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-09 21:11:00 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-09 21:11:00 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-09 21:11:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:11:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:11:29 index.ts[info]: initializeRoutes() 
+2024-01-09 21:11:29 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:12:41 index.ts[info]: initializeRoutes() 
+2024-01-09 21:12:41 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:13:10 index.ts[info]: initializeRoutes() 
+2024-01-09 21:13:10 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-09 21:13:33 index.ts[info]: controller-admin-imagesController-Controller.addNewImage() 
+2024-01-09 21:13:33 index.ts[debug]: controller-admin-imagesController-Controller.addNewImage() Object = {"image":""} 
+2024-01-09 21:13:33 index.ts[info]: services.admin.extraitems.addNewImage() ==>  
+2024-01-09 21:13:33 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:13:37 index.ts[info]: data_stores_mysql_lib_user.addNewImage() 
+2024-01-09 21:13:38 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-09 21:14:20 index.ts[info]: controller-admin-theaterController.getSingleTheater() 
+2024-01-09 21:14:20 index.ts[debug]: controller-admin-theaterController.getSingleTheater() Object = {} 
+2024-01-09 21:14:20 index.ts[info]: services.admin.theater.getSingleTheater() ==>  
+2024-01-09 21:14:20 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-09 21:14:22 index.ts[info]: helper.response_builder.responseBuilder() 

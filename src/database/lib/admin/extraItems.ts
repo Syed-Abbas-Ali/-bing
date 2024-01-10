@@ -114,7 +114,8 @@ export async function deleteSingleAccessaries(item_uid) {
       uid: crypto.randomUUID(),
     };
     try {
-      const query = 'INSERT INTO public."IMAGES" (auth_id,data,image_uid) VALUES (:auth_id, :user,:uid)';
+      
+      const query = 'INSERT INTO public."IMAGES" (auth_id,data,image_uid,thumbnail) VALUES (:auth_id, :user,:uid, :thumbnail)';
       await executeQuery(query, QueryTypes.INSERT, {
       ...user,...data
       });
