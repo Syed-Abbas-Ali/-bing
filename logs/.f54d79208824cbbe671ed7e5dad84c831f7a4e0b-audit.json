@@ -6,26 +6,6 @@
     "auditLog": "D:\\projets\\projects\\Backend\\logs\\.f54d79208824cbbe671ed7e5dad84c831f7a4e0b-audit.json",
     "files": [
         {
-            "date": 1703581654485,
-            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-26.log",
-            "hash": "fb5b724713e7f146cc64dc6a1bedad504c361cb682b8f260c428b667c0ae25f8"
-        },
-        {
-            "date": 1703665672980,
-            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-27.log",
-            "hash": "35d4fde2505481aa160861ac6ecc4e61c6de87b20b0cad6132e171fe325d0529"
-        },
-        {
-            "date": 1703773536968,
-            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-28.log",
-            "hash": "de52d7968286ceb540f7533b7a8a11af3c3b7a57b916b517072a8bfbe6778b5a"
-        },
-        {
-            "date": 1703842948686,
-            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-29.log",
-            "hash": "ea6160b9c9244524353687f25ca42bc240a9a96e4bfec5dbeedfb59911fdca17"
-        },
-        {
             "date": 1703925539242,
             "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2023-12-30.log",
             "hash": "299be0dfe359368005764291a3a83740fa402df9108d14508a838db48b587fde"
@@ -59,6 +39,21 @@
             "date": 1704860499740,
             "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2024-01-09.log",
             "hash": "8f47d714e2a3c6a1473062c3d19d2da0ba12799d4726bb6821767be5b1fc1c36"
+        },
+        {
+            "date": 1704879249042,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2024-01-10.log",
+            "hash": "fb861190562cba60374d138a13c8df5d1bfcd1e8c124c5243b8edb33c89dc4e6"
+        },
+        {
+            "date": 1705027532500,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2024-01-11.log",
+            "hash": "53b2a74784a3753e128f9249644a89f6a7408d5c35bb01bfb829a66b2f4247d7"
+        },
+        {
+            "date": 1705209321531,
+            "name": "D:\\projets\\projects\\Backend\\logs\\careerpedia-platform-api-2024-01-13.log",
+            "hash": "d0a9ccf903b934685515b2d510255bcf0c8581de18e5b54b69d6ffb70ceb5e7a"
         }
     ],
     "hashType": "sha256"

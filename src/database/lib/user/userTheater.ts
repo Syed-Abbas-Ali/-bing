@@ -12,8 +12,8 @@ export async function bookingSlots(data) {
     }
     try {
       let userInsertQuery = `
-      INSERT INTO public."BOOKING_SLOTS" (theater_id, start_time, end_time, booked_date, theater_name, no_of_persons, total_price, cake, add_on, event_decoration)
-VALUES (:theaterId, :startTime, :endTime, :bookedDate, :theaterName, :noOfPersons, :price, :cake, :addOns, :decoration);`;
+      INSERT INTO public."BOOKING_SLOTS" (theater_id, booked_date, theater_name, no_of_persons, total_price, cake, add_on, event_decoration, client_email, client_name, client_phone_number, timing_slot_id)
+VALUES (:theaterId, :bookedDate, :theaterName, :noOfPersons, :price, :cake, :addOns, :decoration, :customerEmail, :customerName, :phoneNumber, :timeSlotId);`;
       await executeQuery(userInsertQuery, QueryTypes.INSERT, {
         ...data,...items
       });

@@ -1,0 +1,280 @@
+2024-01-13 21:15:24 index.ts[info]: initializeRoutes() 
+2024-01-13 21:15:24 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 21:23:49 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-13 21:23:49 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-13 21:23:49 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-13 21:23:49 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-13 21:23:55 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:24:00 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-13 21:24:00 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-13 21:24:00 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-13 21:24:00 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-13 21:24:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:24:18 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-13 21:24:18 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"1899","noOfPersons":"6","extraPersonCost":"299       ","decoration":{"id":129,"price":"699","itemsName":"Proposal"},"cake":{"id":130,"price":"699","itemsName":"Red Velvet"},"addOns":{"id":124,"price":"99","itemsName":"HDB Lights"},"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm "} 
+2024-01-13 21:24:18 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-13 21:24:18 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-13 21:24:21 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-13 21:24:21 index.ts[error]: ERROR in executeQuery() => Error: Named replacement ":endTime" has no entry in the replacement map. 
+2024-01-13 21:24:21 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-13 21:24:21 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Named replacement ":endTime" has no entry in the replacement map. Error: Named replacement ":endTime" has no entry in the replacement map.
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:176:15)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-13 21:24:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:26:24 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-13 21:26:24 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-13 21:26:24 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-13 21:26:24 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-13 21:26:26 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:26:28 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-13 21:26:28 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-13 21:26:28 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-13 21:26:28 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-13 21:26:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:26:49 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-13 21:26:49 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"1899","noOfPersons":"6","extraPersonCost":"299       ","decoration":{"id":129,"price":"699","itemsName":"Proposal"},"cake":{"id":130,"price":"699","itemsName":"Red Velvet"},"addOns":{"id":125,"price":"99","itemsName":"LED Lights"},"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endTime":"2024-01-26T 3:30 pm"} 
+2024-01-13 21:26:49 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-13 21:26:49 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-13 21:26:51 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-13 21:26:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:28:00 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-13 21:28:01 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"1899","noOfPersons":"6","extraPersonCost":"299       ","decoration":{"id":129,"price":"699","itemsName":"Proposal"},"cake":{"id":130,"price":"699","itemsName":"Red Velvet"},"addOns":{"id":125,"price":"99","itemsName":"LED Lights"},"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","bookedDate":"2024-01-26","startTime":"2024-01-26T1:00 pm ","endTime":"2024-01-26T 3:30 pm"} 
+2024-01-13 21:28:01 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-13 21:28:01 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-13 21:28:03 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-13 21:28:03 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 21:36:34 index.ts[info]: initializeRoutes() 
+2024-01-13 21:36:34 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 21:38:51 index.ts[info]: initializeRoutes() 
+2024-01-13 21:38:51 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 21:39:30 index.ts[info]: initializeRoutes() 
+2024-01-13 21:39:30 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 21:39:42 index.ts[info]: initializeRoutes() 
+2024-01-13 21:39:42 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 21:42:11 index.ts[info]: initializeRoutes() 
+2024-01-13 21:42:11 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:03:36 index.ts[info]: initializeRoutes() 
+2024-01-13 22:03:36 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:03:59 index.ts[info]: initializeRoutes() 
+2024-01-13 22:03:59 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:04:07 index.ts[info]: initializeRoutes() 
+2024-01-13 22:04:07 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:05:12 index.ts[info]: initializeRoutes() 
+2024-01-13 22:05:12 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:18:34 index.ts[info]: initializeRoutes() 
+2024-01-13 22:18:34 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:18:54 index.ts[info]: initializeRoutes() 
+2024-01-13 22:18:54 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:19:06 index.ts[info]: initializeRoutes() 
+2024-01-13 22:19:06 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:19:18 index.ts[info]: initializeRoutes() 
+2024-01-13 22:19:18 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:19:37 index.ts[info]: initializeRoutes() 
+2024-01-13 22:19:37 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:20:35 index.ts[info]: initializeRoutes() 
+2024-01-13 22:20:35 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:21:11 index.ts[info]: initializeRoutes() 
+2024-01-13 22:21:11 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:21:33 index.ts[info]: initializeRoutes() 
+2024-01-13 22:21:33 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:22:08 index.ts[info]: initializeRoutes() 
+2024-01-13 22:22:08 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:22:18 index.ts[info]: initializeRoutes() 
+2024-01-13 22:22:18 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:22:28 index.ts[info]: initializeRoutes() 
+2024-01-13 22:22:28 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:22:51 index.ts[info]: initializeRoutes() 
+2024-01-13 22:22:51 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:23:11 index.ts[info]: initializeRoutes() 
+2024-01-13 22:23:11 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:23:18 index.ts[info]: initializeRoutes() 
+2024-01-13 22:23:18 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:23:44 index.ts[info]: initializeRoutes() 
+2024-01-13 22:23:44 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:24:05 index.ts[info]: initializeRoutes() 
+2024-01-13 22:24:05 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:24:19 index.ts[info]: initializeRoutes() 
+2024-01-13 22:24:19 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:25:12 index.ts[info]: initializeRoutes() 
+2024-01-13 22:25:12 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:25:24 index.ts[info]: initializeRoutes() 
+2024-01-13 22:25:24 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:25:31 index.ts[info]: initializeRoutes() 
+2024-01-13 22:25:31 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:25:46 index.ts[info]: initializeRoutes() 
+2024-01-13 22:25:46 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:26:00 index.ts[info]: initializeRoutes() 
+2024-01-13 22:26:00 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:26:24 index.ts[info]: initializeRoutes() 
+2024-01-13 22:26:24 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:27:40 index.ts[info]: initializeRoutes() 
+2024-01-13 22:27:40 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:27:53 index.ts[info]: initializeRoutes() 
+2024-01-13 22:27:53 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:28:09 index.ts[info]: initializeRoutes() 
+2024-01-13 22:28:09 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:28:20 index.ts[info]: initializeRoutes() 
+2024-01-13 22:28:20 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:28:43 index.ts[info]: initializeRoutes() 
+2024-01-13 22:28:43 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:29:00 index.ts[info]: initializeRoutes() 
+2024-01-13 22:29:00 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:29:08 index.ts[info]: initializeRoutes() 
+2024-01-13 22:29:08 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:29:36 index.ts[info]: initializeRoutes() 
+2024-01-13 22:29:36 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:30:07 index.ts[info]: initializeRoutes() 
+2024-01-13 22:30:07 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:30:20 index.ts[info]: initializeRoutes() 
+2024-01-13 22:30:20 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:30:26 index.ts[info]: initializeRoutes() 
+2024-01-13 22:30:26 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:30:47 index.ts[info]: initializeRoutes() 
+2024-01-13 22:30:47 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:31:06 index.ts[info]: initializeRoutes() 
+2024-01-13 22:31:06 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:31:23 index.ts[info]: initializeRoutes() 
+2024-01-13 22:31:23 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:31:48 index.ts[info]: initializeRoutes() 
+2024-01-13 22:31:48 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:32:01 index.ts[info]: initializeRoutes() 
+2024-01-13 22:32:01 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:32:19 index.ts[info]: initializeRoutes() 
+2024-01-13 22:32:19 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:32:57 index.ts[info]: initializeRoutes() 
+2024-01-13 22:32:57 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:33:09 index.ts[info]: initializeRoutes() 
+2024-01-13 22:33:09 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:33:30 index.ts[info]: initializeRoutes() 
+2024-01-13 22:33:31 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:33:51 index.ts[info]: initializeRoutes() 
+2024-01-13 22:33:51 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:34:07 index.ts[info]: initializeRoutes() 
+2024-01-13 22:34:07 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:34:17 index.ts[info]: initializeRoutes() 
+2024-01-13 22:34:17 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:34:43 index.ts[info]: initializeRoutes() 
+2024-01-13 22:34:43 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:34:54 index.ts[info]: initializeRoutes() 
+2024-01-13 22:34:54 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:35:14 index.ts[info]: initializeRoutes() 
+2024-01-13 22:35:14 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:36:28 index.ts[info]: initializeRoutes() 
+2024-01-13 22:36:28 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:37:09 index.ts[info]: initializeRoutes() 
+2024-01-13 22:37:09 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:37:36 index.ts[info]: initializeRoutes() 
+2024-01-13 22:37:36 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:37:47 index.ts[info]: initializeRoutes() 
+2024-01-13 22:37:47 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:38:05 index.ts[info]: initializeRoutes() 
+2024-01-13 22:38:05 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:38:15 index.ts[info]: initializeRoutes() 
+2024-01-13 22:38:15 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:38:23 index.ts[info]: initializeRoutes() 
+2024-01-13 22:38:23 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:39:12 index.ts[info]: initializeRoutes() 
+2024-01-13 22:39:12 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:39:21 index.ts[info]: initializeRoutes() 
+2024-01-13 22:39:21 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:40:21 index.ts[info]: initializeRoutes() 
+2024-01-13 22:40:21 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:43:11 index.ts[info]: controller-admin-timingSlots.getTimeSlots() 
+2024-01-13 22:43:11 index.ts[debug]: controller-admin-timingSlots.getTimeSlots() Object  
+2024-01-13 22:43:11 index.ts[info]: services.timeSlots.getTimeSlots() ==>  
+2024-01-13 22:43:11 index.ts[info]: data_stores_mysql_lib_time_slots.getTimeSlots() 
+2024-01-13 22:43:18 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:45:43 index.ts[info]: controller-admin-timingSlots.addNewTimeSlot() 
+2024-01-13 22:45:43 index.ts[debug]: controller-admin-timingSlots.addNewTimeSlot() Object = {"timing":"9:30 pm -12:30am"} 
+2024-01-13 22:45:43 index.ts[info]: services.timeSlots.addNewTimeSlot() ==>  
+2024-01-13 22:45:43 index.ts[info]: data_stores_mysql_lib_time_slots.addNewTimeSlot() 
+2024-01-13 22:45:46 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:46:08 index.ts[info]: controller-admin-timingSlots.getTimeSlots() 
+2024-01-13 22:46:08 index.ts[debug]: controller-admin-timingSlots.getTimeSlots() Object  
+2024-01-13 22:46:08 index.ts[info]: services.timeSlots.getTimeSlots() ==>  
+2024-01-13 22:46:08 index.ts[info]: data_stores_mysql_lib_time_slots.getTimeSlots() 
+2024-01-13 22:46:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:49:10 index.ts[info]: initializeRoutes() 
+2024-01-13 22:49:10 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:49:25 index.ts[info]: initializeRoutes() 
+2024-01-13 22:49:25 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:49:53 index.ts[info]: initializeRoutes() 
+2024-01-13 22:49:53 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:50:29 index.ts[info]: initializeRoutes() 
+2024-01-13 22:50:29 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:51:15 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-13 22:51:15 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timingSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-13 22:51:15 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-13 22:51:15 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-13 22:51:21 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.<anonymous> (D:\projets\projects\Backend\src\services\User\userTheater.ts:64:80)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\services\User\userTheater.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-13 22:51:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:51:50 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-13 22:51:50 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timingSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-13 22:51:50 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-13 22:51:50 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-13 22:51:53 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-13 22:51:53 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: column "timingslotid" does not exist 
+2024-01-13 22:51:53 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() column "timingslotid" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-13 22:51:53 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots column "timingslotid" does not exist Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-13 22:51:53 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:54:33 index.ts[info]: initializeRoutes() 
+2024-01-13 22:54:33 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:54:48 index.ts[info]: initializeRoutes() 
+2024-01-13 22:54:48 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:54:49 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-13 22:54:49 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":{"id":64,"price":"3443","itemsName":"sagd"},"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-13 22:54:49 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-13 22:54:49 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-13 22:54:56 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-13 22:54:56 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:55:41 index.ts[info]: controller-admin-timingSlots.getTimeSlots() 
+2024-01-13 22:55:41 index.ts[debug]: controller-admin-timingSlots.getTimeSlots() Object  
+2024-01-13 22:55:41 index.ts[info]: services.timeSlots.getTimeSlots() ==>  
+2024-01-13 22:55:41 index.ts[info]: data_stores_mysql_lib_time_slots.getTimeSlots() 
+2024-01-13 22:55:44 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:59:19 index.ts[info]: initializeRoutes() 
+2024-01-13 22:59:19 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:59:27 index.ts[info]: initializeRoutes() 
+2024-01-13 22:59:27 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-13 22:59:33 index.ts[info]: authentication.isAuthenticated() 
+2024-01-13 22:59:33 index.ts[debug]: TOKEN is missing! 
+2024-01-13 22:59:33 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 22:59:43 index.ts[info]: START of common.validator.validate() 
+2024-01-13 22:59:43 index.ts[info]: controller.admin.adminLogin() 
+2024-01-13 22:59:43 index.ts[debug]: controller.admin.adminLogin() Object = {"email":"syedabbas@gmail344.com","password":"9999774637"} 
+2024-01-13 22:59:43 index.ts[info]: helpers.data_mapping.admin.AdminLoginDataMapping() 
+2024-01-13 22:59:43 index.ts[info]: services.auth.loginAdmin() ==>  
+2024-01-13 22:59:43 index.ts[info]: data_stores_mysql_lib_user.checkEmailExist()  ==> 
+2024-01-13 23:00:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 23:01:08 index.ts[info]: authentication.isAuthenticated() 
+2024-01-13 23:01:08 index.ts[debug]: LOGGED IN USER:UserSession {
+  userId: undefined,
+  role: 'admin',
+  userName: undefined,
+  permissions: []
+} 
+2024-01-13 23:01:08 index.ts[info]: controller.admin.getListBookedSlots() 
+2024-01-13 23:01:08 index.ts[debug]: controller.admin.getListBookedSlots() Object = {} 
+2024-01-13 23:01:08 index.ts[info]: services.admin.theater.getListMessage() ==>  
+2024-01-13 23:01:08 index.ts[info]: data_stores_mysql_lib_user_Theater.getListBookedSlots() 
+2024-01-13 23:01:11 index.ts[info]: helper.response_builder.responseBuilder() 
