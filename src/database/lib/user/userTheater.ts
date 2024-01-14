@@ -45,7 +45,10 @@ export async function getSingleBookedSlots(bookedDate) {
   logger.info(`${TAG}.getSingleBookedSlots()`);
   try {
     let Query = `
-    SELECT * FROM public."BOOKING_SLOTS" WHERE booked_date=:bookedDate `;
+    SELECT booking.timing_slot_id
+    FROM public."BOOKING_SLOTS" AS booking
+    WHERE booking.booked_date = :bookedDate;
+     `;
     const res=await executeQuery(Query, QueryTypes.SELECT,{bookedDate:bookedDate});
     return [...res];
 

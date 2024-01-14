@@ -278,3 +278,5 @@
 2024-01-13 23:01:08 index.ts[info]: services.admin.theater.getListMessage() ==>  
 2024-01-13 23:01:08 index.ts[info]: data_stores_mysql_lib_user_Theater.getListBookedSlots() 
 2024-01-13 23:01:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-13 23:08:58 index.ts[info]: initializeRoutes() 
+2024-01-13 23:08:58 index.ts[info]: SERVER listening on PORT:5000 

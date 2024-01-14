@@ -27,7 +27,8 @@ VALUES (:timing);
     logger.info(`${TAG}.getTimeSlots()`);
     try {
       const query = ' SELECT * FROM public."TIMING_SLOTS"';
-      return await executeQuery(query, QueryTypes.SELECT);
+       let res=await executeQuery(query, QueryTypes.SELECT);
+       return [...res]
     } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getTimeSlots()`, error);
       throw error;

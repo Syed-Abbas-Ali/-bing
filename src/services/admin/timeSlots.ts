@@ -40,9 +40,7 @@ export async function getTimeSlots(){
     try {
       const data = await Time.getTimeSlots();
         serviceResponse.message="";
-        serviceResponse.data = {
-        ...data  
-      }   
+        serviceResponse.data = [...data]   
   } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getTimeSlots`, error);
       serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
