@@ -13,6 +13,9 @@ const router = Router()
  router.route('/:bookedDate')
      .get(userTheater.getSingleBookedSlots)
 
+ router.route('/time/:bookedDate')
+     .get(userTheater.getBookedTIming)
+
  router.route('/:bookedDate')
      .delete(userTheater.deleteSingleBookedSlots)
 

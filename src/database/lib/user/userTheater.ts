@@ -45,6 +45,20 @@ export async function getSingleBookedSlots(bookedDate) {
   logger.info(`${TAG}.getSingleBookedSlots()`);
   try {
     let Query = `
+    SELECT * FROM public."BOOKING_SLOTS" WHERE booked_date=:bookedDate `;
+    const res=await executeQuery(Query, QueryTypes.SELECT,{bookedDate:bookedDate});
+    return [...res];
+
+  } catch (error) {
+    logger.error(`ERROR occurred in ${TAG}.getSingleBookedSlots()`, error);
+    throw error;
+  }
+}
+
+export async function getBookedTIming(bookedDate) {
+  logger.info(`${TAG}.getSingleBookedSlots()`);
+  try {
+    let Query = `
     SELECT booking.timing_slot_id
     FROM public."BOOKING_SLOTS" AS booking
     WHERE booking.booked_date = :bookedDate;
@@ -57,6 +71,7 @@ export async function getSingleBookedSlots(bookedDate) {
     throw error;
   }
 }
+
 
   
 export async function deleteSingleBookedSlots(bookedDate) {

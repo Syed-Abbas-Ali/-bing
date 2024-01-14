@@ -111,6 +111,24 @@ export async function getSingleBookedSlots(bookedDate){
     }
     return serviceResponse;
   }
+  
+export async function getBookedTIming(bookedDate){
+    logger.info(`${TAG}.getBookedTIming() ==> `);
+    const serviceResponse = new ServiceResponse(
+      HttpStatusCodes.CREATED,
+      "",
+      false
+    );
+    try {
+      const res = await theater.getBookedTIming(bookedDate);
+      serviceResponse.message="message !"
+      serviceResponse.data = [...res];
+  } catch (error) {
+      logger.error(`ERROR occurred in ${TAG}.getBookedTIming`, error);
+      serviceResponse.addServerError("Failed to create Admin due to technical difficulties");
+    }
+    return serviceResponse;
+  }
 
   
 export async function deleteSingleBookedSlots(bookedDate){
