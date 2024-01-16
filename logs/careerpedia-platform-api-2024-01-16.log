@@ -1,0 +1,554 @@
+2024-01-16 05:51:37 index.ts[info]: initializeRoutes() 
+2024-01-16 05:51:37 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 05:51:41 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 05:51:41 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 05:51:41 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 05:51:41 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 05:51:52 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: integer = character varying 
+2024-01-16 05:51:52 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() operator does not exist: integer = character varying Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 05:51:52 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots operator does not exist: integer = character varying Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 05:51:52 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 05:53:22 index.ts[info]: initializeRoutes() 
+2024-01-16 05:53:22 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 05:53:29 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 05:53:29 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 05:53:29 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 05:53:29 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 05:53:37 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: integer = character varying 
+2024-01-16 05:53:37 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() operator does not exist: integer = character varying Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 05:53:37 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots operator does not exist: integer = character varying Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 05:53:37 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 05:55:18 index.ts[info]: initializeRoutes() 
+2024-01-16 05:55:18 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 05:55:21 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 05:55:21 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 05:55:21 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 05:55:21 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 05:55:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 05:56:33 index.ts[info]: initializeRoutes() 
+2024-01-16 05:56:33 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 05:56:35 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 05:56:35 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 05:56:35 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 05:56:35 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 05:56:42 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 05:58:06 index.ts[info]: initializeRoutes() 
+2024-01-16 05:58:06 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 05:59:45 index.ts[info]: initializeRoutes() 
+2024-01-16 05:59:45 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 05:59:48 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 05:59:48 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 05:59:48 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 05:59:48 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:00:04 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near "(" 
+2024-01-16 06:00:04 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() syntax error at or near "(" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:00:04 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots syntax error at or near "(" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:00:04 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:00:57 index.ts[info]: initializeRoutes() 
+2024-01-16 06:00:57 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:01:03 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:01:03 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:01:03 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:01:03 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:01:12 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: unterminated quoted identifier at or near "" as bookslot WHERE bookslot.booked_date=:bookedDate" 
+2024-01-16 06:01:12 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() unterminated quoted identifier at or near "" as bookslot WHERE bookslot.booked_date=:bookedDate" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:01:12 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots unterminated quoted identifier at or near "" as bookslot WHERE bookslot.booked_date=:bookedDate" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:01:12 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:02:25 index.ts[info]: initializeRoutes() 
+2024-01-16 06:02:25 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:02:25 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:02:25 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:02:25 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:02:25 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:02:43 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: unterminated quoted identifier at or near "" AS bookslot WHERE bookslot.booked_date=:bookedDate" 
+2024-01-16 06:02:43 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() unterminated quoted identifier at or near "" AS bookslot WHERE bookslot.booked_date=:bookedDate" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:02:43 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots unterminated quoted identifier at or near "" AS bookslot WHERE bookslot.booked_date=:bookedDate" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:02:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:03:36 index.ts[info]: initializeRoutes() 
+2024-01-16 06:03:36 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:03:47 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:03:47 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:03:47 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:03:47 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:03:56 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: operator does not exist: integer = character varying 
+2024-01-16 06:03:56 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() operator does not exist: integer = character varying Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:03:56 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots operator does not exist: integer = character varying Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:03:56 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:14:58 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:14:58 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:14:58 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:14:58 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:15:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:15:45 index.ts[info]: initializeRoutes() 
+2024-01-16 06:15:45 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:15:46 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:15:46 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:15:46 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:15:46 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:15:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:16:32 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:16:32 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:16:32 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:16:32 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:16:36 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:17:44 index.ts[info]: initializeRoutes() 
+2024-01-16 06:17:44 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:17:44 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:17:44 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:17:44 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:17:44 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:18:58 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: syntax error at or near ":" 
+2024-01-16 06:18:58 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.getSingleBookedSlots() syntax error at or near ":" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:18:58 index.ts[error]: ERROR occurred in services.admin.theater.getSingleBookedSlots syntax error at or near ":" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 06:18:58 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:19:19 index.ts[info]: initializeRoutes() 
+2024-01-16 06:19:19 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:19:26 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:19:26 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:19:26 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:19:26 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:19:34 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:21:05 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 06:21:05 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 06:21:05 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 06:21:05 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 06:21:09 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 06:57:37 index.ts[info]: initializeRoutes() 
+2024-01-16 06:57:37 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 06:58:47 index.ts[info]: initializeRoutes() 
+2024-01-16 06:58:47 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:07:18 index.ts[info]: initializeRoutes() 
+2024-01-16 07:07:18 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:09:54 index.ts[info]: initializeRoutes() 
+2024-01-16 07:09:54 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:10:27 index.ts[info]: initializeRoutes() 
+2024-01-16 07:10:27 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:10:38 index.ts[info]: initializeRoutes() 
+2024-01-16 07:10:38 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:10:47 index.ts[info]: initializeRoutes() 
+2024-01-16 07:10:47 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:10:57 index.ts[info]: initializeRoutes() 
+2024-01-16 07:10:57 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:11:49 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:11:49 index.ts[debug]: controller.admin.bookingSlots() Object = {"customerName":"Mohd Zaid","phoneNumber":"8858289520","customerEmail":"za752911@gmail.com","decoration":{"id":137,"price":"599","itemsName":"Birthday"},"cake":{"id":133,"price":"699","itemsName":"Strawberry"},"addOns":[{"id":125,"price":"99","itemsName":"LED Lights"},{"id":124,"price":"99","itemsName":"HDB Lights"}],"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","noOfPersons":"3","bookedDate":"2024-01-17","price":3395,"theaterName":"Blockbuster Bliss","timeSlotId":3,"bookedSlot":"4:00 pm - 6:30 pm"} 
+2024-01-16 07:11:49 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:11:49 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:11:56 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:11:57 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: INSERT has more expressions than target columns 
+2024-01-16 07:11:57 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:11:57 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:11:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:12:46 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:12:46 index.ts[debug]: controller.admin.bookingSlots() Object = {"customerName":"Mohd Zaid","phoneNumber":"8858289520","customerEmail":"za752911@gmail.com","decoration":{"id":137,"price":"599","itemsName":"Birthday"},"cake":{"id":133,"price":"699","itemsName":"Strawberry"},"addOns":[{"id":125,"price":"99","itemsName":"LED Lights"},{"id":124,"price":"99","itemsName":"HDB Lights"}],"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","noOfPersons":"3","bookedDate":"2024-01-17","price":3395,"theaterName":"Blockbuster Bliss","timeSlotId":3,"bookedSlot":"4:00 pm - 6:30 pm"} 
+2024-01-16 07:12:46 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:12:46 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:13:00 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:13:04 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: INSERT has more expressions than target columns 
+2024-01-16 07:13:04 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:13:04 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:13:04 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:13:48 index.ts[info]: initializeRoutes() 
+2024-01-16 07:13:48 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:13:51 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:13:51 index.ts[debug]: controller.admin.bookingSlots() Object = {"customerName":"Mohd Zaid","phoneNumber":"8858289520","customerEmail":"za752911@gmail.com","decoration":{"id":137,"price":"599","itemsName":"Birthday"},"cake":{"id":133,"price":"699","itemsName":"Strawberry"},"addOns":[{"id":125,"price":"99","itemsName":"LED Lights"},{"id":124,"price":"99","itemsName":"HDB Lights"}],"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","noOfPersons":"3","bookedDate":"2024-01-17","price":3395,"theaterName":"Blockbuster Bliss","timeSlotId":3,"bookedSlot":"4:00 pm - 6:30 pm"} 
+2024-01-16 07:13:51 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:13:51 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:13:59 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:13:59 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: INSERT has more expressions than target columns 
+2024-01-16 07:13:59 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:13:59 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:13:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:15:37 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:15:37 index.ts[debug]: controller.admin.bookingSlots() Object = {"customerName":"Mohd Zaid","phoneNumber":"8858289520","customerEmail":"za752911@gmail.com","decoration":{"id":137,"price":"599","itemsName":"Birthday"},"cake":{"id":133,"price":"699","itemsName":"Strawberry"},"addOns":[{"id":125,"price":"99","itemsName":"LED Lights"},{"id":124,"price":"99","itemsName":"HDB Lights"}],"theaterUid":"5eeb0033-31d7-4b81-be8a-38bdf2a6aa8e","noOfPersons":"3","bookedDate":"2024-01-17","price":3395,"theaterName":"Blockbuster Bliss","timeSlotId":3,"bookedSlot":"4:00 pm - 6:30 pm"} 
+2024-01-16 07:15:37 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:15:37 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:15:40 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:15:40 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: INSERT has more expressions than target columns 
+2024-01-16 07:15:40 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:15:40 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:15:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:17:46 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:17:46 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:17:46 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:17:46 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:17:50 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:17:50 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: malformed array literal: "sagd" 
+2024-01-16 07:17:50 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:17:50 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:17:50 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:19:21 index.ts[info]: initializeRoutes() 
+2024-01-16 07:19:21 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:19:25 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:19:25 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:19:25 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:19:25 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:19:34 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:19:34 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: malformed array literal: "sagd" 
+2024-01-16 07:19:34 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:19:34 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:19:34 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:21:06 index.ts[info]: initializeRoutes() 
+2024-01-16 07:21:06 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:21:31 index.ts[info]: initializeRoutes() 
+2024-01-16 07:21:31 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:21:41 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:21:41 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:21:41 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:21:41 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:21:50 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:21:51 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: malformed array literal: "sagd" 
+2024-01-16 07:21:51 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:21:51 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:21:51 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:25:43 index.ts[info]: initializeRoutes() 
+2024-01-16 07:25:43 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:26:03 index.ts[info]: initializeRoutes() 
+2024-01-16 07:26:03 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:26:13 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:26:13 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:26:13 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:26:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:26:22 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:26:23 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: malformed array literal: "sagd" 
+2024-01-16 07:26:23 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:26:23 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots malformed array literal: "sagd" Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:26:23 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:28:25 index.ts[info]: initializeRoutes() 
+2024-01-16 07:28:25 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:28:30 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:28:30 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:28:30 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:28:30 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:28:38 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:28:38 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:29:44 index.ts[info]: initializeRoutes() 
+2024-01-16 07:29:44 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:29:47 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:29:47 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:29:47 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:29:47 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:29:59 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:30:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:31:47 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:31:47 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:31:47 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:31:47 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:31:51 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:31:51 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:33:07 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:33:07 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:33:07 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:33:07 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:33:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:34:19 index.ts[info]: initializeRoutes() 
+2024-01-16 07:34:19 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:34:31 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:34:31 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:34:31 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:34:31 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:34:42 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:34:42 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: INSERT has more expressions than target columns 
+2024-01-16 07:34:42 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:34:42 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:34:42 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:35:10 index.ts[info]: initializeRoutes() 
+2024-01-16 07:35:10 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:35:22 index.ts[info]: initializeRoutes() 
+2024-01-16 07:35:22 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:35:28 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:35:28 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:35:28 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:35:29 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:35:36 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:35:37 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:36:21 index.ts[info]: authentication.isAuthenticated() 
+2024-01-16 07:36:21 index.ts[error]: ERROR occurred in isAuthenticated()  jwt expired TokenExpiredError: jwt expired
+    at D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\projets\projects\Backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\projets\projects\Backend\src\helpers\authentication.ts:30:23)
+    at isAuthenticated (D:\projets\projects\Backend\src\middlewares\authentication.ts:29:44)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projets\projects\Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\projets\projects\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\projets\projects\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\projets\projects\Backend\node_modules\express\lib\router\layer.js:95:5)
+2024-01-16 07:36:21 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:36:27 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:36:27 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:36:27 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:36:27 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:36:31 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:38:16 index.ts[info]: initializeRoutes() 
+2024-01-16 07:38:16 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:39:29 index.ts[info]: initializeRoutes() 
+2024-01-16 07:39:29 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:39:35 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:39:35 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:39:35 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:39:35 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:39:39 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:39:39 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:39:39 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:39:39 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:39:42 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:39:42 index.ts[error]: ERROR in executeQuery() => Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' } 
+2024-01-16 07:39:42 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Invalid value { id: 64, price: '3443', itemsName: 'sagd' } Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:14:14
+    at Array.reduce (<anonymous>)
+    at arrayToList (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:7:16)
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:62:12)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:39:42 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Invalid value { id: 64, price: '3443', itemsName: 'sagd' } Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:14:14
+    at Array.reduce (<anonymous>)
+    at arrayToList (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:7:16)
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:62:12)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:39:42 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:39:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:39:58 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:39:58 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:39:58 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:39:58 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:40:02 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:40:02 index.ts[error]: ERROR in executeQuery() => Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' } 
+2024-01-16 07:40:02 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Invalid value { id: 64, price: '3443', itemsName: 'sagd' } Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:14:14
+    at Array.reduce (<anonymous>)
+    at arrayToList (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:7:16)
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:62:12)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:40:02 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Invalid value { id: 64, price: '3443', itemsName: 'sagd' } Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:14:14
+    at Array.reduce (<anonymous>)
+    at arrayToList (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:7:16)
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:62:12)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:40:02 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:45:35 index.ts[info]: initializeRoutes() 
+2024-01-16 07:45:35 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:45:39 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:45:39 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:45:39 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:45:39 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:45:48 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:45:48 index.ts[error]: ERROR in executeQuery() => Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' } 
+2024-01-16 07:45:48 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() Invalid value { id: 64, price: '3443', itemsName: 'sagd' } Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:14:14
+    at Array.reduce (<anonymous>)
+    at arrayToList (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:7:16)
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:62:12)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:45:48 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots Invalid value { id: 64, price: '3443', itemsName: 'sagd' } Error: Invalid value { id: 64, price: '3443', itemsName: 'sagd' }
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:66:11)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:14:14
+    at Array.reduce (<anonymous>)
+    at arrayToList (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:7:16)
+    at escape (D:\projets\projects\Backend\node_modules\sequelize\src\sql-string.js:62:12)
+    at injectReplacements (D:\projets\projects\Backend\node_modules\sequelize\src\utils\sql.ts:179:34)
+    at Sequelize.query (D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:612:13)
+    at D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:11:45
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\projets\projects\Backend\src\database\helpers\sql.query.util.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:45:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:46:14 index.ts[info]: initializeRoutes() 
+2024-01-16 07:46:14 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:46:30 index.ts[info]: initializeRoutes() 
+2024-01-16 07:46:30 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:46:35 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:46:35 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:46:35 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:46:35 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:46:43 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:46:43 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:46:57 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:46:57 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:46:57 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:46:57 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:47:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:51:56 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:51:56 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:51:56 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:51:56 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:52:00 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:52:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:52:10 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:52:10 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:52:10 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:52:10 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:52:11 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:52:50 index.ts[info]: initializeRoutes() 
+2024-01-16 07:52:50 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:52:52 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:52:52 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:52:52 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:52:52 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:53:00 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:53:00 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:53:00 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:53:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:53:00 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:53:01 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:53:01 index.ts[error]: ERROR in executeQuery() => SequelizeDatabaseError: INSERT has more expressions than target columns 
+2024-01-16 07:53:01 index.ts[error]: ERROR occurred in data_stores_mysql_lib_user_Theater.bookingSlots() INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:53:01 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots INSERT has more expressions than target columns Error
+    at Query.run (D:\projets\projects\Backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\projets\projects\Backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-16 07:53:01 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:53:27 index.ts[info]: initializeRoutes() 
+2024-01-16 07:53:27 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-16 07:53:30 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-16 07:53:30 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"syed@gmail.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-16 07:53:30 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-16 07:53:30 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-16 07:53:38 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-16 07:53:39 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 07:53:47 index.ts[info]: controller.admin.getSingleBookedSlots() 
+2024-01-16 07:53:47 index.ts[debug]: controller.admin.getSingleBookedSlots() Object = {} 
+2024-01-16 07:53:47 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
+2024-01-16 07:53:47 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 07:53:48 index.ts[info]: helper.response_builder.responseBuilder() 
