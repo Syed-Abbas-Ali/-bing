@@ -1,0 +1,173 @@
+2024-01-18 00:23:55 index.ts[info]: initializeRoutes() 
+2024-01-18 00:23:55 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:24:23 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:24:23 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"jisifal109@rentaen.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:24:23 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:24:23 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:24:27 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:24:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:25:38 index.ts[info]: initializeRoutes() 
+2024-01-18 00:25:38 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:26:01 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:26:01 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"diceti1066@rentaen.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:26:01 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:26:01 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:26:05 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:26:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:28:52 index.ts[info]: initializeRoutes() 
+2024-01-18 00:28:52 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:29:14 index.ts[info]: initializeRoutes() 
+2024-01-18 00:29:14 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:29:35 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:29:35 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"jisifal109@rentaen.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:29:35 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:29:35 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:29:39 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:29:40 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:30:43 index.ts[info]: initializeRoutes() 
+2024-01-18 00:30:43 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:31:00 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:31:00 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"jisifal109@rentaen.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:31:00 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:31:00 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:31:04 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:31:05 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:33:51 index.ts[info]: initializeRoutes() 
+2024-01-18 00:33:51 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:34:09 index.ts[info]: initializeRoutes() 
+2024-01-18 00:34:09 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:34:21 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:34:21 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"jisifal109@rentaen.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:34:21 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:34:21 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:34:25 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:34:26 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:35:54 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:35:54 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:35:54 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:35:54 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:35:57 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:35:57 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:37:30 index.ts[info]: initializeRoutes() 
+2024-01-18 00:37:30 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:38:25 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:38:25 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.cm","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:38:25 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:38:25 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:38:30 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:38:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:40:20 index.ts[info]: initializeRoutes() 
+2024-01-18 00:40:20 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:40:25 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:40:25 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.cm","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:40:25 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:40:25 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:40:29 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:40:29 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:41:18 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:41:18 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"sdsadaasd.cm","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:41:18 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:41:18 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:41:20 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:41:20 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:42:04 index.ts[info]: initializeRoutes() 
+2024-01-18 00:42:04 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:42:24 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:42:24 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"sdsadaasd@gmail.cm","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:42:24 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:42:24 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:42:28 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:42:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:45:01 index.ts[info]: initializeRoutes() 
+2024-01-18 00:45:01 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:45:07 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:45:07 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"sdsadaasd@gmail.cm","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:45:07 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:45:09 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:45:14 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:45:14 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 00:53:33 index.ts[info]: initializeRoutes() 
+2024-01-18 00:53:33 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 00:54:21 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 00:54:21 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 00:54:21 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 00:54:23 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 00:54:28 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 00:54:28 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:01:34 index.ts[info]: initializeRoutes() 
+2024-01-18 01:01:34 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:05:15 index.ts[info]: initializeRoutes() 
+2024-01-18 01:05:15 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:05:37 index.ts[info]: initializeRoutes() 
+2024-01-18 01:05:37 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:05:52 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:05:52 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:05:52 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:05:55 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 01:05:59 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 01:05:59 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:06:11 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:06:11 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:06:11 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:06:13 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 01:06:14 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 01:06:15 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:07:30 index.ts[info]: initializeRoutes() 
+2024-01-18 01:07:30 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:07:36 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:07:36 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:07:36 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:07:38 index.ts[error]: ERROR occurred in services.admin.theater.bookingSlots No recipients defined Error: No recipients defined
+    at SMTPConnection._formatError (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._setEnvelope (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:1023:34)
+    at SMTPConnection.send (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)
+    at sendMessage (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:1578:9)
+    at SMTPConnection.<anonymous> (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\projets\projects\Backend\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:514:28)
+    at TLSSocket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:375:5)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-01-18 01:07:38 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:09:02 index.ts[info]: initializeRoutes() 
+2024-01-18 01:09:02 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:09:10 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:09:10 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:09:10 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:09:10 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:09:30 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:09:30 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:09:30 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:09:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:13:14 index.ts[info]: initializeRoutes() 
+2024-01-18 01:13:14 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:13:23 index.ts[info]: initializeRoutes() 
+2024-01-18 01:13:23 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:13:27 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:13:27 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:13:27 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:13:30 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 01:13:34 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 01:13:34 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:14:27 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:14:27 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19inc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:14:27 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:14:27 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:17:25 index.ts[info]: initializeRoutes() 
+2024-01-18 01:17:25 index.ts[info]: SERVER listening on PORT:5000 
+2024-01-18 01:17:30 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:17:30 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19inc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:17:30 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:17:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-18 01:17:40 index.ts[info]: controller.admin.bookingSlots() 
+2024-01-18 01:17:40 index.ts[debug]: controller.admin.bookingSlots() Object = {"theaterName":"Blockbuster Bliss","price":"10.99","noOfPersons":"6","extraPersonCost":"5.99      ","addOns":[{"id":64,"price":"3443","itemsName":"sagd"},{"id":4,"price":"3443","itemsName":"lights with numbers"}],"cake":{"id":37,"price":"wed","itemsName":"wededwe"},"decoration":{"id":61,"price":"123","itemsName":"test123"},"theaterUid":"b62f63ac-6ec1-4bca-8ad2-d5f2105c3f04","bookedDate":"2024-01-26","timeSlotId":"1","customerEmail":"x1k19uwj05@myinfoinc.com","customerName":"syed","phoneNumber":"8877887787"} 
+2024-01-18 01:17:40 index.ts[info]: services.admin.theater.bookingSlots() ==>  
+2024-01-18 01:17:42 index.ts[info]: data_stores_mysql_lib_user.getSingleTheater() 
+2024-01-18 01:17:47 index.ts[info]: data_stores_mysql_lib_user_Theater.bookingSlots() 
+2024-01-18 01:17:48 index.ts[info]: helper.response_builder.responseBuilder() 

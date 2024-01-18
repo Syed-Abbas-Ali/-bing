@@ -16,7 +16,7 @@ export async function bookingSlots(data){
   );
   let mailOptions = {
     from: 'syedabbas83778@gmail.com',
-    to: data.email,
+    to: [data.customerEmail,"syedsali602@gmail.com"],
     subject: 'Sending Email using Node.js',
     html:`<!DOCTYPE html>
     <html lang="en">
@@ -57,14 +57,22 @@ export async function bookingSlots(data){
     `
   };
   try {
-    await sendMail(mailOptions)
-    let theaterData:any=await getSingleTheaterAuth(data.theaterUid)
-     
-    if(theaterData){
-      const res = await theater.bookingSlots({...data,theaterId:theaterData[0].id});
-      serviceResponse.message="slot books !"
-      serviceResponse.data = {...data};
+    let confirm=await sendMail(mailOptions)
+    if(confirm){
+      let theaterData:any=await getSingleTheaterAuth(data.theaterUid)
+      if(theaterData){
+        const res = await theater.bookingSlots({...data,theaterId:theaterData[0].id});
+        serviceResponse.message="slot books !"
+        serviceResponse.data = {...data};
+      }
     }
+   else{
+    serviceResponse.statusCode=HttpStatusCodes.BAD_REQUEST,
+    serviceResponse.message="please check your email !"
+    // serviceResponse.data = {...data};
+   }
+     
+   
 
 } catch (error) {
     logger.error(`ERROR occurred in ${TAG}.bookingSlots`, error);

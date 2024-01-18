@@ -552,3 +552,13 @@
 2024-01-16 07:53:47 index.ts[info]: services.admin.theater.getSingleBookedSlots() ==>  
 2024-01-16 07:53:47 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
 2024-01-16 07:53:48 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 08:29:27 index.ts[info]: controller.admin.getBookedTIming() 
+2024-01-16 08:29:27 index.ts[debug]: controller.admin.getBookedTIming() Object = {} 
+2024-01-16 08:29:27 index.ts[info]: services.admin.theater.getBookedTIming() ==>  
+2024-01-16 08:29:27 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 08:29:30 index.ts[info]: helper.response_builder.responseBuilder() 
+2024-01-16 08:33:42 index.ts[info]: controller.admin.getBookedTIming() 
+2024-01-16 08:33:42 index.ts[debug]: controller.admin.getBookedTIming() Object = {} 
+2024-01-16 08:33:42 index.ts[info]: services.admin.theater.getBookedTIming() ==>  
+2024-01-16 08:33:42 index.ts[info]: data_stores_mysql_lib_user_Theater.getSingleBookedSlots() 
+2024-01-16 08:33:46 index.ts[info]: helper.response_builder.responseBuilder() 
