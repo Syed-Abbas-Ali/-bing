@@ -12,21 +12,24 @@ export let transporter = nodemailer.createTransport({
   
  
   
-  // export const sendMail=async(mailOptions)=>{
-  //   console.log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj")
-  //   console.log(mailOptions)
-  //   await transporter.sendMail(mailOptions, function(error, info){
-  //       if (error) {
-  //         console.log(error);
-  //       } else {
-  //         console.log('Email sentbb: ' + info.response);
-  //         return true
-  //       }
-  //     });
-  // }
+//   export const sendMail=async(mailOptions)=>{
+//     console.log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj")
+//     console.log(mailOptions)
+//     await transporter.sendMail(mailOptions, function(error, info){
+//         if (error) {
+//             console.log("errorrrrrrrrrrrrrrrrrrrrrr")
+//           console.log(error);
+//         } else {
+//           console.log('Email sentbb: ' + info.response);
+//           return true
+//         }
+//       });
+//   }
 
   export const sendMail = async (mailOptions) => {
     // Basic email address validation using validator
+    console.log("kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
+    console.log(mailOptions)
     if (!Array.isArray(mailOptions.to)) {
         console.log('Invalid email addresses');
         return false;
@@ -49,3 +52,40 @@ export let transporter = nodemailer.createTransport({
     });
 };
 
+
+
+
+// export const sendMail = async (mailOptions) => {
+//     console.log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
+//     console.log(mailOptions);
+
+//     try {
+//         const info = await transporter.sendMail(mailOptions);
+//         console.log('Email sentbb: ' + info.response);
+//         return true;
+//     } catch (error) {
+//         console.log("errorrrrrrrrrrrrrrrrrrrrrr");
+//         console.log(error);
+//         return false;
+//     }
+// }
+
+// Example usage with a timeout
+const timeoutMillis = 5000; // 5 seconds
+// const mailOptions = { /* your mail options */ };
+
+export const sendMails=async(mailOptions)=>{
+    
+try {
+    const result = await Promise.race([
+        sendMail(mailOptions),
+        new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), timeoutMillis))
+    ]);
+
+
+    console.log('Email sent:', result);
+    return result
+} catch (error) {
+    console.error('Error:', error);
+}
+}

@@ -2,7 +2,7 @@ import { HttpStatusCodes } from "src/constants/status_codes";
 import logger from "src/logger";
 import { ServiceResponse } from "src/models";
 import * as theater from "src/database/lib/user/userTheater"
-import { sendMail } from "src/utils/emaiMessage";
+import { sendMail, sendMails } from "src/utils/emaiMessage";
 import { getSingleTheaterAuth } from "src/database/lib/admin/adminTheater";
 
 const TAG = "services.admin.theater";
@@ -58,7 +58,7 @@ export async function bookingSlots(data){
     `
   };
   try {
-    let confirm=await sendMail(mailOptions)
+    let confirm=await sendMails(mailOptions)
     if(confirm){
       let theaterData:any=await getSingleTheaterAuth(data.theaterUid)
       if(theaterData){
@@ -73,7 +73,7 @@ export async function bookingSlots(data){
     // serviceResponse.data = {...data};
    }
      
-   
+  
 
 } catch (error) {
     logger.error(`ERROR occurred in ${TAG}.bookingSlots`, error);
