@@ -14,9 +14,10 @@ export async function bookingSlots(data){
     "",
     false
   );
+
   let mailOptions = {
-    from: 'syedabbas83778@gmail.com',
-    to: [data.customerEmail,"syedsali602@gmail.com"],
+    from:process.env.ADMIN_EMAIL,
+    to: [data.customerEmail,process.env.ADMIN_EMAIL],
     subject: 'Sending Email using Node.js',
     html:`<!DOCTYPE html>
     <html lang="en">
@@ -43,9 +44,9 @@ export async function bookingSlots(data){
                             <!-- Confirmation message -->
                             <div id="confirmationMessage" class="text-success">
                                 Booking successful!<br>
-                                Name: John Doe<br>
-                                Price: $20<br>
-                                Theater: ABC Theater
+                                Name: ${data.customerName}<br>
+                                Price:${data.price}<br>
+                                Theater:${data.theaterName}
                             </div>
                         </div>
                     </div>
