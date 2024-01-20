@@ -26,9 +26,6 @@ export let transporter = nodemailer.createTransport({
   // }
 
   export const sendMail = async (mailOptions) => {
-    console.log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
-    console.log(mailOptions);
-
     // Basic email address validation using validator
     if (!Array.isArray(mailOptions.to)) {
         console.log('Invalid email addresses');
