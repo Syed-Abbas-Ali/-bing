@@ -13,7 +13,7 @@ const router = Router()
  router.route('/:bookedDate')
      .get(userTheater.getSingleBookedSlots)
 
- router.route('/time/:bookedDate')
+ router.route('/time/:bookedDate/:theaterUid')
      .get(userTheater.getBookedTIming)
 
  router.route('/:bookedDate')

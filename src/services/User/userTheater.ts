@@ -121,7 +121,7 @@ export async function getSingleBookedSlots(bookedDate){
     return serviceResponse;
   }
   
-export async function getBookedTIming(bookedDate){
+export async function getBookedTIming(data){
     logger.info(`${TAG}.getBookedTIming() ==> `);
     const serviceResponse = new ServiceResponse(
       HttpStatusCodes.CREATED,
@@ -129,9 +129,12 @@ export async function getBookedTIming(bookedDate){
       false
     );
     try {
-      const res = await theater.getBookedTIming(bookedDate);
-      serviceResponse.message="message !"
-      serviceResponse.data = [...res];
+      let theaterData:any=await getSingleTheaterAuth(data.theaterUid)
+      if(theaterData){
+        const res = await theater.getBookedTIming({...data,id:theaterData[0].id});
+        // serviceResponse.message="slot books !"
+        serviceResponse.data = {...res};
+      }
   } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getBookedTIming`, error);
       serviceResponse.addServerError("Failed to create Admin due to technical difficulties");

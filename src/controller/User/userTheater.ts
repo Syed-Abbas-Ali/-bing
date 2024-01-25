@@ -48,10 +48,10 @@ export async function getListBookedSlots(req: any, res: Response, next: NextFunc
   
   export async function getBookedTIming (req: any, res: Response, next: NextFunction): Promise<void> {
     try {
-        const {bookedDate}=req.params
+        const {bookedDate,theaterUid}=req.params
       log.info(`${TAG}.getBookedTIming()`);
       log.debug(`${TAG}.getBookedTIming() Object = ${JSON.stringify(req.body)}`)
-      const authResponse: IServiceResponse = await theater.getBookedTIming(bookedDate)
+      const authResponse: IServiceResponse = await theater.getBookedTIming({bookedDate,theaterUid})
       responseBuilder(authResponse, res, next, req)
     } catch (error) {
       log.error(`ERROR occurred in ${TAG}.getBookedTIming() `, error)

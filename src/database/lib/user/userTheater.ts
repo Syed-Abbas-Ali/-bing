@@ -64,15 +64,15 @@ WHERE
   }
 }
 
-export async function getBookedTIming(bookedDate) {
+export async function getBookedTIming(data) {
   logger.info(`${TAG}.getSingleBookedSlots()`);
   try {
     let Query = `
     SELECT booking.timing_slot_id
     FROM public."BOOKING_SLOTS" AS booking
-    WHERE booking.booked_date = :bookedDate;
+    WHERE booking.booked_date = :bookedDate AND booking.theater_id = :id;
      `;
-    const res=await executeQuery(Query, QueryTypes.SELECT,{bookedDate:bookedDate});
+    const res=await executeQuery(Query, QueryTypes.SELECT,{...data});
     return [...res];
 
   } catch (error) {
