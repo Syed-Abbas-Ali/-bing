@@ -18,7 +18,7 @@ export async function bookingSlots(data){
   let mailOptions = {
     from:process.env.ADMIN_EMAIL,
     to: [data.customerEmail,process.env.ADMIN_EMAIL],
-    subject: 'Sending Email using Node.js',
+    subject: `Congratulations on Booking Your Binge'n Blast Theater Experience!`,
     html:`<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -40,13 +40,21 @@ export async function bookingSlots(data){
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
                         <div class="card-body">
-                            <h2 class="card-title">Slot Booking</h2>
+                            <h2 class="card-title">Dear ${data.customerName}</h2>
                             <!-- Confirmation message -->
+                            <p>We hope this message finds you well and filled with excitement! 🎉</p>
                             <div id="confirmationMessage" class="text-success">
-                                Booking successful!<br>
-                                Name: ${data.customerName}<br>
-                                Price:${data.price}<br>
-                                Theater:${data.theaterName}
+                            <pre>Congratulations on successfully booking your theater experience 
+                            with Binge'n Blast! Your entertainment journey is about to take a thrilling
+                             turn, and we're thrilled to be a part of it.</pre>
+                             <p>Here are the details of your booking:</p>
+
+                             <pre>
+                             Movie/Show: [Title] <br>
+                              Date: ${data.bookedDate} <br>
+                              Time: ${data.timeSlotId} <br>
+                              Theater: ${data.theaterName}
+                              </pre>
                             </div>
                         </div>
                     </div>
