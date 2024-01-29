@@ -133,7 +133,7 @@ export async function getBookedTIming(data){
       if(theaterData){
         const res = await theater.getBookedTIming({...data,id:theaterData[0].id});
         // serviceResponse.message="slot books !"
-        serviceResponse.data = {...res};
+        serviceResponse.data = [...res];
       }
   } catch (error) {
       logger.error(`ERROR occurred in ${TAG}.getBookedTIming`, error);
